@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Ondrej\\Documents\\GDevelop projects\\My project3\\game.json",
+    "projectFile": "F:\\GDevelop\\CSC3224\\game.json",
     "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -103,10 +103,10 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "Background (100ms).png",
+        "file": "player-idle0.png",
         "kind": "image",
         "metadata": "",
-        "name": "Background (100ms).png",
+        "name": "player-idle0.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -116,15 +116,6 @@
         "kind": "image",
         "metadata": "",
         "name": "plx-5.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "jungle tileset.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "jungle tileset.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -152,15 +143,6 @@
         "kind": "image",
         "metadata": "",
         "name": "plx-2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "tileset.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tileset.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -874,6 +856,834 @@
         "name": "sprite_080.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/bat_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\bat_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/bat_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\bat_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/bat_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\bat_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/bat_right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\bat_right_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/bat_right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\bat_right_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/bat_right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\bat_right_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/bat_right_dead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\bat_right_dead.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/bat_left_dead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\bat_left_dead.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Right-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Right-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Down-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Down-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Up-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Up-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_left_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_left_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_left_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_left_02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_left_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_left_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_left_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_left_04.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_left_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_left_05.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_left_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_left_06.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_left_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_left_07.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_left_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_left_08.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_left_09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_left_09.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_left_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_left_10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_right_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_right_01.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_right_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_right_02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_right_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_right_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_right_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_right_04.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_right_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_right_05.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_right_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_right_06.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_right_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_right_07.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_right_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_right_08.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_right_09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_right_09.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_walk_right_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_walk_right_10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingRight-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingRight-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingRight-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingRight-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingRight-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingRight-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingRight-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingRight-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingRight-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingRight-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingRight-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingRight-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingRight-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingRight-7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingRight-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingRight-8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingRight-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingRight-9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingRight-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingRight-10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingLeft-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingLeft-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingLeft-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingLeft-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingLeft-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingLeft-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingLeft-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingLeft-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingLeft-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingLeft-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingLeft-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingLeft-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingLeft-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingLeft-7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingLeft-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingLeft-8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingLeft-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingLeft-9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/MovingLeft-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\MovingLeft-10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_death_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_death_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_death_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_death_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_death_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_death_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_death_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_death_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_death_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_death_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_death_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_death_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_death_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_death_7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_death_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_death_8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_death_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_death_9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/snake_death_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\snake_death_10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingLeft-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingLeft-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingLeft-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingLeft-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingLeft-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingLeft-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingLeft-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingLeft-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingLeft-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingLeft-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingLeft-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingLeft-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingLeft-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingLeft-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingLeft-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingLeft-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingLeft-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingLeft-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingLeft-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingLeft-10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingRight-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingRight-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingRight-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingRight-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingRight-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingRight-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingRight-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingRight-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingRight-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingRight-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingRight-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingRight-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingRight-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingRight-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingRight-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingRight-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingRight-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingRight-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/DyingRight-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\DyingRight-10.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -906,12 +1716,52 @@
         "gridWidth": 16,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.928
+        "zoomFactor": 2.896
       },
       "objectsGroups": [
         {
-          "name": "Platform",
-          "objects": []
+          "name": "Enemy",
+          "objects": [
+            {
+              "name": "Bat"
+            },
+            {
+              "name": "Snake"
+            }
+          ]
+        },
+        {
+          "name": "FlyingEnemy",
+          "objects": [
+            {
+              "name": "Bat"
+            }
+          ]
+        },
+        {
+          "name": "LinearEnemy",
+          "objects": [
+            {
+              "name": "Bat"
+            },
+            {
+              "name": "Snake"
+            }
+          ]
+        },
+        {
+          "name": "MovingObject",
+          "objects": [
+            {
+              "name": "MovingPlatform"
+            },
+            {
+              "name": "Bat"
+            },
+            {
+              "name": "Snake"
+            }
+          ]
         }
       ],
       "variables": [],
@@ -919,14 +1769,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 57,
+          "height": 51,
           "layer": "",
           "locked": false,
           "name": "Player",
-          "width": 32,
+          "width": 28,
           "x": 168,
           "y": 316,
-          "zOrder": 2,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -936,27 +1786,12 @@
           "customSize": true,
           "height": 540,
           "layer": "Background4",
-          "locked": false,
+          "locked": true,
           "name": "Parallax4",
           "width": 4960,
-          "x": -1500,
+          "x": -500,
           "y": 0,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject2",
-          "width": 0,
-          "x": 208,
-          "y": 544,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -969,8 +1804,8 @@
           "locked": false,
           "name": "PlatformHorizontal",
           "width": 464,
-          "x": 32,
-          "y": 400,
+          "x": 0,
+          "y": 160,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -984,8 +1819,8 @@
           "locked": false,
           "name": "PlatformHorizontal",
           "width": 304,
-          "x": 464,
-          "y": 320,
+          "x": 400,
+          "y": 384,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -999,7 +1834,7 @@
           "locked": false,
           "name": "PlatformHorizontal",
           "width": 1861,
-          "x": 848,
+          "x": 832,
           "y": 368,
           "zOrder": 8,
           "numberProperties": [],
@@ -1011,7 +1846,7 @@
           "customSize": true,
           "height": 540,
           "layer": "Background1",
-          "locked": false,
+          "locked": true,
           "name": "Parallax1",
           "width": 4960,
           "x": -1500,
@@ -1026,7 +1861,7 @@
           "customSize": true,
           "height": 540,
           "layer": "Background2",
-          "locked": false,
+          "locked": true,
           "name": "Parallax2",
           "width": 4960,
           "x": -1500,
@@ -1041,7 +1876,7 @@
           "customSize": true,
           "height": 540,
           "layer": "Background3",
-          "locked": false,
+          "locked": true,
           "name": "Parallax3",
           "width": 4960,
           "x": -1500,
@@ -1053,16 +1888,521 @@
         },
         {
           "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "ForegroundTop",
+          "width": 256,
+          "x": 0,
+          "y": 416,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "GroundBottom",
+          "width": 240,
+          "x": 0,
+          "y": 432,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "GroundFull",
+          "width": 240,
+          "x": 0,
+          "y": 448,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "NewObject4",
+          "name": "ForegroundCorner",
           "width": 0,
-          "x": 208,
-          "y": 848,
+          "x": 256,
+          "y": 416,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "ForegroundRight",
+          "width": 16,
+          "x": 256,
+          "y": 432,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "GroundLeft",
+          "width": 16,
+          "x": 240,
+          "y": 448,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GroundCorner",
+          "width": 0,
+          "x": 240,
+          "y": 432,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "ForegroundTop",
+          "width": 256,
+          "x": 272,
+          "y": 480,
           "zOrder": 12,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ForegroundCorner",
+          "width": 0,
+          "x": 528,
+          "y": 480,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "ForegroundRight",
+          "width": 16,
+          "x": 528,
+          "y": 496,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ForegroundCorner",
+          "width": 0,
+          "x": 256,
+          "y": 480,
+          "zOrder": 15,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "GroundBottom",
+          "width": 256,
+          "x": 256,
+          "y": 496,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GroundCorner",
+          "width": 0,
+          "x": 512,
+          "y": 496,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "GroundLeft",
+          "width": 16,
+          "x": 512,
+          "y": 512,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GroundCorner",
+          "width": 0,
+          "x": 240,
+          "y": 496,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "GroundFull",
+          "width": 272,
+          "x": 240,
+          "y": 512,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 544,
+          "layer": "",
+          "locked": false,
+          "name": "GroundFull",
+          "width": 16,
+          "x": -16,
+          "y": 0,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "MovingPlatform",
+          "width": 128,
+          "x": 240,
+          "y": 320,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Active",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ChangeDirection",
+          "width": 0,
+          "x": 240,
+          "y": 320,
+          "zOrder": 21,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ChangeDirection",
+          "width": 0,
+          "x": 608,
+          "y": 320,
+          "zOrder": 21,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ChangeDirection",
+          "width": 0,
+          "x": 608,
+          "y": 208,
+          "zOrder": 21,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ChangeDirection",
+          "width": 0,
+          "x": 240,
+          "y": 208,
+          "zOrder": 21,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Bat",
+          "width": 0,
+          "x": 304,
+          "y": 416,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Active",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ChangeDirection",
+          "width": 0,
+          "x": 272,
+          "y": 432,
+          "zOrder": 21,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ChangeDirection",
+          "width": 0,
+          "x": 528,
+          "y": 464,
+          "zOrder": 21,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Debug",
+          "locked": false,
+          "name": "FPS",
+          "width": 0,
+          "x": 16,
+          "y": 16,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "Snake",
+          "width": 64,
+          "x": 288,
+          "y": 448,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Active",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ChangeDirection",
+          "width": 0,
+          "x": 272,
+          "y": 464,
+          "zOrder": 21,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ChangeDirection",
+          "width": 0,
+          "x": 576,
+          "y": 432,
+          "zOrder": 21,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -1110,7 +2450,7 @@
         },
         {
           "name": "Player",
-          "tags": "",
+          "tags": "MovingObject",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1143,46 +2483,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Background (100ms).png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "NewObject2",
-          "tags": "Platform",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "jungle tileset.png",
+                      "image": "player-idle0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1247,10 +2548,10 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -1743,10 +3044,10 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -2547,10 +3848,10 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -3276,15 +4577,15 @@
           ]
         },
         {
-          "name": "NewObject4",
-          "tags": "",
+          "name": "ChangeDirection",
+          "tags": "MovingObject",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Up",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3293,7 +4594,94 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "tileset.png",
+                      "image": "Right-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Right-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Down-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Up-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3313,9 +4701,1939 @@
               ]
             }
           ]
+        },
+        {
+          "bottomMargin": 0,
+          "height": 16,
+          "leftMargin": 0,
+          "name": "MovingPlatform",
+          "rightMargin": 0,
+          "tags": "MovingObject",
+          "texture": "",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 16,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "MovingObject",
+              "type": "Core::MovingObject",
+              "Direction": 1,
+              "Active": true,
+              "Speed": 2
+            },
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "Bat",
+          "tags": "MovingObject",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "LivingObject",
+              "type": "Core::LivingObject",
+              "KillAnimationOffset": 1
+            },
+            {
+              "name": "MovingObject",
+              "type": "Core::MovingObject",
+              "Direction": 1,
+              "Speed": 2
+            },
+            {
+              "acceleration": 5000,
+              "canGrabPlatforms": false,
+              "deceleration": 5000,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 75,
+              "name": "PlatformerObject",
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "FlyingRight",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\enemies\\bat\\bat_right_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\enemies\\bat\\bat_right_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\enemies\\bat\\bat_right_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "DyingRight",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\enemies\\bat\\bat_right_dead.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "FlyingLeft",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\enemies\\bat\\bat_left_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\enemies\\bat\\bat_left_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\enemies\\bat\\bat_left_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "DyingLeft",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\enemies\\bat\\bat_left_dead.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "FPS",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "FPS: 0",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "Snake",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "LivingObject",
+              "type": "Core::LivingObject",
+              "KillAnimationOffset": 1,
+              "DyingCooldown": 5,
+              "Dead": false
+            },
+            {
+              "name": "MovingObject",
+              "type": "Core::MovingObject",
+              "Direction": 1
+            },
+            {
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 75,
+              "name": "PlatformerObject",
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "MovingRight",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingRight-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingRight-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingRight-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingRight-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingRight-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingRight-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingRight-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingRight-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingRight-9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingRight-10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "DyingRight",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.05,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingRight-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingRight-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingRight-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingRight-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingRight-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingRight-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingRight-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingRight-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingRight-9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingRight-10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MovingLeft",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingLeft-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingLeft-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingLeft-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingLeft-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingLeft-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingLeft-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingLeft-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingLeft-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingLeft-9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\MovingLeft-10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "DyingLeft",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.05,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingLeft-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingLeft-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingLeft-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingLeft-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingLeft-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingLeft-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingLeft-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingLeft-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingLeft-9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\enemies\\snake\\DyingLeft-10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 16
+                          },
+                          {
+                            "x": 8,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "User interface",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::MeasureFPS"
+                  },
+                  "parameters": [
+                    "",
+                    "0.9",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "FPS",
+                    "=",
+                    "\"FPS: \" + ToString(round(Core::FPS()))"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "F3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Debug\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Debug\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Debug\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Debug\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
         {
           "colorB": 228,
           "colorG": 176,
@@ -3336,12 +6654,25 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ClampedX",
+                    "=",
+                    "max(Player.X(), SceneWindowWidth() / 2)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "CameraX"
                   },
                   "parameters": [
                     "",
                     "=",
-                    "Player.X()",
+                    "Player.Variable(ClampedX)",
                     "\"\"",
                     ""
                   ],
@@ -3355,7 +6686,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "Player.X()*0.75",
+                    "Player.Variable(ClampedX)*0.75",
                     "\"Background4\"",
                     ""
                   ],
@@ -3369,7 +6700,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "Player.X()*0.52",
+                    "Player.Variable(ClampedX)*0.52",
                     "\"Background3\"",
                     ""
                   ],
@@ -3383,7 +6714,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "Player.X()*0.32",
+                    "Player.Variable(ClampedX)*0.32",
                     "\"Background2\"",
                     ""
                   ],
@@ -3397,7 +6728,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "Player.X()*0.15",
+                    "Player.Variable(ClampedX)*0.15",
                     "\"Background1\"",
                     ""
                   ],
@@ -3405,6 +6736,466 @@
                 }
               ],
               "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Moving Objects",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ChangeDirection"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "MovingObject",
+                        "Active",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "MovingObject",
+                        "MovingObject",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "MovingObject",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "MovingObject",
+                    "ChangeDirection",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::MovingObject::SetDirection"
+                  },
+                  "parameters": [
+                    "MovingObject",
+                    "MovingObject",
+                    "ChangeDirection.Animation()",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "q"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "FlyingEnemy",
+                    "PlatformerObject",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Enemies",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Disable Gravity for flying enemies",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "FlyingEnemy",
+                    "PlatformerObject",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Set animation of enemies which have regular movement",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "LinearEnemy",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "LinearEnemy",
+                    "ChangeDirection",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "LinearEnemy",
+                    "=",
+                    "ChangeDirection.Animation() - 1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Enemy collisions",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Enemy",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Core::LivingObject::IsDead"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "LivingObject",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Kill the player",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IgnoreDefaultControls"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Kill the enemy",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::LivingObject::Kill"
+                      },
+                      "parameters": [
+                        "Enemy",
+                        "LivingObject",
+                        "Enemy",
+                        "PlatformerObject",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Enemy",
+                        "PlatformerObject",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SetCanJump"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": false,
+              "name": "Bat",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
             }
           ],
           "parameters": []
@@ -3451,9 +7242,29 @@
             }
           ],
           "effects": []
+        },
+        {
+          "name": "GUI",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "Debug",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "LivingObject",
+          "type": "Core::LivingObject"
+        },
+        {
+          "name": "MovingObject",
+          "type": "Core::MovingObject"
+        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
@@ -3466,7 +7277,897 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "description": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "name": "Core",
+      "shortDescription": "",
+      "tags": "",
+      "version": "",
+      "eventsFunctions": [
+        {
+          "description": "",
+          "fullName": "Measure FPS",
+          "functionType": "Action",
+          "name": "MeasureFPS",
+          "sentence": "Measure FPS with _PARAM1_ smoothing",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "FPS",
+                    "=",
+                    "GlobalVariable(FPS) * GetArgumentAsNumber(\"Smoothing\") + round(1 / TimeDelta()) * (1 - GetArgumentAsNumber(\"Smoothing\"))"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Smoothing",
+              "longDescription": "",
+              "name": "Smoothing",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "",
+          "fullName": "",
+          "functionType": "Expression",
+          "name": "FPS",
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "GlobalVariable(FPS)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "",
+          "fullName": "Moving Object",
+          "name": "MovingObject",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::MovingObject::SetSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Core::MovingObject",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::MovingObject::SetSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Core::MovingObject",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDeActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Object"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Core::MovingObject",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "Set direction",
+              "functionType": "Action",
+              "name": "SetDirection",
+              "sentence": "Set direction of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::MovingObject::PropertyDirection"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "GetArgumentAsNumber(\"Direction\")"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::MovingObject::SetPropertyDirection"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Direction\")"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::MovingObject::SetSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Core::MovingObject",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Direction",
+                  "longDescription": "",
+                  "name": "Direction",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "Set speed",
+              "functionType": "Action",
+              "name": "SetSpeed",
+              "sentence": "Add to _PARAM0_ a permanent force in its heading direction",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::MovingObject::PropertyDirection"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Object"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "0",
+                        "-Object.Behavior::PropertySpeed() * 50",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::MovingObject::PropertyDirection"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Object"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.Behavior::PropertySpeed() * 50",
+                        "0",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::MovingObject::PropertyDirection"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Object"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "0",
+                        "Object.Behavior::PropertySpeed() * 50",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::MovingObject::PropertyDirection"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "3"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Object"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "-Object.Behavior::PropertySpeed() * 50",
+                        "0",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Core::MovingObject",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Direction"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Speed"
+            }
+          ]
+        },
+        {
+          "description": "",
+          "fullName": "Living Object",
+          "name": "LivingObject",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::LivingObject::PropertyDead"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::LivingObject::SetPropertyDyingCooldown"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "-",
+                        "TimeDelta()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Core::LivingObject::PropertyDyingCooldown"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Opacity"
+                          },
+                          "parameters": [
+                            "Object",
+                            "-",
+                            "TimeDelta() * 255"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Opacity"
+                              },
+                              "parameters": [
+                                "Object",
+                                "<=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Object",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Core::LivingObject",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "Kill",
+              "functionType": "Action",
+              "name": "Kill",
+              "sentence": "Kill _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Object"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Object",
+                        "+",
+                        "Object.Behavior::PropertyKillAnimationOffset()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::LivingObject::SetPropertyDead"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Core::LivingObject",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "Is dead",
+              "functionType": "Condition",
+              "name": "IsDead",
+              "sentence": "_PARAM0_ is dead",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::LivingObject::PropertyDead"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "Core::LivingObject",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Kill animation offset",
+              "description": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "KillAnimationOffset"
+            },
+            {
+              "value": "5",
+              "type": "Number",
+              "label": "Dying cooldown",
+              "description": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "DyingCooldown"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "",
+              "description": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "Dead"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
