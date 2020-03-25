@@ -103,1236 +103,894 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "plx-5.png",
+        "file": "assets/tiles/platform-005.png",
         "kind": "image",
         "metadata": "",
-        "name": "plx-5.png",
+        "name": "assets\\tiles\\platform-005.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-001.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-011.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-043.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-007.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-056.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-056.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-057.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-057.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-063.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-063.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-062.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-044.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-058.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-058.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-033.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-034.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-010.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-009.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-006.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "plx-4.png",
+        "file": "assets/tiles/platform-031.png",
         "kind": "image",
         "metadata": "",
-        "name": "plx-4.png",
+        "name": "assets\\tiles\\platform-031.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "plx-3.png",
+        "file": "assets/tiles/platform-002.png",
         "kind": "image",
         "metadata": "",
-        "name": "plx-3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "plx-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "plx-2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_005.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_005.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_001.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_011.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_011.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_043.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_043.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_007.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_007.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_056.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_056.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_057.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_057.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_063.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_063.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_062.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_062.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_044.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_044.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_058.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_058.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_033.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_033.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_034.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_034.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_010.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_010.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_009.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_009.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_006.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_006.png",
+        "name": "assets\\tiles\\platform-002.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_031.png",
+        "file": "assets/tiles/platform-004.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_031.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_002.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_002.png",
+        "name": "assets\\tiles\\platform-004.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_004.png",
+        "file": "assets/tiles/platform-020.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_004.png",
+        "name": "assets\\tiles\\platform-020.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_020.png",
+        "file": "assets/tiles/platform-019.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_020.png",
+        "name": "assets\\tiles\\platform-019.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_019.png",
+        "file": "assets/tiles/platform-052.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_019.png",
+        "name": "assets\\tiles\\platform-052.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_052.png",
+        "file": "assets/tiles/platform-053.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_052.png",
+        "name": "assets\\tiles\\platform-053.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_053.png",
+        "file": "assets/tiles/platform-048.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_053.png",
+        "name": "assets\\tiles\\platform-048.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_048.png",
+        "file": "assets/tiles/platform-049.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_048.png",
+        "name": "assets\\tiles\\platform-049.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_049.png",
+        "file": "assets/tiles/platform-021.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_049.png",
+        "name": "assets\\tiles\\platform-021.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_021.png",
+        "file": "assets/tiles/platform-022.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_021.png",
+        "name": "assets\\tiles\\platform-022.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_022.png",
+        "file": "assets/tiles/platform-040.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_022.png",
+        "name": "assets\\tiles\\platform-040.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_040.png",
+        "file": "assets/tiles/platform-038.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_040.png",
+        "name": "assets\\tiles\\platform-038.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_038.png",
+        "file": "assets/tiles/platform-054.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_038.png",
+        "name": "assets\\tiles\\platform-054.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_054.png",
+        "file": "assets/tiles/platform-055.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_054.png",
+        "name": "assets\\tiles\\platform-055.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_055.png",
+        "file": "assets/tiles/platform-061.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_055.png",
+        "name": "assets\\tiles\\platform-061.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_061.png",
+        "file": "assets/tiles/platform-060.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_061.png",
+        "name": "assets\\tiles\\platform-060.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_060.png",
+        "file": "assets/tiles/platform-023.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_060.png",
+        "name": "assets\\tiles\\platform-023.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_023.png",
+        "file": "assets/tiles/platform-024.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_023.png",
+        "name": "assets\\tiles\\platform-024.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-042.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-041.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-003.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-018.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-039.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_024.png",
+        "file": "assets/tiles/platform-014.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_024.png",
+        "name": "assets\\tiles\\platform-014.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_042.png",
+        "file": "assets/tiles/platform-085.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_042.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_041.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_041.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_003.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_003.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_018.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_018.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_039.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_039.png",
+        "name": "assets\\tiles\\platform-085.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_014.png",
+        "file": "assets/tiles/platform-086.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_014.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_085.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_085.png",
+        "name": "assets\\tiles\\platform-086.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_086.png",
+        "file": "assets/tiles/platform-090.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_086.png",
+        "name": "assets\\tiles\\platform-090.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_090.png",
+        "file": "assets/tiles/platform-089.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_090.png",
+        "name": "assets\\tiles\\platform-089.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_089.png",
+        "file": "assets/tiles/platform-070.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_089.png",
+        "name": "assets\\tiles\\platform-070.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-071.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-071.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-097.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-097.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-096.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-096.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-015.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_070.png",
+        "file": "assets/tiles/platform-017.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_070.png",
+        "name": "assets\\tiles\\platform-017.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_071.png",
+        "file": "assets/tiles/platform-037.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_071.png",
+        "name": "assets\\tiles\\platform-037.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_097.png",
+        "file": "assets/tiles/platform-035.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_097.png",
+        "name": "assets\\tiles\\platform-035.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_096.png",
+        "file": "assets/tiles/platform-030.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_096.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_015.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_015.png",
+        "name": "assets\\tiles\\platform-030.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_017.png",
+        "file": "assets/tiles/platform-036.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_017.png",
+        "name": "assets\\tiles\\platform-036.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_037.png",
+        "file": "assets/tiles/platform-026.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_037.png",
+        "name": "assets\\tiles\\platform-026.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_035.png",
+        "file": "assets/tiles/platform-016.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_035.png",
+        "name": "assets\\tiles\\platform-016.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_030.png",
+        "file": "assets/tiles/platform-077.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_030.png",
+        "name": "assets\\tiles\\platform-077.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-091.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-091.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_036.png",
+        "file": "assets/tiles/platform-088.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_036.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_026.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_026.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_016.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_016.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_077.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_077.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_091.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_091.png",
+        "name": "assets\\tiles\\platform-088.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_088.png",
+        "file": "assets/tiles/platform-094.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_088.png",
+        "name": "assets\\tiles\\platform-094.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_094.png",
+        "file": "assets/tiles/platform-100.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_094.png",
+        "name": "assets\\tiles\\platform-100.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_100.png",
+        "file": "assets/tiles/platform-092.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_100.png",
+        "name": "assets\\tiles\\platform-092.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_092.png",
+        "file": "assets/tiles/platform-072.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_092.png",
+        "name": "assets\\tiles\\platform-072.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-073.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-073.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-079.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-079.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-078.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-078.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-027.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-081.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-081.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_072.png",
+        "file": "assets/tiles/platform-084.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_072.png",
+        "name": "assets\\tiles\\platform-084.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_073.png",
+        "file": "assets/tiles/platform-083.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_073.png",
+        "name": "assets\\tiles\\platform-083.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_079.png",
+        "file": "assets/tiles/platform-075.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_079.png",
+        "name": "assets\\tiles\\platform-075.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_078.png",
+        "file": "assets/tiles/platform-076.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_078.png",
+        "name": "assets\\tiles\\platform-076.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_027.png",
+        "file": "assets/tiles/platform-093.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_027.png",
+        "name": "assets\\tiles\\platform-093.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_081.png",
+        "file": "assets/tiles/platform-098.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_081.png",
+        "name": "assets\\tiles\\platform-098.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-074.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-074.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-082.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-082.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-087.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-087.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/platform-080.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiles\\platform-080.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/snake/walk-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\snake\\walk-01.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "sprite_084.png",
+        "file": "assets/enemies/snake/walk-02.png",
         "kind": "image",
         "metadata": "",
-        "name": "sprite_084.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_083.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_083.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_075.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_075.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_076.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_076.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_093.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_093.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_098.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_098.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_074.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_074.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_082.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_082.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_087.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_087.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "sprite_080.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sprite_080.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/bat/bat_left_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\bat\\bat_left_1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/bat/bat_left_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\bat\\bat_left_2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/bat/bat_left_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\bat\\bat_left_3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/bat/bat_right_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\bat\\bat_right_1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/bat/bat_right_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\bat\\bat_right_2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/bat/bat_right_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\bat\\bat_right_3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/bat/bat_right_dead.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\bat\\bat_right_dead.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/bat/bat_left_dead.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\bat\\bat_left_dead.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Right-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Right-1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Right-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Right-1-0.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Down-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Down-1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Up-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Up-1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingRight-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingRight-1.png",
+        "name": "assets\\enemies\\snake\\walk-02.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingRight-2.png",
+        "file": "assets/enemies/snake/walk-03.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingRight-2.png",
+        "name": "assets\\enemies\\snake\\walk-03.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingRight-3.png",
+        "file": "assets/enemies/snake/walk-04.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingRight-3.png",
+        "name": "assets\\enemies\\snake\\walk-04.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingRight-4.png",
+        "file": "assets/enemies/snake/walk-05.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingRight-4.png",
+        "name": "assets\\enemies\\snake\\walk-05.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingRight-5.png",
+        "file": "assets/enemies/snake/walk-06.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingRight-5.png",
+        "name": "assets\\enemies\\snake\\walk-06.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingRight-6.png",
+        "file": "assets/enemies/snake/walk-07.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingRight-6.png",
+        "name": "assets\\enemies\\snake\\walk-07.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingRight-7.png",
+        "file": "assets/enemies/snake/walk-08.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingRight-7.png",
+        "name": "assets\\enemies\\snake\\walk-08.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingRight-8.png",
+        "file": "assets/enemies/snake/walk-09.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingRight-8.png",
+        "name": "assets\\enemies\\snake\\walk-09.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingRight-9.png",
+        "file": "assets/enemies/snake/walk-10.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingRight-9.png",
+        "name": "assets\\enemies\\snake\\walk-10.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingRight-10.png",
+        "file": "assets/enemies/snake/die-01.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingRight-10.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingLeft-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingLeft-1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingLeft-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingLeft-2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingLeft-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingLeft-3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingLeft-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingLeft-4.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingLeft-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingLeft-5.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingLeft-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingLeft-6.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingLeft-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingLeft-7.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingLeft-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingLeft-8.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingLeft-9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingLeft-9.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/MovingLeft-10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\MovingLeft-10.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingLeft-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingLeft-1.png",
+        "name": "assets\\enemies\\snake\\die-01.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingLeft-2.png",
+        "file": "assets/enemies/snake/die-02.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingLeft-2.png",
+        "name": "assets\\enemies\\snake\\die-02.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingLeft-3.png",
+        "file": "assets/enemies/snake/die-03.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingLeft-3.png",
+        "name": "assets\\enemies\\snake\\die-03.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingLeft-4.png",
+        "file": "assets/enemies/snake/die-04.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingLeft-4.png",
+        "name": "assets\\enemies\\snake\\die-04.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingLeft-5.png",
+        "file": "assets/enemies/snake/die-05.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingLeft-5.png",
+        "name": "assets\\enemies\\snake\\die-05.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingLeft-6.png",
+        "file": "assets/enemies/snake/die-06.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingLeft-6.png",
+        "name": "assets\\enemies\\snake\\die-06.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingLeft-7.png",
+        "file": "assets/enemies/snake/die-07.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingLeft-7.png",
+        "name": "assets\\enemies\\snake\\die-07.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingLeft-8.png",
+        "file": "assets/enemies/snake/die-08.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingLeft-8.png",
+        "name": "assets\\enemies\\snake\\die-08.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingLeft-9.png",
+        "file": "assets/enemies/snake/die-09.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingLeft-9.png",
+        "name": "assets\\enemies\\snake\\die-09.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingLeft-10.png",
+        "file": "assets/enemies/snake/die-10.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingLeft-10.png",
+        "name": "assets\\enemies\\snake\\die-10.png",
         "smoothed": false,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingRight-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingRight-1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingRight-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingRight-2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingRight-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingRight-3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingRight-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingRight-4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingRight-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingRight-5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingRight-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingRight-6.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingRight-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingRight-7.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingRight-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingRight-8.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingRight-9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingRight-9.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/enemies/snake/DyingRight-10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\enemies\\snake\\DyingRight-10.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/heart.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\heart.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "test-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "test-1.png",
-        "smoothed": false,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -1435,73 +1093,73 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/walking-1.png",
+        "file": "assets/player/adventurer/walk-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\walking-1.png",
+        "name": "assets\\player\\adventurer\\walk-1.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/walking-2.png",
+        "file": "assets/player/adventurer/walk-2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\walking-2.png",
+        "name": "assets\\player\\adventurer\\walk-2.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/walking-3.png",
+        "file": "assets/player/adventurer/walk-3.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\walking-3.png",
+        "name": "assets\\player\\adventurer\\walk-3.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/walking-4.png",
+        "file": "assets/player/adventurer/walk-4.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\walking-4.png",
+        "name": "assets\\player\\adventurer\\walk-4.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/walking-5.png",
+        "file": "assets/player/adventurer/walk-5.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\walking-5.png",
+        "name": "assets\\player\\adventurer\\walk-5.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/walking-6.png",
+        "file": "assets/player/adventurer/walk-6.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\walking-6.png",
+        "name": "assets\\player\\adventurer\\walk-6.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/walking-7.png",
+        "file": "assets/player/adventurer/walk-7.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\walking-7.png",
+        "name": "assets\\player\\adventurer\\walk-7.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/walking-8.png",
+        "file": "assets/player/adventurer/walk-8.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\walking-8.png",
+        "name": "assets\\player\\adventurer\\walk-8.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -1516,136 +1174,136 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/dying-1.png",
+        "file": "assets/player/adventurer/die-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\dying-1.png",
+        "name": "assets\\player\\adventurer\\die-1.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/dying-2.png",
+        "file": "assets/player/adventurer/die-2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\dying-2.png",
+        "name": "assets\\player\\adventurer\\die-2.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/dying-3.png",
+        "file": "assets/player/adventurer/die-3.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\dying-3.png",
+        "name": "assets\\player\\adventurer\\die-3.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/dying-4.png",
+        "file": "assets/player/adventurer/die-4.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\dying-4.png",
+        "name": "assets\\player\\adventurer\\die-4.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/dying-5.png",
+        "file": "assets/player/adventurer/die-5.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\dying-5.png",
+        "name": "assets\\player\\adventurer\\die-5.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/dying-6.png",
+        "file": "assets/player/adventurer/die-6.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\dying-6.png",
+        "name": "assets\\player\\adventurer\\die-6.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/dying-7.png",
+        "file": "assets/player/adventurer/die-7.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\dying-7.png",
+        "name": "assets\\player\\adventurer\\die-7.png",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/jumping-1.png",
+        "file": "assets/player/adventurer/jump-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\jumping-1.png",
+        "name": "assets\\player\\adventurer\\jump-1.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/landing-1.png",
+        "file": "assets/player/adventurer/land-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\landing-1.png",
+        "name": "assets\\player\\adventurer\\land-1.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/grabbing-platform-1.png",
+        "file": "assets/player/adventurer/grab-platform-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\grabbing-platform-1.png",
+        "name": "assets\\player\\adventurer\\grab-platform-1.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/grabbing-platform-2.png",
+        "file": "assets/player/adventurer/grab-platform-2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\grabbing-platform-2.png",
+        "name": "assets\\player\\adventurer\\grab-platform-2.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/grabbing-platform-3.png",
+        "file": "assets/player/adventurer/grab-platform-3.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\grabbing-platform-3.png",
+        "name": "assets\\player\\adventurer\\grab-platform-3.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/grabbing-platform-4.png",
+        "file": "assets/player/adventurer/grab-platform-4.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\grabbing-platform-4.png",
+        "name": "assets\\player\\adventurer\\grab-platform-4.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/grabbing-platform-5.png",
+        "file": "assets/player/adventurer/grab-platform-5.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\grabbing-platform-5.png",
+        "name": "assets\\player\\adventurer\\grab-platform-5.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/player/adventurer/grabbing-platform-6.png",
+        "file": "assets/player/adventurer/grab-platform-6.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\player\\adventurer\\grabbing-platform-6.png",
+        "name": "assets\\player\\adventurer\\grab-platform-6.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -1732,13 +1390,6 @@
         "userAdded": true
       },
       {
-        "file": "assets/sounds/pickup-heart.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\sounds\\pickup-heart.ogg",
-        "userAdded": false
-      },
-      {
         "file": "assets/sounds/kill.ogg",
         "kind": "audio",
         "metadata": "",
@@ -1784,19 +1435,136 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/small-platform-1.png",
+        "file": "assets/large-platform.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\small-platform-1.png",
+        "name": "assets\\large-platform.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/large-platform.png",
+        "file": "assets/background/jungle-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\large-platform.png",
+        "name": "assets\\background\\jungle-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/jungle-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\jungle-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/jungle-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\jungle-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background/jungle-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background\\jungle-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\up.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\right.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\down.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\left.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/fly-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\fly-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/fly-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\fly-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/fly-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\fly-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enemies/bat/die-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enemies\\bat\\die-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/test.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\test.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\heart.png",
         "smoothed": false,
         "userAdded": true
       }

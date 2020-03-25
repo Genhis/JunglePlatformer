@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.768
+    "zoomFactor": 1.456
   },
   "objectsGroups": [
     {
@@ -1058,7 +1058,7 @@
       "height": 540,
       "name": "Parallax1",
       "tags": "Background",
-      "texture": "plx-2.png",
+      "texture": "assets\\background\\jungle-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 960,
       "variables": [],
@@ -1068,7 +1068,7 @@
       "height": 540,
       "name": "Parallax2",
       "tags": "Background",
-      "texture": "plx-3.png",
+      "texture": "assets\\background\\jungle-2.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 960,
       "variables": [],
@@ -1078,7 +1078,7 @@
       "height": 540,
       "name": "Parallax3",
       "tags": "Background",
-      "texture": "plx-4.png",
+      "texture": "assets\\background\\jungle-3.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 960,
       "variables": [],
@@ -1088,7 +1088,7 @@
       "height": 540,
       "name": "Parallax4",
       "tags": "Background",
-      "texture": "plx-5.png",
+      "texture": "assets\\background\\jungle-4.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 960,
       "variables": [],
@@ -1574,7 +1574,7 @@
           ]
         },
         {
-          "name": "walking",
+          "name": "walk",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1583,7 +1583,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\walking-1.png",
+                  "image": "assets\\player\\adventurer\\walk-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1619,7 +1619,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\walking-2.png",
+                  "image": "assets\\player\\adventurer\\walk-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1655,7 +1655,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\walking-3.png",
+                  "image": "assets\\player\\adventurer\\walk-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1691,7 +1691,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\walking-4.png",
+                  "image": "assets\\player\\adventurer\\walk-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1727,7 +1727,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\walking-5.png",
+                  "image": "assets\\player\\adventurer\\walk-5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1763,7 +1763,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\walking-6.png",
+                  "image": "assets\\player\\adventurer\\walk-6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1799,7 +1799,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\walking-7.png",
+                  "image": "assets\\player\\adventurer\\walk-7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1835,7 +1835,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\walking-8.png",
+                  "image": "assets\\player\\adventurer\\walk-8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1874,7 +1874,7 @@
           ]
         },
         {
-          "name": "jumping",
+          "name": "jump",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1883,7 +1883,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\jumping-1.png",
+                  "image": "assets\\player\\adventurer\\jump-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1922,7 +1922,7 @@
           ]
         },
         {
-          "name": "landing",
+          "name": "land",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1931,7 +1931,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\landing-1.png",
+                  "image": "assets\\player\\adventurer\\land-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2198,7 +2198,7 @@
           ]
         },
         {
-          "name": "dying",
+          "name": "die",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2243,7 +2243,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\dying-1.png",
+                  "image": "assets\\player\\adventurer\\die-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2279,7 +2279,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\dying-2.png",
+                  "image": "assets\\player\\adventurer\\die-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2315,7 +2315,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\dying-3.png",
+                  "image": "assets\\player\\adventurer\\die-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2351,7 +2351,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\dying-4.png",
+                  "image": "assets\\player\\adventurer\\die-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2387,7 +2387,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\dying-5.png",
+                  "image": "assets\\player\\adventurer\\die-5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2423,7 +2423,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\dying-6.png",
+                  "image": "assets\\player\\adventurer\\die-6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2459,7 +2459,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\player\\adventurer\\dying-7.png",
+                  "image": "assets\\player\\adventurer\\die-7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2503,7 +2503,7 @@
       "height": 16,
       "name": "PlatformVertical",
       "tags": "Platform",
-      "texture": "sprite_006.png",
+      "texture": "assets\\tiles\\platform-006.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -2513,7 +2513,7 @@
       "height": 16,
       "name": "PlatformHorizontal",
       "tags": "Platform",
-      "texture": "sprite_009.png",
+      "texture": "assets\\tiles\\platform-009.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -2545,7 +2545,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_005.png",
+                  "image": "assets\\tiles\\platform-005.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2574,7 +2574,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_001.png",
+                  "image": "assets\\tiles\\platform-001.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2603,7 +2603,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_011.png",
+                  "image": "assets\\tiles\\platform-011.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2632,7 +2632,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_043.png",
+                  "image": "assets\\tiles\\platform-043.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2661,7 +2661,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_007.png",
+                  "image": "assets\\tiles\\platform-007.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2690,7 +2690,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_056.png",
+                  "image": "assets\\tiles\\platform-056.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2719,7 +2719,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_057.png",
+                  "image": "assets\\tiles\\platform-057.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2748,7 +2748,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_063.png",
+                  "image": "assets\\tiles\\platform-063.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2777,7 +2777,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_062.png",
+                  "image": "assets\\tiles\\platform-062.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2806,7 +2806,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_058.png",
+                  "image": "assets\\tiles\\platform-058.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2835,7 +2835,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_033.png",
+                  "image": "assets\\tiles\\platform-033.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2864,7 +2864,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_044.png",
+                  "image": "assets\\tiles\\platform-044.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2893,7 +2893,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_034.png",
+                  "image": "assets\\tiles\\platform-034.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2922,7 +2922,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_031.png",
+                  "image": "assets\\tiles\\platform-031.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2947,7 +2947,7 @@
       "height": 16,
       "name": "ForegroundTop",
       "tags": "Platform",
-      "texture": "sprite_003.png",
+      "texture": "assets\\tiles\\platform-003.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -2965,7 +2965,7 @@
       "height": 16,
       "name": "ForegroundRight",
       "tags": "Platform",
-      "texture": "sprite_018.png",
+      "texture": "assets\\tiles\\platform-018.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -2975,7 +2975,7 @@
       "height": 16,
       "name": "ForegroundBottom",
       "tags": "Platform",
-      "texture": "sprite_039.png",
+      "texture": "assets\\tiles\\platform-039.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -2993,7 +2993,7 @@
       "height": 16,
       "name": "ForegroundLeft",
       "tags": "Platform",
-      "texture": "sprite_014.png",
+      "texture": "assets\\tiles\\platform-014.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -3017,7 +3017,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_002.png",
+                  "image": "assets\\tiles\\platform-002.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3046,7 +3046,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_004.png",
+                  "image": "assets\\tiles\\platform-004.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3075,7 +3075,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_020.png",
+                  "image": "assets\\tiles\\platform-020.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3104,7 +3104,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_019.png",
+                  "image": "assets\\tiles\\platform-019.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3133,7 +3133,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_052.png",
+                  "image": "assets\\tiles\\platform-052.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3162,7 +3162,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_053.png",
+                  "image": "assets\\tiles\\platform-053.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3191,7 +3191,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_048.png",
+                  "image": "assets\\tiles\\platform-048.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3220,7 +3220,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_049.png",
+                  "image": "assets\\tiles\\platform-049.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3249,7 +3249,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_021.png",
+                  "image": "assets\\tiles\\platform-021.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3278,7 +3278,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_022.png",
+                  "image": "assets\\tiles\\platform-022.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3307,7 +3307,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_040.png",
+                  "image": "assets\\tiles\\platform-040.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3336,7 +3336,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_038.png",
+                  "image": "assets\\tiles\\platform-038.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3365,7 +3365,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_054.png",
+                  "image": "assets\\tiles\\platform-054.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3394,7 +3394,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_055.png",
+                  "image": "assets\\tiles\\platform-055.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3423,7 +3423,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_061.png",
+                  "image": "assets\\tiles\\platform-061.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3452,7 +3452,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_060.png",
+                  "image": "assets\\tiles\\platform-060.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3481,7 +3481,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_023.png",
+                  "image": "assets\\tiles\\platform-023.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3510,7 +3510,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_024.png",
+                  "image": "assets\\tiles\\platform-024.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3539,7 +3539,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_042.png",
+                  "image": "assets\\tiles\\platform-042.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3568,7 +3568,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_041.png",
+                  "image": "assets\\tiles\\platform-041.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3597,7 +3597,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_085.png",
+                  "image": "assets\\tiles\\platform-085.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3626,7 +3626,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_086.png",
+                  "image": "assets\\tiles\\platform-086.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3655,7 +3655,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_090.png",
+                  "image": "assets\\tiles\\platform-090.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3684,7 +3684,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_089.png",
+                  "image": "assets\\tiles\\platform-089.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3709,7 +3709,7 @@
       "height": 16,
       "name": "GroundTop",
       "tags": "Platform",
-      "texture": "sprite_036.png",
+      "texture": "assets\\tiles\\platform-036.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -3727,7 +3727,7 @@
       "height": 16,
       "name": "GroundRight",
       "tags": "Platform",
-      "texture": "sprite_026.png",
+      "texture": "assets\\tiles\\platform-026.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -3745,7 +3745,7 @@
       "height": 16,
       "name": "GroundBottom",
       "tags": "Platform",
-      "texture": "sprite_016.png",
+      "texture": "assets\\tiles\\platform-016.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -3763,7 +3763,7 @@
       "height": 16,
       "name": "GroundLeft",
       "tags": "Platform",
-      "texture": "sprite_077.png",
+      "texture": "assets\\tiles\\platform-077.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -3781,7 +3781,7 @@
       "height": 16,
       "name": "GroundFull",
       "tags": "Platform",
-      "texture": "sprite_027.png",
+      "texture": "assets\\tiles\\platform-027.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -3821,7 +3821,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_030.png",
+                  "image": "assets\\tiles\\platform-030.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3850,7 +3850,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_070.png",
+                  "image": "assets\\tiles\\platform-070.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3879,7 +3879,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_071.png",
+                  "image": "assets\\tiles\\platform-071.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3908,7 +3908,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_097.png",
+                  "image": "assets\\tiles\\platform-097.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3937,7 +3937,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_096.png",
+                  "image": "assets\\tiles\\platform-096.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3966,7 +3966,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_015.png",
+                  "image": "assets\\tiles\\platform-015.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3995,7 +3995,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_017.png",
+                  "image": "assets\\tiles\\platform-017.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4024,7 +4024,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_037.png",
+                  "image": "assets\\tiles\\platform-037.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4053,7 +4053,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_035.png",
+                  "image": "assets\\tiles\\platform-035.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4078,7 +4078,7 @@
       "height": 16,
       "name": "BackgroundTop",
       "tags": "Platform",
-      "texture": "sprite_074.png",
+      "texture": "assets\\tiles\\platform-074.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -4088,7 +4088,7 @@
       "height": 16,
       "name": "BackgroundRight",
       "tags": "Platform",
-      "texture": "sprite_082.png",
+      "texture": "assets\\tiles\\platform-082.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -4098,7 +4098,7 @@
       "height": 16,
       "name": "BackgroundBottom",
       "tags": "Platform",
-      "texture": "sprite_087.png",
+      "texture": "assets\\tiles\\platform-087.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -4108,7 +4108,7 @@
       "height": 16,
       "name": "BackgroundLeft",
       "tags": "Platform",
-      "texture": "sprite_080.png",
+      "texture": "assets\\tiles\\platform-080.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -4118,7 +4118,7 @@
       "height": 16,
       "name": "BackgroundHorizontal",
       "tags": "Platform",
-      "texture": "sprite_093.png",
+      "texture": "assets\\tiles\\platform-093.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -4128,7 +4128,7 @@
       "height": 16,
       "name": "BackgroundVertical",
       "tags": "Platform",
-      "texture": "sprite_098.png",
+      "texture": "assets\\tiles\\platform-098.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -4138,7 +4138,7 @@
       "height": 16,
       "name": "BackgroundFull",
       "tags": "Platform",
-      "texture": "sprite_081.png",
+      "texture": "assets\\tiles\\platform-081.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -4162,7 +4162,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_091.png",
+                  "image": "assets\\tiles\\platform-091.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4191,7 +4191,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_088.png",
+                  "image": "assets\\tiles\\platform-088.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4220,7 +4220,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_094.png",
+                  "image": "assets\\tiles\\platform-094.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4249,7 +4249,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_100.png",
+                  "image": "assets\\tiles\\platform-100.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4278,7 +4278,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_092.png",
+                  "image": "assets\\tiles\\platform-092.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4307,7 +4307,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_072.png",
+                  "image": "assets\\tiles\\platform-072.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4336,7 +4336,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_073.png",
+                  "image": "assets\\tiles\\platform-073.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4365,7 +4365,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_079.png",
+                  "image": "assets\\tiles\\platform-079.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4394,7 +4394,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_078.png",
+                  "image": "assets\\tiles\\platform-078.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4423,7 +4423,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_084.png",
+                  "image": "assets\\tiles\\platform-084.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4452,7 +4452,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_083.png",
+                  "image": "assets\\tiles\\platform-083.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4481,7 +4481,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_075.png",
+                  "image": "assets\\tiles\\platform-075.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4510,7 +4510,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprite_076.png",
+                  "image": "assets\\tiles\\platform-076.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4558,7 +4558,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Up",
+          "name": "up",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4567,7 +4567,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Right-1.png",
+                  "image": "assets\\up.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4587,7 +4587,7 @@
           ]
         },
         {
-          "name": "Right",
+          "name": "right",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4596,7 +4596,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Right-1-0.png",
+                  "image": "assets\\right.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4616,7 +4616,7 @@
           ]
         },
         {
-          "name": "Down",
+          "name": "down",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4625,7 +4625,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Down-1.png",
+                  "image": "assets\\down.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4645,7 +4645,7 @@
           ]
         },
         {
-          "name": "Left",
+          "name": "left",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4654,7 +4654,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Up-1.png",
+                  "image": "assets\\left.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4844,7 +4844,7 @@
       ],
       "animations": [
         {
-          "name": "Flying",
+          "name": "fly",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4853,7 +4853,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\enemies\\bat\\bat_right_1.png",
+                  "image": "assets\\enemies\\bat\\fly-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4870,7 +4870,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\enemies\\bat\\bat_right_2.png",
+                  "image": "assets\\enemies\\bat\\fly-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4887,7 +4887,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\enemies\\bat\\bat_right_3.png",
+                  "image": "assets\\enemies\\bat\\fly-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4907,7 +4907,7 @@
           ]
         },
         {
-          "name": "Dying",
+          "name": "die",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4916,7 +4916,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\enemies\\bat\\bat_right_dead.png",
+                  "image": "assets\\enemies\\bat\\die-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4992,7 +4992,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\MovingRight-1.png",
+                  "image": "assets\\enemies\\snake\\walk-01.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5028,7 +5028,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\MovingRight-2.png",
+                  "image": "assets\\enemies\\snake\\walk-02.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5064,7 +5064,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\MovingRight-3.png",
+                  "image": "assets\\enemies\\snake\\walk-03.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5100,7 +5100,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\MovingRight-4.png",
+                  "image": "assets\\enemies\\snake\\walk-04.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5136,7 +5136,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\MovingRight-5.png",
+                  "image": "assets\\enemies\\snake\\walk-05.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5172,7 +5172,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\MovingRight-6.png",
+                  "image": "assets\\enemies\\snake\\walk-06.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5208,7 +5208,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\MovingRight-7.png",
+                  "image": "assets\\enemies\\snake\\walk-07.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5244,7 +5244,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\MovingRight-8.png",
+                  "image": "assets\\enemies\\snake\\walk-08.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5280,7 +5280,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\MovingRight-9.png",
+                  "image": "assets\\enemies\\snake\\walk-09.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5316,7 +5316,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\MovingRight-10.png",
+                  "image": "assets\\enemies\\snake\\walk-10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5364,7 +5364,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\DyingRight-1.png",
+                  "image": "assets\\enemies\\snake\\die-01.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5400,7 +5400,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\DyingRight-2.png",
+                  "image": "assets\\enemies\\snake\\die-02.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5436,7 +5436,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\DyingRight-3.png",
+                  "image": "assets\\enemies\\snake\\die-03.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5472,7 +5472,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\DyingRight-4.png",
+                  "image": "assets\\enemies\\snake\\die-04.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5508,7 +5508,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\DyingRight-5.png",
+                  "image": "assets\\enemies\\snake\\die-05.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5544,7 +5544,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\DyingRight-6.png",
+                  "image": "assets\\enemies\\snake\\die-06.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5580,7 +5580,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\DyingRight-7.png",
+                  "image": "assets\\enemies\\snake\\die-07.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5616,7 +5616,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\DyingRight-8.png",
+                  "image": "assets\\enemies\\snake\\die-08.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5652,7 +5652,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\DyingRight-9.png",
+                  "image": "assets\\enemies\\snake\\die-09.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5688,7 +5688,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\enemies\\snake\\DyingRight-10.png",
+                  "image": "assets\\enemies\\snake\\die-10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5755,7 +5755,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "test-1.png",
+                  "image": "assets\\test.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5863,7 +5863,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\heart.png",
+                  "image": "assets\\items\\heart.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6064,7 +6064,7 @@
       "height": 48,
       "name": "LivesIndicator",
       "tags": "GUI",
-      "texture": "assets\\heart.png",
+      "texture": "assets\\items\\heart.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 48,
       "variables": [],
