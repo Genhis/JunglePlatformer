@@ -1666,6 +1666,139 @@
         "name": "assets\\items\\coin.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/skull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\skull.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/spawn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\spawn.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/checkpoint.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\checkpoint.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/checkpoint-active.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\checkpoint-active.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/walk-leaves-2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\walk-leaves-2.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/walk-leaves-1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\walk-leaves-1.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/die.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\die.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/pickup-coin.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\pickup-coin.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/pickup-heart.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\pickup-heart.ogg",
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/kill.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\kill.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/jump.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\jump.wav",
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/pickup-heart.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\pickup-heart.wav",
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/activate-checkpoint.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\activate-checkpoint.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/respawn.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\respawn.wav",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/small-platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\small-platform.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/small-platform-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\small-platform-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/large-platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\large-platform.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1677,7 +1810,7 @@
       "name": "Player",
       "children": [
         {
-          "name": "Health",
+          "name": "Lives",
           "value": "3"
         },
         {

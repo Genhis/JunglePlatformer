@@ -22,14 +22,17 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.216
+    "zoomFactor": 1.768
   },
   "objectsGroups": [
     {
       "name": "Controllable",
       "objects": [
         {
-          "name": "MovingPlatform"
+          "name": "SmallMovingPlatform"
+        },
+        {
+          "name": "LargeMovingPlatform"
         }
       ]
     },
@@ -61,6 +64,20 @@
       ]
     },
     {
+      "name": "Invisible",
+      "objects": [
+        {
+          "name": "Spawn"
+        },
+        {
+          "name": "GrabbablePlatform"
+        },
+        {
+          "name": "ChangeDirection"
+        }
+      ]
+    },
+    {
       "name": "LinearEnemy",
       "objects": [
         {
@@ -81,7 +98,10 @@
           "name": "Snake"
         },
         {
-          "name": "MovingPlatform"
+          "name": "SmallMovingPlatform"
+        },
+        {
+          "name": "LargeMovingPlatform"
         }
       ]
     },
@@ -92,9 +112,30 @@
           "name": "Adventurer"
         }
       ]
+    },
+    {
+      "name": "JumpthruPlatform",
+      "objects": [
+        {
+          "name": "SmallMovingPlatform"
+        },
+        {
+          "name": "LargeMovingPlatform"
+        }
+      ]
     }
   ],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Checkpoint",
+      "children": [
+        {
+          "name": "Id",
+          "value": "0"
+        }
+      ]
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -168,7 +209,7 @@
       "layer": "",
       "locked": false,
       "name": "PlatformHorizontal",
-      "width": 1861,
+      "width": 3488,
       "x": 832,
       "y": 368,
       "zOrder": 8,
@@ -727,7 +768,7 @@
       "height": 48,
       "layer": "GUI",
       "locked": false,
-      "name": "HealthIndicator",
+      "name": "LivesIndicator",
       "width": 48,
       "x": 16,
       "y": 480,
@@ -784,7 +825,7 @@
       "locked": false,
       "name": "ChangeDirection",
       "width": 0,
-      "x": 1104,
+      "x": 976,
       "y": 352,
       "zOrder": 21,
       "numberProperties": [
@@ -798,43 +839,18 @@
     },
     {
       "angle": 0,
-      "customSize": true,
+      "customSize": false,
       "height": 16,
       "layer": "",
       "locked": false,
-      "name": "MovingPlatform",
-      "width": 80,
-      "x": 336,
-      "y": 320,
+      "name": "SmallMovingPlatform",
+      "width": 48,
+      "x": 576,
+      "y": 208,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "GroupId",
-          "value": "1"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "",
-      "locked": false,
-      "name": "Button",
-      "width": 64,
-      "x": 32,
-      "y": 352,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "LinkedObject",
-          "value": "1"
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -952,6 +968,86 @@
       "x": 544,
       "y": 304,
       "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Skull",
+      "width": 0,
+      "x": 640,
+      "y": 336,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Spawn",
+      "width": 0,
+      "x": 128,
+      "y": 288,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Checkpoint",
+      "width": 0,
+      "x": 512,
+      "y": 336,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Checkpoint",
+      "width": 0,
+      "x": 928,
+      "y": 320,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Id",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "LargeMovingPlatform",
+      "width": 0,
+      "x": 368,
+      "y": 320,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4580,8 +4676,8 @@
       ]
     },
     {
-      "name": "MovingPlatform",
-      "tags": "",
+      "name": "SmallMovingPlatform",
+      "tags": "MovingObject",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -4612,7 +4708,7 @@
       ],
       "animations": [
         {
-          "name": "test",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4621,7 +4717,70 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "test-1.png",
+                  "image": "assets\\small-platform.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LargeMovingPlatform",
+      "tags": "MovingObject",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Active",
+          "value": "1"
+        },
+        {
+          "name": "GroupId",
+          "value": "-1"
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "MovingObject",
+          "type": "Core::MovingObject",
+          "Direction": 1,
+          "Speed": 2,
+          "Flip": false
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Jumpthru",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\large-platform.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4644,7 +4803,7 @@
     },
     {
       "name": "Bat",
-      "tags": "Enemy",
+      "tags": "Enemy, MovingObject",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -4657,7 +4816,8 @@
         {
           "name": "LivingObject",
           "type": "Core::Entity",
-          "KillAnimationOffset": 1
+          "KillAnimationOffset": 1,
+          "DyingAnimation": 1
         },
         {
           "name": "MovingObject",
@@ -5725,8 +5885,184 @@
       ]
     },
     {
+      "name": "Skull",
+      "tags": "Collectable",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "DynamicColorGradient",
+          "type": "Core::DynamicColorGradient",
+          "Speed": 1
+        },
+        {
+          "name": "Entity",
+          "type": "Core::Entity",
+          "DyingAnimation": 0,
+          "RespawnAnimation": 0,
+          "DyingCooldown": 0,
+          "Dead": false,
+          "DeleteOnDeath": true,
+          "FloatOnDeath": true,
+          "DyingTimer": 0
+        },
+        {
+          "name": "FloatingObject",
+          "type": "Core::FloatingObject",
+          "Direction": -1,
+          "Offset": 0,
+          "MaxDistance": 6,
+          "Speed": 2
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\items\\skull.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spawn",
+      "tags": "Checkpoint",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\spawn.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Checkpoint",
+      "tags": "Checkpoint",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Id",
+          "value": "1"
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Inactive",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\checkpoint.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Active",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\checkpoint-active.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "height": 48,
-      "name": "HealthIndicator",
+      "name": "LivesIndicator",
       "tags": "GUI",
       "texture": "assets\\heart.png",
       "type": "TiledSpriteObject::TiledSprite",
@@ -5777,7 +6113,7 @@
       "italic": false,
       "name": "GameOver",
       "smoothed": true,
-      "tags": "",
+      "tags": "GUI",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -5804,6 +6140,49 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetWindowSize"
+              },
+              "parameters": [
+                "",
+                "1600",
+                "900",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CenterWindow"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -5989,7 +6368,7 @@
               "parameters": [
                 "",
                 "=",
-                "Player.Variable(ClampedX) * 0.75",
+                "Player.Variable(ClampedX) * 0.8",
                 "\"Background4\"",
                 ""
               ],
@@ -6003,7 +6382,7 @@
               "parameters": [
                 "",
                 "=",
-                "Player.Variable(ClampedX) * 0.52",
+                "Player.Variable(ClampedX) * 0.4",
                 "\"Background3\"",
                 ""
               ],
@@ -6017,7 +6396,7 @@
               "parameters": [
                 "",
                 "=",
-                "Player.Variable(ClampedX) * 0.32",
+                "Player.Variable(ClampedX) * 0.2",
                 "\"Background2\"",
                 ""
               ],
@@ -6031,7 +6410,7 @@
               "parameters": [
                 "",
                 "=",
-                "Player.Variable(ClampedX) * 0.15",
+                "Player.Variable(ClampedX) * 0.1",
                 "\"Background1\"",
                 ""
               ],
@@ -6077,17 +6456,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "ChangeDirection"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "GrabbablePlatform"
+                "Invisible"
               ],
               "subInstructions": []
             }
@@ -6243,9 +6612,9 @@
                 "value": "TiledSpriteObject::Width"
               },
               "parameters": [
-                "HealthIndicator",
+                "LivesIndicator",
                 "=",
-                "HealthIndicator.Height() * GlobalVariable(Player.Health)"
+                "LivesIndicator.Height() * GlobalVariable(Player.Lives)"
               ],
               "subInstructions": []
             }
@@ -6326,6 +6695,14 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -6349,6 +6726,20 @@
               "parameters": [
                 "Player",
                 "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\sounds\\die.ogg",
+                "",
+                "25",
+                "1"
               ],
               "subInstructions": []
             }
@@ -6386,7 +6777,7 @@
                     "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Player.Health",
+                    "Player.Lives",
                     "=",
                     "1"
                   ],
@@ -6419,7 +6810,7 @@
                     "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Player.Health",
+                    "Player.Lives",
                     ">",
                     "1"
                   ],
@@ -6435,8 +6826,8 @@
                   "parameters": [
                     "Player",
                     "LivingObject",
-                    "50",
-                    "300",
+                    "Variable(Checkpoint.X)",
+                    "Variable(Checkpoint.Y)",
                     ""
                   ],
                   "subInstructions": []
@@ -6482,8 +6873,22 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Player.Health",
+                    "Player.Lives",
                     "-",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sounds\\respawn.wav",
+                    "",
+                    "25",
                     "1"
                   ],
                   "subInstructions": []
@@ -6543,6 +6948,14 @@
                     "PlatformerObject"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -6559,7 +6972,43 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SoundPlaying"
+                      },
+                      "parameters": [
+                        "",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\sounds\\jump.wav",
+                        "",
+                        "20",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -6743,7 +7192,83 @@
                       "subInstructions": []
                     }
                   ],
-                  "events": []
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SoundPlaying"
+                          },
+                          "parameters": [
+                            "",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\sounds\\walk-leaves-2.ogg",
+                            "1",
+                            "",
+                            "50",
+                            "2"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": true,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SoundPlaying"
+                          },
+                          "parameters": [
+                            "",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Core::PlayRandomSoundOnChannel"
+                          },
+                          "parameters": [
+                            "",
+                            "\"walk-leaves\"",
+                            "\"ogg\"",
+                            "2",
+                            "1",
+                            "100",
+                            "1.5",
+                            "0",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
                 },
                 {
                   "disabled": false,
@@ -6868,6 +7393,50 @@
           ]
         },
         {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Core::Entity::IsVulnerable"
+              },
+              "parameters": [
+                "Player",
+                "LivingObject",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnyKeyPressed"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Core::Entity::MakeVulnerable"
+              },
+              "parameters": [
+                "Player",
+                "LivingObject",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -6878,6 +7447,201 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Checkpoint",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Checkpoint.X",
+                    "=",
+                    "Spawn.X()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Checkpoint.Y",
+                    "=",
+                    "Spawn.Y()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Core::Entity::IsDying"
+                  },
+                  "parameters": [
+                    "Player",
+                    "LivingObject",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Checkpoint",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Checkpoint",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Checkpoint.Id",
+                        "<",
+                        "Checkpoint.Variable(Id)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Checkpoint.Y",
+                        "=",
+                        "Checkpoint.Y()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Checkpoint.Id",
+                        "=",
+                        "Checkpoint.Variable(Id)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Checkpoint.X",
+                        "=",
+                        "Checkpoint.X()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Checkpoint",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\sounds\\activate-checkpoint.ogg",
+                        "",
+                        "20",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Button",
+              "comment2": ""
+            },
             {
               "disabled": false,
               "folded": false,
@@ -7130,6 +7894,75 @@
                   ]
                 }
               ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Falling through \"jumpthru\" platforms",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "JumpthruPlatform",
+                    "Platform",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Down"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "JumpthruPlatform",
+                    "Platform",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -7201,6 +8034,20 @@
                     "100"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sounds\\pickup-coin.ogg",
+                    "",
+                    "25",
+                    "1"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -7256,8 +8103,111 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Player.Health",
+                    "Player.Lives",
                     "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sounds\\pickup-heart.wav",
+                    "",
+                    "25",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Skulls will have a special purpose later in the game",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Core::Entity::IsDying"
+                  },
+                  "parameters": [
+                    "Skull",
+                    "Entity",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Skull",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Entity::Kill"
+                  },
+                  "parameters": [
+                    "Skull",
+                    "Entity",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Player.Score",
+                    "+",
+                    "250"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sounds\\pickup-coin.ogg",
+                    "",
+                    "25",
                     "1"
                   ],
                   "subInstructions": []
@@ -7349,6 +8299,18 @@
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Core::Entity::IsVulnerable"
+              },
+              "parameters": [
+                "Player",
+                "LivingObject",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": true,
@@ -7452,6 +8414,21 @@
                     "Enemy",
                     "PlatformerObject",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sounds\\kill.ogg",
+                    "2",
+                    "25",
+                    "25",
+                    "1"
                   ],
                   "subInstructions": []
                 },
@@ -7706,6 +8683,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "DynamicColorGradient",
+      "type": "Core::DynamicColorGradient"
+    },
     {
       "name": "Entity",
       "type": "Core::Entity"

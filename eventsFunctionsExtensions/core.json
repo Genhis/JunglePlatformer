@@ -80,9 +80,248 @@
       ],
       "parameters": [],
       "objectGroups": []
+    },
+    {
+      "description": "",
+      "fullName": "Play a random sound on a channel",
+      "functionType": "Action",
+      "name": "PlayRandomSoundOnChannel",
+      "sentence": "Play the sound _PARAM1_._PARAM2_ with 1 of _PARAM3_ random variations on the channel _PARAM4_, vol.: _PARAM5_, pitch: _PARAM6_, loop: _PARAM7_",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "const sound = Math.floor(Math.random() * eventsFunctionContext.getArgument(\"Count\")) + 1;\nruntimeScene.getGame().getSoundManager().playSoundOnChannel(\n    eventsFunctionContext.getArgument(\"Path\") + \"-\" + sound + \".\" + eventsFunctionContext.getArgument(\"Extension\"),\n    eventsFunctionContext.getArgument(\"Channel\"),\n    eventsFunctionContext.getArgument(\"Loop\"),\n    eventsFunctionContext.getArgument(\"Volume\"),\n    eventsFunctionContext.getArgument(\"Pitch\"));",
+          "parameterObjects": "",
+          "useStrict": true
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Path",
+          "longDescription": "",
+          "name": "Path",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "string"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Extension",
+          "longDescription": "",
+          "name": "Extension",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "string"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Count",
+          "longDescription": "",
+          "name": "Count",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Channel",
+          "longDescription": "",
+          "name": "Channel",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Volume",
+          "longDescription": "",
+          "name": "Volume",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Pitch",
+          "longDescription": "",
+          "name": "Pitch",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Loop",
+          "longDescription": "",
+          "name": "Loop",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "",
+      "fullName": "Linear interpolation of two colors",
+      "functionType": "StringExpression",
+      "name": "ColorLerp",
+      "sentence": "",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "function lerp(a, b, time) {\n    a = parseInt(a);\n    b = parseInt(b);\n    return Math.floor(a + (b - a) * time);\n}\n\nconst a = eventsFunctionContext.getArgument(\"From\").split(\";\");\nconst b = eventsFunctionContext.getArgument(\"To\").split(\";\");\nconst time = Math.min(Math.max(eventsFunctionContext.getArgument(\"Time\"), 0), 1);\n\neventsFunctionContext.returnValue = lerp(a[0], b[0], time) + \";\" + lerp(a[1], b[1], time) + \";\" + lerp(a[2], b[2], time);\n",
+          "parameterObjects": "",
+          "useStrict": true
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "",
+          "longDescription": "",
+          "name": "From",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "color"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "",
+          "longDescription": "",
+          "name": "To",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "color"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "",
+          "longDescription": "",
+          "name": "Time",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
     }
   ],
   "eventsBasedBehaviors": [
+    {
+      "description": "",
+      "fullName": "",
+      "name": "DynamicColorGradient",
+      "objectType": "Sprite",
+      "eventsFunctions": [
+        {
+          "description": "",
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPostEvents",
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::DynamicColorGradient::SetPropertyTime"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "+",
+                    "TimeDelta() / 3 * Object.Behavior::PropertySpeed()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "function lerp(a, b, time) {\n    a = parseInt(a);\n    b = parseInt(b);\n    return a + (b - a) * time;\n}\n\nfunction colorLerp(a, b, time) {\n    a = a.split(\";\");\n    b = b.split(\";\");\n    return lerp(a[0], b[0], time) + \";\" + lerp(a[1], b[1], time) + \";\" + lerp(a[2], b[2], time);\n}\n\n/** @type {gdjs.SpriteRuntimeObject} */\nconst obj = eventsFunctionContext.getObjects(\"Object\")[0];\n/** @type {gdjs.RuntimeBehavior} */\nconst behavior = obj.getBehavior(\"DynamicColorGradient\");\nconst colors = behavior._getColors().split(\"#\");\nconst time = behavior._getTime() % colors.length;\n\nobj.setColor(colorLerp(colors[Math.floor(time)], colors[Math.ceil(time) % colors.length], time % 1));\nbehavior._setTime(time);",
+              "parameterObjects": "",
+              "useStrict": true
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Core::DynamicColorGradient",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [
+        {
+          "value": "1",
+          "type": "Number",
+          "label": "",
+          "description": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "Speed"
+        },
+        {
+          "value": "255;0;0#255;255;0#0;255;0#0;255;255#255;0;255",
+          "type": "String",
+          "label": "",
+          "description": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "Colors"
+        },
+        {
+          "value": "",
+          "type": "Number",
+          "label": "",
+          "description": "",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "Time"
+        }
+      ]
+    },
     {
       "description": "",
       "fullName": "Entity",
@@ -96,6 +335,21 @@
           "name": "doStepPostEvents",
           "sentence": "",
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Death",
+              "comment2": ""
+            },
             {
               "disabled": false,
               "folded": false,
@@ -243,6 +497,104 @@
                       "events": []
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Respawn",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Entity::PropertyRespawnTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ">",
+                    "-1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Entity::SetPropertyRespawnTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "-",
+                    "TimeDelta()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::Entity::PropertyRespawnTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "<=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Core::ColorLerp(\"127;127;127\", \"255;255;255\", -Object.Behavior::PropertyRespawnTimer())"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "Object",
+                        "+",
+                        "TimeDelta() * 128"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
                 }
               ]
             }
@@ -437,6 +789,42 @@
                     "GetArgumentAsNumber(\"Y\")"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"127;127;127\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "127"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Entity::SetPropertyRespawnTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "Object.Behavior::PropertyRespawnCooldown()"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -625,11 +1013,144 @@
             }
           ],
           "objectGroups": []
+        },
+        {
+          "description": "",
+          "fullName": "Is vulnerable",
+          "functionType": "Condition",
+          "name": "IsVulnerable",
+          "sentence": "_PARAM0_ is vulnerable",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Entity::PropertyRespawnTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "<=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Core::Entity",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "",
+          "fullName": "Make vulnerable",
+          "functionType": "Action",
+          "name": "MakeVulnerable",
+          "sentence": "Make _PARAM0_ vulnerable",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Entity::PropertyRespawnTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ">",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Entity::SetPropertyRespawnTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Core::Entity",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
         }
       ],
       "propertyDescriptors": [
         {
-          "value": "1",
+          "value": "0",
           "type": "Number",
           "label": "",
           "description": "",
@@ -690,6 +1211,24 @@
           "extraInformation": [],
           "hidden": true,
           "name": "DyingTimer"
+        },
+        {
+          "value": "5",
+          "type": "Number",
+          "label": "",
+          "description": "",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "RespawnCooldown"
+        },
+        {
+          "value": "-1",
+          "type": "Number",
+          "label": "",
+          "description": "",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "RespawnTimer"
         }
       ]
     },
@@ -699,60 +1238,6 @@
       "name": "FloatingObject",
       "objectType": "",
       "eventsFunctions": [
-        {
-          "description": "",
-          "fullName": "",
-          "functionType": "Action",
-          "name": "onActivate",
-          "sentence": "",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Core::FloatingObject::SetPropertyOffset"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Behavior",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": [
-            {
-              "codeOnly": false,
-              "defaultValue": "",
-              "description": "Object",
-              "longDescription": "",
-              "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
-              "type": "object"
-            },
-            {
-              "codeOnly": false,
-              "defaultValue": "",
-              "description": "Behavior",
-              "longDescription": "",
-              "name": "Behavior",
-              "optional": false,
-              "supplementaryInformation": "Core::FloatingObject",
-              "type": "behavior"
-            }
-          ],
-          "objectGroups": []
-        },
         {
           "description": "",
           "fullName": "",
@@ -775,6 +1260,19 @@
                     "Object",
                     "-",
                     "Object.Behavior::PropertyOffset()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::FloatingObject::SetPropertyOffset"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
