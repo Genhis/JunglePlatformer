@@ -1,0 +1,9 @@
+activate-checkpoint.ogg -> 50-CC0-retro/power_up_06.ogg
+die.ogg -> 50-CC0-retro/synth_misc_02.ogg
+jump.waw -> GDevelop ExamplePlatformer
+kill.ogg -> 50-CC0-retro/retro_misc_04.ogg
+pickup-coin.ogg -> 50-CC0-retro/retro_coin_01.ogg
+pickup-heart.wav -> The Essential Retro Video Game Sound Effects Collection [512 sounds]/General Sounds/Positive Sounds/sfx_sounds_powerup8.wav
+respawn.wav -> The Essential Retro Video Game Sound Effects Collection [512 sounds]/General Sounds/Fanfares/sfx_sounds_fanfare1.wav
+walk-leaves-1.ogg -> [kdd]DifferentSteps/leaves01.ogg
+walk-leaves-2.ogg -> [kdd]DifferentSteps/leaves02.ogg
