@@ -1576,6 +1576,51 @@
         "name": "assets\\traps\\saw.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spikes/spikes-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spikes\\spikes-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spikes/spikes-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spikes\\spikes-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spikes/spikes-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spikes\\spikes-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spikes/spikes-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spikes\\spikes-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spikes/spikes-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spikes\\spikes-5.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
