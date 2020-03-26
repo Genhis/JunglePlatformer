@@ -349,7 +349,21 @@
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Active",
+                    "=",
+                    "1 - Object.Variable(Active)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             }
           ],

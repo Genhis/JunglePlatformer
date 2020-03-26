@@ -4781,6 +4781,10 @@
       ],
       "behaviors": [
         {
+          "name": "ActiveObject",
+          "type": "Core::ActiveObject"
+        },
+        {
           "name": "MovingObject",
           "type": "Core::MovingObject",
           "Direction": 1,
@@ -4844,6 +4848,10 @@
       ],
       "behaviors": [
         {
+          "name": "ActiveObject",
+          "type": "Core::ActiveObject"
+        },
+        {
           "name": "MovingObject",
           "type": "Core::MovingObject",
           "Direction": 1,
@@ -4902,6 +4910,10 @@
         }
       ],
       "behaviors": [
+        {
+          "name": "ActiveObject",
+          "type": "Core::ActiveObject"
+        },
         {
           "name": "LivingObject",
           "type": "Core::Entity",
@@ -5038,6 +5050,10 @@
         }
       ],
       "behaviors": [
+        {
+          "name": "ActiveObject",
+          "type": "Core::ActiveObject"
+        },
         {
           "name": "LivingObject",
           "type": "Core::Entity",
@@ -6039,7 +6055,7 @@
     },
     {
       "name": "Saw",
-      "tags": "Trap",
+      "tags": "Trap, MovingObject",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -6049,6 +6065,10 @@
         }
       ],
       "behaviors": [
+        {
+          "name": "ActiveObject",
+          "type": "Core::ActiveObject"
+        },
         {
           "name": "MovingObject",
           "type": "Core::MovingObject",
@@ -6096,7 +6116,7 @@
     },
     {
       "name": "Spikes",
-      "tags": "Trap",
+      "tags": "Trap, MovingObject",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -6105,7 +6125,12 @@
           "value": "1"
         }
       ],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ActiveObject",
+          "type": "Core::ActiveObject"
+        }
+      ],
       "animations": [
         {
           "name": "deactivate",
@@ -6878,14 +6903,13 @@
           "conditions": [
             {
               "type": {
-                "inverted": false,
-                "value": "VarObjet"
+                "inverted": true,
+                "value": "Core::ActiveObject::IsActive"
               },
               "parameters": [
                 "MovingObject",
-                "Active",
-                "=",
-                "0"
+                "ActiveObject",
+                "="
               ],
               "subInstructions": []
             }
@@ -6914,13 +6938,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "VarObjet"
+                "value": "Core::ActiveObject::IsActive"
               },
               "parameters": [
                 "MovingObject",
-                "Active",
-                "=",
-                "1"
+                "ActiveObject",
+                "="
               ],
               "subInstructions": []
             }
@@ -8064,13 +8087,12 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "ModVarObjet"
+                            "value": "Core::ActiveObject::Activate"
                           },
                           "parameters": [
                             "Controllable",
-                            "Active",
-                            "=",
-                            "1"
+                            "ActiveObject",
+                            "="
                           ],
                           "subInstructions": []
                         },
@@ -8231,13 +8253,12 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "ModVarObjet"
+                                "value": "Core::ActiveObject::Deactivate"
                               },
                               "parameters": [
                                 "Controllable",
-                                "Active",
-                                "=",
-                                "0"
+                                "ActiveObject",
+                                "="
                               ],
                               "subInstructions": []
                             }
@@ -8749,6 +8770,18 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "Core::ActiveObject::Deactivate"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "ActiveObject",
+                    "="
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "Core::Entity::Kill"
                   },
                   "parameters": [
@@ -8772,19 +8805,6 @@
                     "25",
                     "25",
                     "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Enemy",
-                    "Active",
-                    "=",
-                    "0"
                   ],
                   "subInstructions": []
                 },
@@ -8881,81 +8901,7 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Core::Entity::Kill"
-                  },
-                  "parameters": [
-                    "Enemy",
-                    "LivingObject",
-                    "Enemy",
-                    "PlatformerObject",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Enemy",
-                    "Active",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Enemy",
-                    "PlatformerObject",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Player.Score",
-                    "+",
-                    "50"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SetCanJump"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SimulateJumpKey"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                }
-              ],
+              "actions": [],
               "events": []
             }
           ]
@@ -9088,6 +9034,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "ActiveObject",
+      "type": "Core::ActiveObject"
+    },
     {
       "name": "DynamicColorGradient",
       "type": "Core::DynamicColorGradient"
