@@ -1621,6 +1621,78 @@
         "name": "assets\\traps\\spikes\\spikes-5.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spiked-ball/chain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spiked-ball\\chain.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spiked-ball/ball.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spiked-ball\\ball.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spiked-ball/chain-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spiked-ball\\chain-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spiked-ball/chain-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spiked-ball\\chain-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spiked-ball/chain-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spiked-ball\\chain-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/spiked-ball/chain-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\spiked-ball\\chain-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/toggle-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\toggle-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/toggle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\toggle.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

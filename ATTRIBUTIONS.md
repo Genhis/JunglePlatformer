@@ -11,8 +11,11 @@
 - [/assets/items/skull.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/skull.png): derivative work of [Resources pack #1](https://opengameart.org/content/resouces-pack-1) licensed under [CC0 1.0]
 - [/assets/player/adventurer](https://github.com/Genhis/CSC3224/tree/master/assets/player/adventurer): original work of [Jungle pack] by [Jesse Munguia] except "die" animation which is derived from this work
 - [/assets/tiles](https://github.com/Genhis/CSC3224/tree/master/assets/tiles): original work of [Jungle pack] by [Jesse Munguia]
-- [/assets/traps/saw.png](https://github.com/Genhis/CSC3224/tree/master/assets/traps/saw.png): derivative work of [Pixel Adventure 1](https://pixel-frog.itch.io/pixel-adventure-1)
+- [/assets/traps/spiked-ball](https://github.com/Genhis/CSC3224/tree/master/assets/traps/spiked-ball): derivative work of [Pixel Adventure 1]
 - [/assets/traps/spikes](https://github.com/Genhis/CSC3224/tree/master/assets/traps/spikes): derivative work of [Red spikes (Animated)](https://opengameart.org/content/red-spikes-animated) by [netgfx](https://opengameart.org/users/netgfx) licensed under [CC BY 3.0]
+- [/assets/traps/saw.png](https://github.com/Genhis/CSC3224/tree/master/assets/traps/saw.png): derivative work of [Pixel Adventure 1]
+- [/assets/large-platform.png](https://github.com/Genhis/CSC3224/tree/master/assets/large-platform.png): derivative work of [OPP 2017 - Castle tiles] licensed under [CC0 1.0]
+- [/assets/small-platform.png](https://github.com/Genhis/CSC3224/tree/master/assets/small-platform.png): derivative work of [OPP 2017 - Castle tiles] licensed under [CC0 1.0]
 
 ## Sounds
 - [/assets/sounds/activate-checkpoint.ogg](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/activate-checkpoint.ogg): original work of [50 CC0 retro / synth SFX] licensed under [CC0 1.0]
@@ -34,5 +37,7 @@
 [512 Sound Effects (8-bit style)]: https://opengameart.org/content/512-sound-effects-8-bit-style
 [Different steps]: https://opengameart.org/content/different-steps-on-wood-stone-leaves-gravel-and-mud
 [Jungle pack]: https://jesse-m.itch.io/jungle-pack
+[OPP 2017 - Castle tiles]: https://openpixelproject.itch.io/opp2017castle
+[Pixel Adventure 1]: https://pixel-frog.itch.io/pixel-adventure-1
 
 [Jesse Munguia]: https://twitter.com/Jsf23Art

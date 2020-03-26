@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.456
+    "zoomFactor": 2.056
   },
   "objectsGroups": [
     {
@@ -78,6 +78,17 @@
       ]
     },
     {
+      "name": "JumpthruPlatform",
+      "objects": [
+        {
+          "name": "SmallMovingPlatform"
+        },
+        {
+          "name": "LargeMovingPlatform"
+        }
+      ]
+    },
+    {
       "name": "LinearEnemy",
       "objects": [
         {
@@ -117,13 +128,10 @@
       ]
     },
     {
-      "name": "JumpthruPlatform",
+      "name": "RotatingObject",
       "objects": [
         {
-          "name": "SmallMovingPlatform"
-        },
-        {
-          "name": "LargeMovingPlatform"
+          "name": "Chain"
         }
       ]
     },
@@ -135,6 +143,9 @@
         },
         {
           "name": "Spikes"
+        },
+        {
+          "name": "SpikedBall"
         }
       ]
     }
@@ -159,8 +170,8 @@
       "locked": false,
       "name": "Adventurer",
       "width": 28,
-      "x": 176,
-      "y": 292,
+      "x": 96,
+      "y": 304,
       "zOrder": 0,
       "numberProperties": [
         {
@@ -569,27 +580,7 @@
       "locked": false,
       "name": "ChangeDirection",
       "width": 0,
-      "x": 240,
-      "y": 320,
-      "zOrder": 21,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "ChangeDirection",
-      "width": 0,
-      "x": 608,
+      "x": 624,
       "y": 320,
       "zOrder": 21,
       "numberProperties": [
@@ -996,7 +987,7 @@
       "width": 0,
       "x": 640,
       "y": 336,
-      "zOrder": 25,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1061,7 +1052,7 @@
       "width": 0,
       "x": 368,
       "y": 320,
-      "zOrder": 26,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1103,6 +1094,66 @@
     },
     {
       "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "",
+      "locked": false,
+      "name": "Spikes",
+      "width": 48,
+      "x": 16,
+      "y": 336,
+      "zOrder": 0,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 80,
+      "layer": "",
+      "locked": false,
+      "name": "Chain",
+      "width": 8,
+      "x": 208,
+      "y": 168,
+      "zOrder": 0,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "ChangeDirection",
+      "width": 0,
+      "x": 240,
+      "y": 320,
+      "zOrder": 21,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -1123,19 +1174,39 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 48,
+      "customSize": false,
+      "height": 0,
       "layer": "",
       "locked": false,
-      "name": "Spikes",
-      "width": 48,
-      "x": 16,
-      "y": 336,
-      "zOrder": 0,
+      "name": "ChangeDirection",
+      "width": 0,
+      "x": 144,
+      "y": 192,
+      "zOrder": 21,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 1
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "ChangeDirection",
+      "width": 0,
+      "x": 256,
+      "y": 192,
+      "zOrder": 21,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
         }
       ],
       "stringProperties": [],
@@ -4761,6 +4832,35 @@
               ]
             }
           ]
+        },
+        {
+          "name": "toggle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\toggle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6138,7 +6238,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.0667,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -6308,6 +6408,263 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\traps\\spikes\\spikes-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chain",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Active",
+          "value": "1"
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ActiveObject",
+          "type": "Core::ActiveObject"
+        },
+        {
+          "name": "RotatingObject",
+          "type": "Core::RotatingObject",
+          "Direction": 1,
+          "Speed": 3
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\traps\\spiked-ball\\chain-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\traps\\spiked-ball\\chain-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 60
+                      },
+                      {
+                        "x": 0,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\traps\\spiked-ball\\chain-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 90
+                      },
+                      {
+                        "x": 0,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\traps\\spiked-ball\\chain-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 4,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 120
+                      },
+                      {
+                        "x": 0,
+                        "y": 120
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SpikedBall",
+      "tags": "Trap, MovingObject",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\traps\\spiked-ball\\ball.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6852,6 +7209,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "ChangeDirection",
+                "<",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -6873,6 +7242,56 @@
               "parameters": [
                 "MovingObject",
                 "MovingObject",
+                "ChangeDirection.Animation()",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "RotatingObject",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "ChangeDirection",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "RotatingObject",
+                "ChangeDirection",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Core::RotatingObject::SetDirection"
+              },
+              "parameters": [
+                "RotatingObject",
+                "RotatingObject",
                 "ChangeDirection.Animation()",
                 ""
               ],
@@ -8979,6 +9398,149 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "SpikedBall",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Chain",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CreateByName"
+                  },
+                  "parameters": [
+                    "",
+                    "SpikedBall",
+                    "\"SpikedBall\"",
+                    "Chain.X() + Chain.Width() / 2",
+                    "Chain.Y() + Chain.Height() - 4",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Chain",
+                    "SpikedBall"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "SpikedBall",
+                    "-",
+                    "SpikedBall.Width() / 2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "SpikedBall",
+                    "=",
+                    "Chain.ZOrder() + 1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Core::ActiveObject::IsActive"
+              },
+              "parameters": [
+                "Chain",
+                "ActiveObject",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "SpikedBall",
+                "Chain"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "SpikedBall",
+                "Chain",
+                "Chain.Height() - 4",
+                "Chain.Angle() + 90"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "parameters": []
@@ -9081,6 +9643,10 @@
     {
       "name": "RotateAnimation",
       "type": "Core::RotateAnimation"
+    },
+    {
+      "name": "RotatingObject",
+      "type": "Core::RotatingObject"
     }
   ]
 }
