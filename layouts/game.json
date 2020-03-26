@@ -8940,6 +8940,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Core::ActiveObject::IsActive"
+              },
+              "parameters": [
+                "Trap",
+                "ActiveObject",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "CollisionNP"
               },
               "parameters": [
