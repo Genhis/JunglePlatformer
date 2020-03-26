@@ -102,6 +102,9 @@
         },
         {
           "name": "LargeMovingPlatform"
+        },
+        {
+          "name": "Saw"
         }
       ]
     },
@@ -121,6 +124,14 @@
         },
         {
           "name": "LargeMovingPlatform"
+        }
+      ]
+    },
+    {
+      "name": "Trap",
+      "objects": [
+        {
+          "name": "Saw"
         }
       ]
     }
@@ -1049,6 +1060,61 @@
       "y": 320,
       "zOrder": 26,
       "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Saw",
+      "width": 0,
+      "x": 80,
+      "y": 320,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "ChangeDirection",
+      "width": 0,
+      "x": 64,
+      "y": 336,
+      "zOrder": 21,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "ChangeDirection",
+      "width": 0,
+      "x": 192,
+      "y": 336,
+      "zOrder": 21,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     }
@@ -6126,6 +6192,63 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "name": "Saw",
+      "tags": "Trap",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Active",
+          "value": "1"
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "MovingObject",
+          "type": "Core::MovingObject",
+          "Direction": 1,
+          "Speed": 1,
+          "Flip": false
+        },
+        {
+          "name": "RotateAnimation",
+          "type": "Core::RotateAnimation",
+          "DegreesPerSecond": 360
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\traps\\saw.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -7389,52 +7512,52 @@
                   "events": []
                 }
               ]
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "Core::Entity::IsVulnerable"
-              },
-              "parameters": [
-                "Player",
-                "LivingObject",
-                ""
-              ],
-              "subInstructions": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "AnyKeyPressed"
-              },
-              "parameters": [
-                ""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Core::Entity::IsVulnerable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "LivingObject",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnyKeyPressed"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Core::Entity::MakeVulnerable"
-              },
-              "parameters": [
-                "Player",
-                "LivingObject",
-                ""
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Entity::MakeVulnerable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "LivingObject",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "events": []
             }
-          ],
-          "events": []
+          ]
         },
         {
           "colorB": 228,
@@ -8313,18 +8436,6 @@
             },
             {
               "type": {
-                "inverted": true,
-                "value": "Core::Entity::IsDying"
-              },
-              "parameters": [
-                "Player",
-                "LivingObject",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
                 "inverted": false,
                 "value": "CollisionNP"
               },
@@ -8619,6 +8730,68 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Traps",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Core::Entity::IsVulnerable"
+              },
+              "parameters": [
+                "Player",
+                "LivingObject",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Trap",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Core::Entity::Kill"
+              },
+              "parameters": [
+                "Player",
+                "LivingObject",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -8710,6 +8883,10 @@
     {
       "name": "PlatformerObject",
       "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "RotateAnimation",
+      "type": "Core::RotateAnimation"
     }
   ]
 }

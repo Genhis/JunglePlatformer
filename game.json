@@ -1567,6 +1567,15 @@
         "name": "assets\\items\\heart.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/traps/saw.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\traps\\saw.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

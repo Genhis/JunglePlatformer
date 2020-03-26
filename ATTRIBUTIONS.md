@@ -9,8 +9,9 @@
 - [/assets/items/coin.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/coin.png): original work of [OPP 2017 - Sprites](https://openpixelproject.itch.io/opp2017sprites) licensed under [CC0 1.0]
 - [/assets/items/heart.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/heart.png) derivative work of [Heart pixel art](https://opengameart.org/content/heart-pixel-art) by [DontMind8](https://opengameart.org/users/dontmind8) licensed under [CC BY 4.0]
 - [/assets/items/skull.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/skull.png): derivative work of [Resources pack #1](https://opengameart.org/content/resouces-pack-1) licensed under [CC0 1.0]
-- [/assets/player/adventurer](https://github.com/Genhis/CSC3224/tree/master/assets/player/adventurer): original work of [Jungle pack] by [Jesse Munguia] except "die" animation which is derivative
+- [/assets/player/adventurer](https://github.com/Genhis/CSC3224/tree/master/assets/player/adventurer): original work of [Jungle pack] by [Jesse Munguia] except "die" animation which is derived from this work
 - [/assets/tiles](https://github.com/Genhis/CSC3224/tree/master/assets/tiles): original work of [Jungle pack] by [Jesse Munguia]
+- [/assets/traps/saw.png](https://github.com/Genhis/CSC3224/tree/master/assets/traps/saw.png): derivative work of [Pixel Adventure 1](https://pixel-frog.itch.io/pixel-adventure-1)
 
 ## Sounds
 - [/assets/sounds/activate-checkpoint.ogg](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/activate-checkpoint.ogg): original work of [50 CC0 retro / synth SFX] licensed under [CC0 1.0]
