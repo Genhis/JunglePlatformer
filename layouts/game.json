@@ -648,12 +648,7 @@
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "Active",
-          "value": "1"
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -723,12 +718,7 @@
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "Active",
-          "value": "1"
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -1058,12 +1048,7 @@
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "GroupId",
-          "value": "1"
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -4909,6 +4894,19 @@
         {
           "name": "GroupId",
           "value": "-1"
+        },
+        {
+          "name": "MovingObject",
+          "children": [
+            {
+              "name": "Direction",
+              "value": "1"
+            },
+            {
+              "name": "Speed",
+              "value": "1.5"
+            }
+          ]
         }
       ],
       "behaviors": [
@@ -4976,6 +4974,19 @@
         {
           "name": "GroupId",
           "value": "-1"
+        },
+        {
+          "name": "MovingObject",
+          "children": [
+            {
+              "name": "Direction",
+              "value": "1"
+            },
+            {
+              "name": "Speed",
+              "value": "1.5"
+            }
+          ]
         }
       ],
       "behaviors": [
@@ -5042,6 +5053,19 @@
         {
           "name": "Active",
           "value": "1"
+        },
+        {
+          "name": "MovingObject",
+          "children": [
+            {
+              "name": "Direction",
+              "value": "1"
+            },
+            {
+              "name": "Speed",
+              "value": "2"
+            }
+          ]
         }
       ],
       "behaviors": [
@@ -5182,6 +5206,19 @@
         {
           "name": "Active",
           "value": "1"
+        },
+        {
+          "name": "MovingObject",
+          "children": [
+            {
+              "name": "Direction",
+              "value": "1"
+            },
+            {
+              "name": "Speed",
+              "value": "1"
+            }
+          ]
         }
       ],
       "behaviors": [
@@ -6197,6 +6234,19 @@
         {
           "name": "Active",
           "value": "1"
+        },
+        {
+          "name": "MovingObject",
+          "children": [
+            {
+              "name": "Direction",
+              "value": "1"
+            },
+            {
+              "name": "Speed",
+              "value": "2"
+            }
+          ]
         }
       ],
       "behaviors": [

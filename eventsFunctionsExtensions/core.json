@@ -2128,11 +2128,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Core::MovingObject::PropertyDirection"
+                    "value": "VarObjet"
                   },
                   "parameters": [
                     "Object",
-                    "Behavior",
+                    "MovingObject.Direction",
                     "!=",
                     "GetArgumentAsNumber(\"Direction\")"
                   ],
@@ -2143,11 +2143,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Core::MovingObject::SetPropertyDirection"
+                    "value": "ModVarObjet"
                   },
                   "parameters": [
                     "Object",
-                    "Behavior",
+                    "MovingObject.Direction",
                     "=",
                     "GetArgumentAsNumber(\"Direction\")"
                   ],
@@ -2218,11 +2218,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Core::MovingObject::PropertyDirection"
+                    "value": "VarObjet"
                   },
                   "parameters": [
                     "Object",
-                    "Behavior",
+                    "MovingObject.Direction",
                     "=",
                     "0"
                   ],
@@ -2248,7 +2248,7 @@
                   "parameters": [
                     "Object",
                     "0",
-                    "-Object.Behavior::PropertySpeed() * 50",
+                    "-Object.Variable(MovingObject.Speed) * 50",
                     "1"
                   ],
                   "subInstructions": []
@@ -2264,11 +2264,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Core::MovingObject::PropertyDirection"
+                    "value": "VarObjet"
                   },
                   "parameters": [
                     "Object",
-                    "Behavior",
+                    "MovingObject.Direction",
                     "=",
                     "1"
                   ],
@@ -2293,7 +2293,7 @@
                   },
                   "parameters": [
                     "Object",
-                    "Object.Behavior::PropertySpeed() * 50",
+                    "Object.Variable(MovingObject.Speed) * 50",
                     "0",
                     "1"
                   ],
@@ -2343,11 +2343,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Core::MovingObject::PropertyDirection"
+                    "value": "VarObjet"
                   },
                   "parameters": [
                     "Object",
-                    "Behavior",
+                    "MovingObject.Direction",
                     "=",
                     "2"
                   ],
@@ -2373,7 +2373,7 @@
                   "parameters": [
                     "Object",
                     "0",
-                    "Object.Behavior::PropertySpeed() * 50",
+                    "Object.Variable(MovingObject.Speed) * 50",
                     "1"
                   ],
                   "subInstructions": []
@@ -2389,11 +2389,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Core::MovingObject::PropertyDirection"
+                    "value": "VarObjet"
                   },
                   "parameters": [
                     "Object",
-                    "Behavior",
+                    "MovingObject.Direction",
                     "=",
                     "3"
                   ],
@@ -2418,7 +2418,7 @@
                   },
                   "parameters": [
                     "Object",
-                    "-Object.Behavior::PropertySpeed() * 50",
+                    "-Object.Variable(MovingObject.Speed) * 50",
                     "0",
                     "1"
                   ],
@@ -2488,27 +2488,9 @@
       ],
       "propertyDescriptors": [
         {
-          "value": "1",
-          "type": "Number",
-          "label": "",
-          "description": "",
-          "extraInformation": [],
-          "hidden": false,
-          "name": "Direction"
-        },
-        {
-          "value": "1",
-          "type": "Number",
-          "label": "",
-          "description": "",
-          "extraInformation": [],
-          "hidden": false,
-          "name": "Speed"
-        },
-        {
           "value": "true",
           "type": "Boolean",
-          "label": "",
+          "label": "Flip horizontally when direction changes",
           "description": "",
           "extraInformation": [],
           "hidden": false,
