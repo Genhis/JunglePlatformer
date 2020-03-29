@@ -6258,6 +6258,23 @@
         {
           "name": "Active",
           "value": "1"
+        },
+        {
+          "name": "ActiveObject",
+          "children": [
+            {
+              "name": "HasTimer",
+              "value": "1"
+            },
+            {
+              "name": "TimeActive",
+              "value": "2"
+            },
+            {
+              "name": "TimeInactive",
+              "value": "2"
+            }
+          ]
         }
       ],
       "behaviors": [
@@ -9401,7 +9418,7 @@
       "colorR": 213,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Traps",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9460,6 +9477,113 @@
                 "Player",
                 "LivingObject",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Spikes",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Core::ActiveObject::IsActive"
+              },
+              "parameters": [
+                "Spikes",
+                "ActiveObject",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Spikes",
+                "!=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Spikes",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Core::ActiveObject::IsActive"
+              },
+              "parameters": [
+                "Spikes",
+                "ActiveObject",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Spikes",
+                "!=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Spikes",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
