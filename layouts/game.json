@@ -4981,7 +4981,10 @@
       "behaviors": [
         {
           "name": "ActiveObject",
-          "type": "Core::ActiveObject"
+          "type": "Core::ActiveObject",
+          "TimeActive": 3,
+          "TimeInactive": 1,
+          "TimedActivation": true
         },
         {
           "name": "MovingObject",
@@ -8777,13 +8780,34 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "Down"
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Down"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::Entity::IsDying"
+                      },
+                      "parameters": [
+                        "Player",
+                        "LivingObject",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 }
               ],
               "actions": [
