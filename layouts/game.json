@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 2.056
+    "zoomFactor": 1.6
   },
   "objectsGroups": [
     {
@@ -41,6 +41,9 @@
       "objects": [
         {
           "name": "Adventurer"
+        },
+        {
+          "name": "Snake"
         }
       ]
     },
@@ -206,7 +209,7 @@
       "name": "PlatformHorizontal",
       "width": 464,
       "x": 0,
-      "y": 160,
+      "y": 144,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -1055,7 +1058,12 @@
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "GroupId",
+          "value": "1"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -1065,8 +1073,8 @@
       "locked": false,
       "name": "Saw",
       "width": 0,
-      "x": 336,
-      "y": 240,
+      "x": 320,
+      "y": 160,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -1080,8 +1088,8 @@
       "locked": false,
       "name": "ChangeDirection",
       "width": 0,
-      "x": 320,
-      "y": 256,
+      "x": 304,
+      "y": 176,
       "zOrder": 21,
       "numberProperties": [
         {
@@ -1121,7 +1129,7 @@
       "name": "Chain",
       "width": 8,
       "x": 208,
-      "y": 168,
+      "y": 152,
       "zOrder": 0,
       "numberProperties": [
         {
@@ -1160,8 +1168,8 @@
       "locked": false,
       "name": "ChangeDirection",
       "width": 0,
-      "x": 480,
-      "y": 256,
+      "x": 448,
+      "y": 176,
       "zOrder": 21,
       "numberProperties": [
         {
@@ -1181,7 +1189,7 @@
       "name": "ChangeDirection",
       "width": 0,
       "x": 144,
-      "y": 192,
+      "y": 176,
       "zOrder": 21,
       "numberProperties": [
         {
@@ -1201,7 +1209,7 @@
       "name": "ChangeDirection",
       "width": 0,
       "x": 256,
-      "y": 192,
+      "y": 176,
       "zOrder": 21,
       "numberProperties": [
         {
@@ -1211,6 +1219,30 @@
       ],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "locked": false,
+      "name": "Button",
+      "width": 32,
+      "x": 384,
+      "y": 464,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "LinkedObject",
+          "value": "1"
+        },
+        {
+          "name": "Cooldown",
+          "value": "2"
+        }
+      ]
     }
   ],
   "objects": [
@@ -6867,9 +6899,24 @@
   ],
   "events": [
     {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Some may say that it's a bit too much code in this file and that I should decouple it into multiple files. I agree, but I don't see a point in doing so now when there is only one level. My focus is on getting things working and leave the refactoring part for the final version - I plan to split it into multiple files when I add more levels. For now, it's just grouped into categories which may potentially be moved to their own files.",
+      "comment2": ""
+    },
+    {
+      "colorB": 155,
+      "colorG": 155,
+      "colorR": 155,
       "creationTime": 0,
       "disabled": false,
       "folded": false,
@@ -6959,6 +7006,18 @@
                 "Score",
                 "=",
                 "\"Score: \" + ToString(GlobalVariable(Player.Score))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TiledSpriteObject::Width"
+              },
+              "parameters": [
+                "LivesIndicator",
+                "=",
+                "LivesIndicator.Height() * GlobalVariable(Player.Lives)"
               ],
               "subInstructions": []
             }
@@ -7054,12 +7113,12 @@
       "parameters": []
     },
     {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
+      "colorB": 155,
+      "colorG": 155,
+      "colorR": 155,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Parallax scrolling camera",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7160,12 +7219,12 @@
       "parameters": []
     },
     {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
+      "colorB": 155,
+      "colorG": 155,
+      "colorR": 155,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Moving objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7387,9 +7446,9 @@
       "parameters": []
     },
     {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
+      "colorB": 33,
+      "colorG": 211,
+      "colorR": 126,
       "creationTime": 0,
       "disabled": false,
       "folded": false,
@@ -7397,27 +7456,6 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TiledSpriteObject::Width"
-              },
-              "parameters": [
-                "LivesIndicator",
-                "=",
-                "LivesIndicator.Height() * GlobalVariable(Player.Lives)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
         {
           "disabled": false,
           "folded": false,
@@ -8234,9 +8272,9 @@
           ]
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 33,
+          "colorG": 211,
+          "colorR": 126,
           "creationTime": 0,
           "disabled": false,
           "folded": false,
@@ -8425,57 +8463,47 @@
               ]
             },
             {
+              "colorB": 33,
+              "colorG": 211,
+              "colorR": 126,
+              "creationTime": 0,
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Button",
-              "comment2": ""
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Button",
-                    "LinkedObject",
-                    "!=",
-                    "-1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [],
+              "name": "Button",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
                   "disabled": false,
                   "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Reset all controllables; TODO: Change when adding a lever",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Controllable",
                   "conditions": [
                     {
                       "type": {
                         "inverted": false,
-                        "value": "CollisionNP"
+                        "value": "VarObjet"
                       },
                       "parameters": [
-                        "Controller",
-                        "Button",
-                        "",
-                        "",
-                        ""
+                        "Controllable",
+                        "GroupId",
+                        "!=",
+                        "-1"
                       ],
                       "subInstructions": []
                     }
@@ -8485,8 +8513,7 @@
                     {
                       "disabled": false,
                       "folded": false,
-                      "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "Controllable",
+                      "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
@@ -8495,26 +8522,14 @@
                           },
                           "parameters": [
                             "Controllable",
-                            "GroupId",
+                            "DeactivationCooldown",
                             "=",
-                            "Button.Variable(LinkedObject)"
+                            "-1"
                           ],
                           "subInstructions": []
                         }
                       ],
                       "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Core::ActiveObject::Activate"
-                          },
-                          "parameters": [
-                            "Controllable",
-                            "ActiveObject",
-                            "="
-                          ],
-                          "subInstructions": []
-                        },
                         {
                           "type": {
                             "inverted": false,
@@ -8524,7 +8539,78 @@
                             "Controllable",
                             "DeactivationCooldown",
                             "=",
-                            "-1"
+                            "Button.Variable(Cooldown)"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Controllable",
+                            "DeactivationCooldown",
+                            ">",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Controllable",
+                            "DeactivationCooldown",
+                            "-",
+                            "TimeDelta()"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Controllable",
+                            "DeactivationCooldown",
+                            "<=",
+                            "0"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Core::ActiveObject::Deactivate"
+                          },
+                          "parameters": [
+                            "Controllable",
+                            "ActiveObject",
+                            "="
                           ],
                           "subInstructions": []
                         }
@@ -8536,19 +8622,33 @@
                 {
                   "disabled": false,
                   "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Activate those with active buttons",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "CollisionNP"
+                        "inverted": false,
+                        "value": "VarObjet"
                       },
                       "parameters": [
-                        "Controller",
                         "Button",
-                        "",
-                        "",
-                        ""
+                        "LinkedObject",
+                        "!=",
+                        "-1"
                       ],
                       "subInstructions": []
                     }
@@ -8558,19 +8658,19 @@
                     {
                       "disabled": false,
                       "folded": false,
-                      "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "Controllable",
+                      "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
                             "inverted": false,
-                            "value": "VarObjet"
+                            "value": "CollisionNP"
                           },
                           "parameters": [
-                            "Controllable",
-                            "GroupId",
-                            "=",
-                            "Button.Variable(LinkedObject)"
+                            "Controller",
+                            "Button",
+                            "",
+                            "",
+                            ""
                           ],
                           "subInstructions": []
                         }
@@ -8580,12 +8680,40 @@
                         {
                           "disabled": false,
                           "folded": false,
-                          "type": "BuiltinCommonInstructions::Standard",
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "Controllable",
                           "conditions": [
                             {
                               "type": {
                                 "inverted": false,
                                 "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "Controllable",
+                                "GroupId",
+                                "=",
+                                "Button.Variable(LinkedObject)"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Core::ActiveObject::Activate"
+                              },
+                              "parameters": [
+                                "Controllable",
+                                "ActiveObject",
+                                "="
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ModVarObjet"
                               },
                               "parameters": [
                                 "Controllable",
@@ -8596,99 +8724,14 @@
                               "subInstructions": []
                             }
                           ],
-                          "actions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Controllable",
-                                "DeactivationCooldown",
-                                "=",
-                                "Button.Variable(Cooldown)"
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "events": []
-                        },
-                        {
-                          "disabled": false,
-                          "folded": false,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "VarObjet"
-                              },
-                              "parameters": [
-                                "Controllable",
-                                "DeactivationCooldown",
-                                ">",
-                                "0"
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Controllable",
-                                "DeactivationCooldown",
-                                "-",
-                                "TimeDelta()"
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "events": []
-                        },
-                        {
-                          "disabled": false,
-                          "folded": false,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "VarObjet"
-                              },
-                              "parameters": [
-                                "Controllable",
-                                "DeactivationCooldown",
-                                "<=",
-                                "0"
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "Core::ActiveObject::Deactivate"
-                              },
-                              "parameters": [
-                                "Controllable",
-                                "ActiveObject",
-                                "="
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
                           "events": []
                         }
                       ]
                     }
                   ]
                 }
-              ]
+              ],
+              "parameters": []
             },
             {
               "disabled": false,
@@ -8763,9 +8806,9 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 33,
+          "colorG": 211,
+          "colorR": 126,
           "creationTime": 0,
           "disabled": false,
           "folded": false,
@@ -9017,12 +9060,12 @@
       "parameters": []
     },
     {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
+      "colorB": 27,
+      "colorG": 2,
+      "colorR": 208,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Enemies",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9329,12 +9372,12 @@
       "parameters": []
     },
     {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
+      "colorB": 0,
+      "colorG": 148,
+      "colorR": 213,
       "creationTime": 0,
       "disabled": false,
-      "folded": false,
+      "folded": true,
       "name": "Traps",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
