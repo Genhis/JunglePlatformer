@@ -1665,21 +1665,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
-      "layer": "",
-      "locked": false,
-      "name": "ForegroundRight",
-      "width": 16,
-      "x": 240.598,
-      "y": -2.39234,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 48,
       "layer": "",
       "locked": false,
@@ -9546,10 +9531,10 @@
       "variables": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -10042,10 +10027,10 @@
       "variables": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -11983,7 +11968,7 @@
               "timeBetweenFrames": 0.1667,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\enemies\\bat\\fly-1.png",
                   "points": [],
                   "originPoint": {
@@ -11997,10 +11982,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 21
+                      },
+                      {
+                        "x": 10,
+                        "y": 21
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\enemies\\bat\\fly-2.png",
                   "points": [],
                   "originPoint": {
@@ -12014,10 +12018,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 21
+                      },
+                      {
+                        "x": 10,
+                        "y": 21
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\enemies\\bat\\fly-3.png",
                   "points": [],
                   "originPoint": {
@@ -12031,7 +12054,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 21
+                      },
+                      {
+                        "x": 10,
+                        "y": 21
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -12046,7 +12088,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\enemies\\bat\\die-1.png",
                   "points": [],
                   "originPoint": {
@@ -12060,7 +12102,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 21
+                      },
+                      {
+                        "x": 10,
+                        "y": 21
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -12156,19 +12217,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12192,19 +12253,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12228,19 +12289,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12264,19 +12325,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12300,19 +12361,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12336,19 +12397,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12372,19 +12433,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12408,19 +12469,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12444,19 +12505,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12480,19 +12541,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12528,19 +12589,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12564,19 +12625,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12600,19 +12661,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12636,19 +12697,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12672,19 +12733,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12708,19 +12769,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12744,19 +12805,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12780,19 +12841,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12816,19 +12877,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -12852,19 +12913,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 0
+                        "x": 10,
+                        "y": 5
                       },
                       {
                         "x": 24,
-                        "y": 0
+                        "y": 5
                       },
                       {
                         "x": 24,
                         "y": 16
                       },
                       {
-                        "x": 8,
+                        "x": 10,
                         "y": 16
                       }
                     ]
@@ -13148,7 +13209,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\traps\\saw.png",
                   "points": [],
                   "originPoint": {
@@ -13162,7 +13223,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 6
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 6,
+                        "y": 32
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -13214,7 +13294,7 @@
               "timeBetweenFrames": 0.0667,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\traps\\spikes\\spikes-5.png",
                   "points": [],
                   "originPoint": {
@@ -13228,10 +13308,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 80
+                      },
+                      {
+                        "x": 8,
+                        "y": 80
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\traps\\spikes\\spikes-4.png",
                   "points": [],
                   "originPoint": {
@@ -13245,10 +13344,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 80
+                      },
+                      {
+                        "x": 8,
+                        "y": 80
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\traps\\spikes\\spikes-3.png",
                   "points": [],
                   "originPoint": {
@@ -13262,10 +13380,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 80
+                      },
+                      {
+                        "x": 8,
+                        "y": 80
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\traps\\spikes\\spikes-2.png",
                   "points": [],
                   "originPoint": {
@@ -13279,10 +13416,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 80
+                      },
+                      {
+                        "x": 8,
+                        "y": 80
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\traps\\spikes\\spikes-1.png",
                   "points": [],
                   "originPoint": {
@@ -13296,7 +13452,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 80
+                      },
+                      {
+                        "x": 8,
+                        "y": 80
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -13311,7 +13486,7 @@
               "timeBetweenFrames": 0.0667,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\traps\\spikes\\spikes-1.png",
                   "points": [],
                   "originPoint": {
@@ -13325,10 +13500,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 80
+                      },
+                      {
+                        "x": 8,
+                        "y": 80
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\traps\\spikes\\spikes-2.png",
                   "points": [],
                   "originPoint": {
@@ -13342,10 +13536,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 80
+                      },
+                      {
+                        "x": 8,
+                        "y": 80
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\traps\\spikes\\spikes-3.png",
                   "points": [],
                   "originPoint": {
@@ -13359,10 +13572,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 80
+                      },
+                      {
+                        "x": 8,
+                        "y": 80
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\traps\\spikes\\spikes-4.png",
                   "points": [],
                   "originPoint": {
@@ -13376,10 +13608,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 80
+                      },
+                      {
+                        "x": 8,
+                        "y": 80
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\traps\\spikes\\spikes-5.png",
                   "points": [],
                   "originPoint": {
@@ -13393,7 +13644,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 24
+                      },
+                      {
+                        "x": 56,
+                        "y": 80
+                      },
+                      {
+                        "x": 8,
+                        "y": 80
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -13646,7 +13916,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\traps\\spiked-ball\\ball.png",
                   "points": [],
                   "originPoint": {
@@ -13660,7 +13930,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 21,
+                        "y": 6
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 6,
+                        "y": 21
+                      }
+                    ]
+                  ]
                 }
               ]
             }
