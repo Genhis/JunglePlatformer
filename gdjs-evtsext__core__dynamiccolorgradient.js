@@ -31,7 +31,7 @@ gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPo
 gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.userFunc0x6c6ea8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.userFunc0xa3fbd0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 function lerp(a, b, time) {
     a = parseInt(a);
@@ -73,7 +73,7 @@ gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPo
 {
 
 
-gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.userFunc0x6c6ea8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.userFunc0xa3fbd0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

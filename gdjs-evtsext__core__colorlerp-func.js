@@ -4,7 +4,7 @@ gdjs.evtsExt__Core__ColorLerp.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Core__ColorLerp.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__ColorLerp.userFunc0x994fb8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__ColorLerp.userFunc0xa423e8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 function lerp(a, b, time) {
     a = parseInt(a);
@@ -24,7 +24,7 @@ gdjs.evtsExt__Core__ColorLerp.eventsList0x5b7328 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__Core__ColorLerp.userFunc0x994fb8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Core__ColorLerp.userFunc0xa423e8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
