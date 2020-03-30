@@ -27,7 +27,7 @@
     "windowHeight": 540,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
-    "minFPS": 20,
+    "minFPS": 40,
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
@@ -1624,15 +1624,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/traps/spiked-ball/chain.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\traps\\spiked-ball\\chain.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/traps/spiked-ball/ball.png",
         "kind": "image",
         "metadata": "",
@@ -1673,15 +1664,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\traps\\spiked-ball\\chain-4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/toggle-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\toggle-1.png",
         "smoothed": false,
         "userAdded": true
       },

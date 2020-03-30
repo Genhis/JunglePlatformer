@@ -1226,18 +1226,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "Object",
-                    "=",
-                    "255"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ChangeAnimation"
                   },
                   "parameters": [
@@ -1264,36 +1252,13 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "Object",
-                    "\"127;127;127\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "Object",
-                    "=",
-                    "127"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Core::Entity::SetPropertyRespawnTimer"
+                    "value": "Core::Entity::MakeInvulnerable"
                   },
                   "parameters": [
                     "Object",
                     "Behavior",
-                    "=",
-                    "Object.Behavior::PropertyRespawnCooldown()"
+                    "Object.Behavior::PropertyRespawnCooldown()",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -1496,40 +1461,50 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "Core::Entity::PropertyRespawnTimer"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Core::Entity::IsDying"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Core::Entity::PropertyRespawnTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "<=",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ]
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "<=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Core::Entity::IsDying"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -1635,6 +1610,93 @@
               "optional": false,
               "supplementaryInformation": "Core::Entity",
               "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "",
+          "fullName": "Make invulnerable",
+          "functionType": "Action",
+          "name": "MakeInvulnerable",
+          "sentence": "Make _PARAM0_ invulnerable for _PARAM2_",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"127;127;127\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "127"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Entity::SetPropertyRespawnTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "GetArgumentAsNumber(\"Time\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Core::Entity",
+              "type": "behavior"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Time",
+              "longDescription": "",
+              "name": "Time",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
             }
           ],
           "objectGroups": []
@@ -1806,6 +1868,21 @@
             {
               "disabled": false,
               "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Unfortunately, this lags the game a bit too much",
+              "comment2": ""
+            },
+            {
+              "disabled": true,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -1838,7 +1915,7 @@
               "events": []
             },
             {
-              "disabled": false,
+              "disabled": true,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -2248,7 +2325,7 @@
                   "parameters": [
                     "Object",
                     "0",
-                    "-Object.Variable(MovingObject.Speed) * 50",
+                    "-Object.Variable(MovingObject.Speed) * 25",
                     "1"
                   ],
                   "subInstructions": []
@@ -2373,7 +2450,7 @@
                   "parameters": [
                     "Object",
                     "0",
-                    "Object.Variable(MovingObject.Speed) * 50",
+                    "Object.Variable(MovingObject.Speed) * 25",
                     "1"
                   ],
                   "subInstructions": []
