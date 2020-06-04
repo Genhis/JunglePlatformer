@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.528
+    "zoomFactor": 1
   },
   "objectsGroups": [
     {
@@ -273,21 +273,6 @@
       "x": 0,
       "y": 464,
       "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Debug",
-      "locked": true,
-      "name": "FPS",
-      "width": 0,
-      "x": 848,
-      "y": 16,
-      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -14082,25 +14067,6 @@
     {
       "bold": false,
       "italic": false,
-      "name": "FPS",
-      "smoothed": true,
-      "tags": "GUI",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "FPS: 0",
-      "font": "",
-      "characterSize": 20,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      }
-    },
-    {
-      "bold": false,
-      "italic": false,
       "name": "Score",
       "smoothed": true,
       "tags": "GUI",
@@ -14178,7 +14144,7 @@
       "colorR": 155,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "User interface",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14230,32 +14196,19 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          "conditions": [
             {
               "type": {
                 "inverted": false,
-                "value": "Core::MeasureFPS"
+                "value": "DepartScene"
               },
               "parameters": [
-                "",
-                "0.9",
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "FPS",
-                "=",
-                "\"FPS: \" + ToString(round(Core::FPS()))"
-              ],
-              "subInstructions": []
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "inverted": false,
@@ -14399,6 +14352,15 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Debug"
         }
       ],
       "parameters": []
@@ -14515,7 +14477,7 @@
       "colorR": 155,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Moving objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -16960,7 +16922,7 @@
       "colorR": 208,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Enemies",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

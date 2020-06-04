@@ -1715,7 +1715,27 @@
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "bold": false,
+      "italic": false,
+      "name": "FPS",
+      "smoothed": true,
+      "tags": "GUI",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "FPS: 0",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    }
+  ],
   "objectsGroups": [],
   "variables": [
     {
@@ -1742,13 +1762,23 @@
       "referenceTo": "/layouts/game"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/debug"
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/core"
     }
   ],
-  "externalLayouts": [],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/debug"
+    }
+  ],
   "externalSourceFiles": []
 }
