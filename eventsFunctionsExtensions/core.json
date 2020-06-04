@@ -2049,7 +2049,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Core::MovingObject::SetSpeed"
+                    "value": "Core::MovingObject::ResetForce"
                   },
                   "parameters": [
                     "Object",
@@ -2102,7 +2102,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Core::MovingObject::SetSpeed"
+                    "value": "Core::MovingObject::ResetForce"
                   },
                   "parameters": [
                     "Object",
@@ -2233,7 +2233,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Core::MovingObject::SetSpeed"
+                    "value": "Core::MovingObject::ResetForce"
                   },
                   "parameters": [
                     "Object",
@@ -2282,9 +2282,9 @@
         },
         {
           "description": "",
-          "fullName": "Set speed",
+          "fullName": "Reset force",
           "functionType": "Action",
-          "name": "SetSpeed",
+          "name": "ResetForce",
           "sentence": "Add to _PARAM0_ a permanent force in its heading direction",
           "events": [
             {
@@ -2558,6 +2558,82 @@
               "optional": false,
               "supplementaryInformation": "Core::MovingObject",
               "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "",
+          "fullName": "Set speed",
+          "functionType": "Action",
+          "name": "SetSpeed",
+          "sentence": "Set speed of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Object",
+                    "MovingObject.Speed",
+                    "=",
+                    "GetArgumentAsNumber(\"Speed\")"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::MovingObject::ResetForce"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Core::MovingObject",
+              "type": "behavior"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Speed",
+              "longDescription": "",
+              "name": "Speed",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
             }
           ],
           "objectGroups": []
