@@ -24,7 +24,16 @@
     "windowMask": false,
     "zoomFactor": 1.12
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Entity",
+      "objects": [
+        {
+          "name": "Cloud"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -242,12 +251,25 @@
             },
             {
               "name": "Speed",
-              "value": "1"
+              "value": "0.5"
             }
           ]
         }
       ],
       "behaviors": [
+        {
+          "name": "Entity",
+          "type": "Core::Entity",
+          "DyingAnimation": 0,
+          "RespawnAnimation": 0,
+          "DyingCooldown": 0,
+          "Dead": false,
+          "DeleteOnDeath": true,
+          "FloatOnDeath": false,
+          "DyingTimer": 0,
+          "RespawnCooldown": 5,
+          "RespawnTimer": -1
+        },
         {
           "name": "MovingObject",
           "type": "Core::MovingObject",
@@ -596,6 +618,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Entity",
+      "type": "Core::Entity"
+    },
     {
       "name": "MovingObject",
       "type": "Core::MovingObject"

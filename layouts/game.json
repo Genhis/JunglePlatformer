@@ -59,6 +59,26 @@
       ]
     },
     {
+      "name": "Entity",
+      "objects": [
+        {
+          "name": "Bat"
+        },
+        {
+          "name": "Coin"
+        },
+        {
+          "name": "Heart"
+        },
+        {
+          "name": "Skull"
+        },
+        {
+          "name": "Snake"
+        }
+      ]
+    },
+    {
       "name": "FlyingEnemy",
       "objects": [
         {

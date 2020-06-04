@@ -1734,6 +1734,25 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Objects",
+      "smoothed": true,
+      "tags": "GUI",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Dynamic objects: 0",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "objectsGroups": [],

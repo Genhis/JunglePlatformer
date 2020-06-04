@@ -16,6 +16,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Objects",
+      "width": 0,
+      "x": 764,
+      "y": 48,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -29,6 +44,6 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.976
+    "zoomFactor": 1.384
   }
 }
