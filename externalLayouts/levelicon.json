@@ -11,7 +11,7 @@
       "name": "Level",
       "width": 0,
       "x": 15,
-      "y": 4,
+      "y": 0,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -104,6 +104,6 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 2.008
+    "zoomFactor": 2.368
   }
 }

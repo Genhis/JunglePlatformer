@@ -1244,7 +1244,7 @@
       ],
       "behaviors": [],
       "string": "?",
-      "font": "",
+      "font": "assets\\fonts\\Kavoon-Regular.ttf",
       "characterSize": 32,
       "color": {
         "b": 0,
@@ -1263,7 +1263,7 @@
       "variables": [],
       "behaviors": [],
       "string": "   More levels\ncomming soon!",
-      "font": "",
+      "font": "assets\\fonts\\Kavoon-Regular.ttf",
       "characterSize": 20,
       "color": {
         "b": 0,
@@ -1916,6 +1916,18 @@
                                 "Level",
                                 "=",
                                 "ToString(Variable(LevelIterator))"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "MettreX"
+                              },
+                              "parameters": [
+                                "Level",
+                                "=",
+                                "ItemBackground.X() + (ItemBackground.Width() - Level.Width()) / 2"
                               ],
                               "subInstructions": []
                             }
