@@ -92,7 +92,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Count live objects every second (I haven't found any native function to count objects, so I am looping through them)",
+      "comment": "Count live objects every second",
       "comment2": ""
     },
     {
@@ -147,36 +147,24 @@
         {
           "type": {
             "inverted": false,
-            "value": "ModVarScene"
+            "value": "TextObject::String"
           },
           "parameters": [
-            "Debug.LivingObjects",
+            "LivingObjects",
             "=",
-            "0"
+            "\"Living objects: \" + ToString(Count(Entity))"
           ],
           "subInstructions": []
         },
         {
           "type": {
             "inverted": false,
-            "value": "ModVarScene"
+            "value": "TextObject::String"
           },
           "parameters": [
-            "Debug.RenderedObjects",
+            "TotalObjects",
             "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "Debug.TotalObjects",
-            "=",
-            "0"
+            "\"Total objects: \" + ToString(Count(Object))"
           ],
           "subInstructions": []
         }
@@ -185,106 +173,19 @@
         {
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Entity",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Debug.LivingObjects",
-                "+",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          "conditions": [
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::String"
+                "value": "Visible"
               },
               "parameters": [
-                "LivingObjects",
-                "=",
-                "\"Living objects: \" + ToString(Variable(Debug.LivingObjects))"
+                "Object"
               ],
               "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Object",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Debug.TotalObjects",
-                "+",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Visible"
-                  },
-                  "parameters": [
-                    "Object"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Debug.RenderedObjects",
-                    "+",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
           "actions": [
             {
               "type": {
@@ -294,19 +195,7 @@
               "parameters": [
                 "RenderedObjects",
                 "=",
-                "\"Rendered objects: \" + ToString(Variable(Debug.RenderedObjects))"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "TotalObjects",
-                "=",
-                "\"Total objects: \" + ToString(Variable(Debug.TotalObjects))"
+                "\"Rendered objects: \" + ToString(Count(Object))"
               ],
               "subInstructions": []
             }
