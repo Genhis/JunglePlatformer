@@ -6496,16 +6496,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "Debug"
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "LevelUserInterface"
+      "target": "LevelLogic"
     }
   ],
   "layers": [
