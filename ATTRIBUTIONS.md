@@ -12,6 +12,7 @@
   - **Derivatives:**
     - [/assets/gui/close.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/close.png)
     - [/assets/gui/icon-background](https://github.com/Genhis/CSC3224/tree/master/assets/gui)
+    - [/assets/gui/item-background-disabled.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/item-background-disabled.png)
     - [/assets/gui/item-background-mouseover.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/item-background-mouseover.png)
     - [/assets/gui/leaderboard.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/leaderboard.png)
     - [/assets/gui/music-on.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/music-on.png)
