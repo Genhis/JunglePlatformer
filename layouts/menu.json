@@ -1427,7 +1427,7 @@
             "Cloud",
             "\"Cloud\"",
             "0",
-            "Random(10) * 28",
+            "RandomInRange(-2, 10) * 28 - 8",
             ""
           ],
           "subInstructions": []
