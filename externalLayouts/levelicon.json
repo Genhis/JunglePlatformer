@@ -11,7 +11,7 @@
       "name": "Level",
       "width": 0,
       "x": 15,
-      "y": 2,
+      "y": 4,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -33,7 +33,12 @@
       "x": 0,
       "y": 0,
       "zOrder": 4,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
       "stringProperties": [],
       "initialVariables": [
         {
@@ -51,7 +56,7 @@
       "name": "Stars",
       "width": 48,
       "x": 0,
-      "y": 30,
+      "y": 32,
       "zOrder": 6,
       "numberProperties": [
         {
@@ -99,6 +104,6 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.648
+    "zoomFactor": 2.008
   }
 }

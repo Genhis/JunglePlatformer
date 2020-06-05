@@ -1873,6 +1873,15 @@
         "name": "assets\\gui\\lock.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/item-background-hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\item-background-hover.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

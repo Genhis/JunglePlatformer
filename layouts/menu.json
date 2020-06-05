@@ -917,7 +917,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Normal",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -927,6 +927,35 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\gui\\item-background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OnHover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\item-background-hover.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1791,71 +1820,33 @@
           ]
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Levels",
-          "comment2": ""
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "LevelIterator",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
+          "name": "Levels",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::Repeat",
-              "repeatExpression": "3",
-              "conditions": [],
-              "actions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                    "value": "DepartScene"
                   },
                   "parameters": [
-                    "",
-                    "\"LevelIcon\"",
-                    "388 + 64 * Variable(LevelIterator)",
-                    "240"
+                    ""
                   ],
                   "subInstructions": []
-                },
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "inverted": false,
@@ -1863,8 +1854,8 @@
                   },
                   "parameters": [
                     "LevelIterator",
-                    "+",
-                    "1"
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -1873,33 +1864,32 @@
                 {
                   "disabled": false,
                   "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "ItemBackground",
-                        "Level",
-                        "=",
-                        "-1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "3",
+                  "conditions": [],
                   "actions": [
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarObjet"
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
                       },
                       "parameters": [
-                        "ItemBackground",
-                        "Level",
-                        "=",
-                        "Variable(LevelIterator)"
+                        "",
+                        "\"LevelIcon\"",
+                        "388 + 64 * Variable(LevelIterator)",
+                        "240"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "LevelIterator",
+                        "+",
+                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -1916,7 +1906,7 @@
                             "value": "VarObjet"
                           },
                           "parameters": [
-                            "Level",
+                            "ItemBackground",
                             "Level",
                             "=",
                             "-1"
@@ -1931,34 +1921,10 @@
                             "value": "ModVarObjet"
                           },
                           "parameters": [
-                            "Level",
+                            "ItemBackground",
                             "Level",
                             "=",
                             "Variable(LevelIterator)"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "LinkedObjects::LinkObjects"
-                          },
-                          "parameters": [
-                            "",
-                            "ItemBackground",
-                            "Level"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "Level",
-                            "=",
-                            "ToString(Variable(LevelIterator))"
                           ],
                           "subInstructions": []
                         }
@@ -1972,12 +1938,13 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "VarGlobal"
+                                "value": "VarObjet"
                               },
                               "parameters": [
-                                "Level[ToString(Variable(LevelIterator) - 1)]",
+                                "Level",
+                                "Level",
                                 "=",
-                                "0"
+                                "-1"
                               ],
                               "subInstructions": []
                             }
@@ -1986,65 +1953,76 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "Cache"
+                                "value": "ModVarObjet"
                               },
                               "parameters": [
+                                "Level",
+                                "Level",
+                                "=",
+                                "Variable(LevelIterator)"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "LinkedObjects::LinkObjects"
+                              },
+                              "parameters": [
+                                "",
+                                "ItemBackground",
                                 "Level"
                               ],
                               "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "TextObject::String"
+                              },
+                              "parameters": [
+                                "Level",
+                                "=",
+                                "ToString(Variable(LevelIterator))"
+                              ],
+                              "subInstructions": []
                             }
                           ],
-                          "events": []
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Stars",
-                            "Level",
-                            "=",
-                            "-1"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Stars",
-                            "Level",
-                            "=",
-                            "Variable(LevelIterator)"
-                          ],
-                          "subInstructions": []
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Level[ToString(Variable(LevelIterator) - 1)]",
+                                    "=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "Level"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
                         },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "LinkedObjects::LinkObjects"
-                          },
-                          "parameters": [
-                            "",
-                            "ItemBackground",
-                            "Stars"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": [
                         {
                           "disabled": false,
                           "folded": false,
@@ -2053,12 +2031,13 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "VarGlobal"
+                                "value": "VarObjet"
                               },
                               "parameters": [
-                                "Level[ToString(Variable(LevelIterator) - 1)]",
+                                "Stars",
+                                "Level",
                                 "=",
-                                "0"
+                                "-1"
                               ],
                               "subInstructions": []
                             }
@@ -2067,65 +2046,64 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "Cache"
+                                "value": "ModVarObjet"
                               },
                               "parameters": [
+                                "Stars",
+                                "Level",
+                                "=",
+                                "Variable(LevelIterator)"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "LinkedObjects::LinkObjects"
+                              },
+                              "parameters": [
+                                "",
+                                "ItemBackground",
                                 "Stars"
                               ],
                               "subInstructions": []
                             }
                           ],
-                          "events": []
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Lock",
-                            "Level",
-                            "=",
-                            "-1"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Lock",
-                            "Level",
-                            "=",
-                            "Variable(LevelIterator)"
-                          ],
-                          "subInstructions": []
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Level[ToString(Variable(LevelIterator) - 1)]",
+                                    "=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "Stars"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
                         },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "LinkedObjects::LinkObjects"
-                          },
-                          "parameters": [
-                            "",
-                            "ItemBackground",
-                            "Lock"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": [
                         {
                           "disabled": false,
                           "folded": false,
@@ -2134,12 +2112,13 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "VarGlobal"
+                                "value": "VarObjet"
                               },
                               "parameters": [
-                                "Level[ToString(Variable(LevelIterator) - 1)]",
-                                "!=",
-                                "0"
+                                "Lock",
+                                "Level",
+                                "=",
+                                "-1"
                               ],
                               "subInstructions": []
                             }
@@ -2148,23 +2127,126 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "Cache"
+                                "value": "ModVarObjet"
                               },
                               "parameters": [
+                                "Lock",
+                                "Level",
+                                "=",
+                                "Variable(LevelIterator)"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "LinkedObjects::LinkObjects"
+                              },
+                              "parameters": [
+                                "",
+                                "ItemBackground",
                                 "Lock"
                               ],
                               "subInstructions": []
                             }
                           ],
-                          "events": []
+                          "events": [
+                            {
+                              "disabled": false,
+                              "folded": false,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarGlobal"
+                                  },
+                                  "parameters": [
+                                    "Level[ToString(Variable(LevelIterator) - 1)]",
+                                    "!=",
+                                    "0"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "Lock"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            }
+                          ]
                         }
                       ]
                     }
                   ]
                 }
               ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "ItemBackground",
+                    "\"Normal\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "ItemBackground",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "ItemBackground",
+                    "\"OnHover\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
-          ]
+          ],
+          "parameters": []
         }
       ],
       "parameters": []
