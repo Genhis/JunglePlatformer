@@ -1,0 +1,104 @@
+{
+  "associatedLayout": "Menu",
+  "name": "LevelIcon",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Level",
+      "width": 0,
+      "x": 15,
+      "y": 2,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Level",
+          "value": "-1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "",
+      "locked": false,
+      "name": "ItemBackground",
+      "width": 48,
+      "x": 0,
+      "y": 0,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Level",
+          "value": "-1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "",
+      "locked": false,
+      "name": "Stars",
+      "width": 48,
+      "x": 0,
+      "y": 30,
+      "zOrder": 6,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Level",
+          "value": "-1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 30,
+      "layer": "",
+      "locked": false,
+      "name": "Lock",
+      "width": 24,
+      "x": 12,
+      "y": 7,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Level",
+          "value": "-1"
+        }
+      ]
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 16,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridWidth": 16,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 1.648
+  }
+}

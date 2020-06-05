@@ -1864,6 +1864,15 @@
         "name": "assets\\gui\\stars-3.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/lock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\lock.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1969,6 +1978,27 @@
           "value": "2"
         }
       ]
+    },
+    {
+      "name": "Level",
+      "children": [
+        {
+          "name": "0",
+          "value": "1"
+        },
+        {
+          "name": "1",
+          "value": "0"
+        },
+        {
+          "name": "2",
+          "value": "0"
+        },
+        {
+          "name": "3",
+          "value": "0"
+        }
+      ]
     }
   ],
   "layouts": [
@@ -1997,6 +2027,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/debug"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/levelicon"
     }
   ],
   "externalSourceFiles": []
