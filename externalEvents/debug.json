@@ -136,6 +136,17 @@
         {
           "type": {
             "inverted": false,
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"DebugObjects\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
             "value": "ModVarScene"
           },
           "parameters": [
