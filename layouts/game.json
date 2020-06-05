@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.808
+    "zoomFactor": 1.048
   },
   "objectsGroups": [
     {
@@ -270,6 +270,15 @@
         },
         {
           "name": "Checkpoint"
+        },
+        {
+          "name": "Score"
+        },
+        {
+          "name": "GameOver"
+        },
+        {
+          "name": "LevelFinished"
         }
       ]
     },
@@ -7784,7 +7793,7 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "NewObject",
+      "name": "LevelFinished",
       "width": 0,
       "x": 4160,
       "y": 64,
@@ -14256,7 +14265,7 @@
     {
       "bold": true,
       "italic": false,
-      "name": "NewObject",
+      "name": "LevelFinished",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",

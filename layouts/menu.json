@@ -74,6 +74,12 @@
         },
         {
           "name": "Stars"
+        },
+        {
+          "name": "Level"
+        },
+        {
+          "name": "MoreLevels"
         }
       ]
     }
