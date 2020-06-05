@@ -220,38 +220,6 @@
         }
       ],
       "objectGroups": []
-    },
-    {
-      "description": "",
-      "fullName": "Quit to menu",
-      "functionType": "Action",
-      "name": "QuitLevel",
-      "sentence": "Quit to main menu",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Menu\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "parameters": [],
-      "objectGroups": []
     }
   ],
   "eventsBasedBehaviors": [

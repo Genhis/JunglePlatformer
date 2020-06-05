@@ -1862,7 +1862,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\lock.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1871,7 +1871,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\close.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1880,7 +1880,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\icon-background-mouseover.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -1889,8 +1889,60 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\item-background-mouseover.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/progressbar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\progressbar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/progressbar-background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\progressbar-background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/progressbar-marker-inactive.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\progressbar-marker-inactive.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/progressbar-marker.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\progressbar-marker.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/lives-indicator.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\lives-indicator.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/Kavoon-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\Kavoon-Regular.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2179,6 +2231,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/debug"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/leveluserinterface"
     }
   ],
   "eventsFunctionsExtensions": [
@@ -2195,6 +2251,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/levelicon"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/leveluserinterface"
     }
   ],
   "externalSourceFiles": []
