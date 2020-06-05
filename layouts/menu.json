@@ -1247,6 +1247,12 @@
       "visibility": true,
       "cameras": [],
       "effects": []
+    },
+    {
+      "name": "Debug",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
