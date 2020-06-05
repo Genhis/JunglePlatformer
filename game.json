@@ -2224,6 +2224,15 @@
           "value": "0"
         }
       ]
+    },
+    {
+      "name": "Debug",
+      "children": [
+        {
+          "name": "Visible",
+          "value": "1"
+        }
+      ]
     }
   ],
   "layouts": [
