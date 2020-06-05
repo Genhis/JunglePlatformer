@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.048
+    "zoomFactor": 1.024
   },
   "objectsGroups": [
     {
@@ -14200,35 +14200,6 @@
       ]
     },
     {
-      "height": 32,
-      "name": "LivesIndicator",
-      "tags": "GUI",
-      "texture": "assets\\gui\\lives-indicator.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "behaviors": []
-    },
-    {
-      "bold": false,
-      "italic": false,
-      "name": "Score",
-      "smoothed": true,
-      "tags": "GUI",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "0",
-      "font": "assets\\fonts\\Kavoon-Regular.ttf",
-      "characterSize": 24,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      }
-    },
-    {
       "bold": true,
       "italic": false,
       "name": "GameOver",
@@ -14265,104 +14236,6 @@
         "g": 255,
         "r": 255
       }
-    },
-    {
-      "bottomMargin": 0,
-      "height": 16,
-      "leftMargin": 7,
-      "name": "ProgressBarBackground",
-      "rightMargin": 7,
-      "tags": "",
-      "texture": "assets\\gui\\progressbar-background.png",
-      "tiled": true,
-      "topMargin": 0,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 16,
-      "variables": [],
-      "behaviors": []
-    },
-    {
-      "bottomMargin": 0,
-      "height": 16,
-      "leftMargin": 8,
-      "name": "ProgressBar",
-      "rightMargin": 8,
-      "tags": "",
-      "texture": "assets\\gui\\progressbar.png",
-      "tiled": true,
-      "topMargin": 0,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 16,
-      "variables": [],
-      "behaviors": []
-    },
-    {
-      "name": "ProgressBarMarker",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Inactive",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\progressbar-marker-inactive.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Active",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\progressbar-marker.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "events": [
@@ -14429,39 +14302,6 @@
               },
               "parameters": [
                 ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"LevelUserInterface\"",
-                "0",
-                "0"
               ],
               "subInstructions": []
             }
