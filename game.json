@@ -1682,7 +1682,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\background\\menu.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -1691,7 +1691,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\logo.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -1700,7 +1700,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\background\\cloud-1.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1709,7 +1709,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\background\\cloud-2.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1718,7 +1718,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\user-1.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1727,7 +1727,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\user-2.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1736,7 +1736,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\user-3.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1745,7 +1745,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\music-on.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1754,7 +1754,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\sound-on.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1763,7 +1763,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\sound-off.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1772,7 +1772,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\leaderboard.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1781,7 +1781,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\icon-background.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -1790,8 +1790,107 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\gui\\icon-background-hover.png",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/table-small-background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\table-small-background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/table-small.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\table-small.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/item-background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\item-background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/icon-background-disabled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\icon-background-disabled.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/previous.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\previous.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/next.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\next.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/page-current.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\page-current.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/stars-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\stars-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/stars-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\stars-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/stars-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\stars-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/stars-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\stars-3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

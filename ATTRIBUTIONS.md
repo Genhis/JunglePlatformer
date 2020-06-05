@@ -5,10 +5,20 @@
 ## Images
 - [/assets/background/cloud](https://github.com/Genhis/CSC3224/tree/master/assets/background): a derivative of "[Free jungle cartoon 2D game UI]" used under [CraftPix.net license]
 - [/assets/background/jungle](https://github.com/Genhis/CSC3224/tree/master/assets/background): a derivative of "[Jungle pack]" by [Jesse Munguia]
-- [/assets/background/menu.png](https://github.com/Genhis/CSC3224/tree/master/assets/background/menu.png): a derivative of "[Free jungle cartoon 2D game UI]" used under [CraftPix.net licence]
+- [/assets/background/menu.png](https://github.com/Genhis/CSC3224/tree/master/assets/background/menu.png): a derivative of "[Free jungle cartoon 2D game UI]" used under [CraftPix.net license]
 - [/assets/enemies/bat](https://github.com/Genhis/CSC3224/tree/master/assets/enemies/bat): "[Bat sprite](https://opengameart.org/content/bat-sprite)" by [bagzie](https://opengameart.org/users/bagzie) licensed under [OGA BY 3.0]
 - [/assets/enemies/snake](https://github.com/Genhis/CSC3224/tree/master/assets/enemies/snake): "[Animated snake](https://opengameart.org/content/animated-snake)" by [Calciumtrice](https://opengameart.org/users/calciumtrice) licensed under [CC BY 3.0]
-- [/assets/gui](https://github.com/Genhis/CSC3224/tree/master/assets/gui): a derivative of "[Free jungle cartoon 2D game UI]" used under [CraftPix.net licence]
+- [/assets/gui](https://github.com/Genhis/CSC3224/tree/master/assets/gui): original and derivative works of "[Free jungle cartoon 2D game UI]" used under [CraftPix.net license]
+  - **Derivatives:**
+    - [/assets/gui/icon-background](https://github.com/Genhis/CSC3224/tree/master/assets/gui)
+    - [/assets/gui/leaderboard.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/leaderboard.png)
+    - [/assets/gui/music-on.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/music-on.png)
+    - [/assets/gui/next.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/next.png)
+    - [/assets/gui/previous.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/previous.png)
+    - [/assets/gui/sound-off.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/sound-off.png)
+    - [/assets/gui/sound-on.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/sound-on.png)
+    - [/assets/gui/stars-1.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/stars-1.png)
+    - [/assets/gui/user](https://github.com/Genhis/CSC3224/tree/master/assets/gui)
 - [/assets/items/coin.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/coin.png): "[OPP 2017 - Sprites](https://openpixelproject.itch.io/opp2017sprites)" licensed under [CC0 1.0]
 - [/assets/items/heart.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/heart.png) a derivative of "[Heart pixel art](https://opengameart.org/content/heart-pixel-art)" by [DontMind8](https://opengameart.org/users/dontmind8) used under [CC BY 4.0]
 - [/assets/items/skull.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/skull.png): a derivative of "[Resources pack #1](https://opengameart.org/content/resouces-pack-1)" used under [CC0 1.0]
