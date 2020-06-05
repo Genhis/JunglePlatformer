@@ -1711,6 +1711,78 @@
         "name": "assets\\background\\cloud-2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/user-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\user-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/user-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\user-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/user-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\user-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/music-on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\music-on.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/sound-on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\sound-on.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/sound-off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\sound-off.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/leaderboard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\leaderboard.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/icon-background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\icon-background.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1797,6 +1869,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/debug"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/profileselection"
     }
   ],
   "externalSourceFiles": []
