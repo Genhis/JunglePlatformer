@@ -1819,16 +1819,54 @@
     {
       "bold": false,
       "italic": false,
-      "name": "Objects",
+      "name": "LivingObjects",
       "smoothed": true,
       "tags": "GUI",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Dynamic objects: 0",
+      "string": "Living objects: 0",
       "font": "",
-      "characterSize": 20,
+      "characterSize": 16,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "RenderedObjects",
+      "smoothed": true,
+      "tags": "GUI",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Rendered objects: 0",
+      "font": "",
+      "characterSize": 16,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "TotalObjects",
+      "smoothed": true,
+      "tags": "GUI",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Total objects: 0",
+      "font": "",
+      "characterSize": 16,
       "color": {
         "b": 255,
         "g": 255,

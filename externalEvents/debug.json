@@ -40,7 +40,7 @@
           },
           "parameters": [
             "",
-            "\"DynamicObjects\""
+            "\"DebugObjects\""
           ],
           "subInstructions": []
         }
@@ -125,7 +125,7 @@
               "parameters": [
                 "",
                 "1",
-                "\"DynamicObjects\""
+                "\"DebugObjects\""
               ],
               "subInstructions": []
             }
@@ -139,7 +139,31 @@
             "value": "ModVarScene"
           },
           "parameters": [
-            "DynamicObjects",
+            "Debug.LivingObjects",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Debug.RenderedObjects",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Debug.TotalObjects",
             "=",
             "0"
           ],
@@ -160,7 +184,7 @@
                 "value": "ModVarScene"
               },
               "parameters": [
-                "DynamicObjects",
+                "Debug.LivingObjects",
                 "+",
                 "1"
               ],
@@ -181,9 +205,97 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "Objects",
+                "LivingObjects",
                 "=",
-                "\"Dynamic objects: \" + ToString(Variable(DynamicObjects))"
+                "\"Living objects: \" + ToString(Variable(Debug.LivingObjects))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Object",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Debug.TotalObjects",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Object"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Debug.RenderedObjects",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RenderedObjects",
+                "=",
+                "\"Rendered objects: \" + ToString(Variable(Debug.RenderedObjects))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "TotalObjects",
+                "=",
+                "\"Total objects: \" + ToString(Variable(Debug.TotalObjects))"
               ],
               "subInstructions": []
             }

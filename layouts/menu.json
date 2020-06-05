@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.216
+    "zoomFactor": 1
   },
   "objectsGroups": [
     {
@@ -33,6 +33,32 @@
         },
         {
           "name": "User"
+        }
+      ]
+    },
+    {
+      "name": "Object",
+      "objects": [
+        {
+          "name": "MenuBackground"
+        },
+        {
+          "name": "Logo"
+        },
+        {
+          "name": "Cloud"
+        },
+        {
+          "name": "User"
+        },
+        {
+          "name": "Sound"
+        },
+        {
+          "name": "Leaderboard"
+        },
+        {
+          "name": "IconBackground"
         }
       ]
     }

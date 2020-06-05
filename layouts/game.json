@@ -143,6 +143,137 @@
       ]
     },
     {
+      "name": "Object",
+      "objects": [
+        {
+          "name": "Parallax1"
+        },
+        {
+          "name": "Parallax2"
+        },
+        {
+          "name": "Parallax3"
+        },
+        {
+          "name": "Parallax4"
+        },
+        {
+          "name": "Adventurer"
+        },
+        {
+          "name": "PlatformVertical"
+        },
+        {
+          "name": "PlatformHorizontal"
+        },
+        {
+          "name": "PlatformCorner"
+        },
+        {
+          "name": "ForegroundTop"
+        },
+        {
+          "name": "ForegroundRight"
+        },
+        {
+          "name": "ForegroundBottom"
+        },
+        {
+          "name": "ForegroundLeft"
+        },
+        {
+          "name": "ForegroundCorner"
+        },
+        {
+          "name": "GroundTop"
+        },
+        {
+          "name": "GroundRight"
+        },
+        {
+          "name": "GroundBottom"
+        },
+        {
+          "name": "GroundLeft"
+        },
+        {
+          "name": "GroundFull"
+        },
+        {
+          "name": "GroundCorner"
+        },
+        {
+          "name": "BackgroundTop"
+        },
+        {
+          "name": "BackgroundRight"
+        },
+        {
+          "name": "BackgroundBottom"
+        },
+        {
+          "name": "BackgroundLeft"
+        },
+        {
+          "name": "BackgroundHorizontal"
+        },
+        {
+          "name": "BackgroundVertical"
+        },
+        {
+          "name": "BackgroundFull"
+        },
+        {
+          "name": "BackgroundCorner"
+        },
+        {
+          "name": "GrabbablePlatform"
+        },
+        {
+          "name": "ChangeDirection"
+        },
+        {
+          "name": "SmallMovingPlatform"
+        },
+        {
+          "name": "LargeMovingPlatform"
+        },
+        {
+          "name": "Bat"
+        },
+        {
+          "name": "Snake"
+        },
+        {
+          "name": "Button"
+        },
+        {
+          "name": "Coin"
+        },
+        {
+          "name": "Heart"
+        },
+        {
+          "name": "Skull"
+        },
+        {
+          "name": "Saw"
+        },
+        {
+          "name": "Spikes"
+        },
+        {
+          "name": "Chain"
+        },
+        {
+          "name": "SpikedBall"
+        },
+        {
+          "name": "Checkpoint"
+        }
+      ]
+    },
+    {
       "name": "Player",
       "objects": [
         {
