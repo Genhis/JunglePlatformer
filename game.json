@@ -1759,15 +1759,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/gui/icon-background-hover.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\gui\\icon-background-hover.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/gui/table-small-background.png",
         "kind": "image",
         "metadata": "",
@@ -1876,17 +1867,181 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/gui/item-background-hover.png",
+        "file": "assets/gui/close.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\gui\\item-background-hover.png",
+        "name": "assets\\gui\\close.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/icon-background-mouseover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\icon-background-mouseover.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/item-background-mouseover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\item-background-mouseover.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
   "objects": [
+    {
+      "name": "IconBackground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Action",
+          "value": ""
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Button",
+          "type": "Core::Button"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\icon-background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OnMouseOver",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\icon-background-mouseover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Disabled",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\icon-background-disabled.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QuitScene",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\close.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
       "bold": false,
       "italic": false,
@@ -2017,7 +2172,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/game"
+      "referenceTo": "/layouts/level1"
     }
   ],
   "externalEvents": [

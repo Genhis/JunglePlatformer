@@ -10,7 +10,7 @@
       "locked": false,
       "name": "FPS",
       "width": 0,
-      "x": 872,
+      "x": 16,
       "y": 16,
       "zOrder": 0,
       "numberProperties": [],
@@ -25,7 +25,7 @@
       "locked": false,
       "name": "LivingObjects",
       "width": 0,
-      "x": 817,
+      "x": 16,
       "y": 44,
       "zOrder": 0,
       "numberProperties": [],
@@ -40,7 +40,7 @@
       "locked": false,
       "name": "RenderedObjects",
       "width": 0,
-      "x": 789,
+      "x": 16,
       "y": 66,
       "zOrder": 0,
       "numberProperties": [],
@@ -55,7 +55,7 @@
       "locked": false,
       "name": "TotalObjects",
       "width": 0,
-      "x": 825,
+      "x": 16,
       "y": 86,
       "zOrder": 0,
       "numberProperties": [],
@@ -74,6 +74,6 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.048
+    "zoomFactor": 1.096
   }
 }

@@ -10,8 +10,9 @@
 - [/assets/enemies/snake](https://github.com/Genhis/CSC3224/tree/master/assets/enemies/snake): "[Animated snake](https://opengameart.org/content/animated-snake)" by [Calciumtrice](https://opengameart.org/users/calciumtrice) licensed under [CC BY 3.0]
 - [/assets/gui](https://github.com/Genhis/CSC3224/tree/master/assets/gui): original and derivative works of "[Free jungle cartoon 2D game UI]" used under [CraftPix.net license]
   - **Derivatives:**
+    - [/assets/gui/close.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/close.png)
     - [/assets/gui/icon-background](https://github.com/Genhis/CSC3224/tree/master/assets/gui)
-    - [/assets/gui/item-background-hover.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/item-background-hover.png)
+    - [/assets/gui/item-background-mouseover.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/item-background-mouseover.png)
     - [/assets/gui/leaderboard.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/leaderboard.png)
     - [/assets/gui/music-on.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/music-on.png)
     - [/assets/gui/next.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/next.png)

@@ -220,6 +220,38 @@
         }
       ],
       "objectGroups": []
+    },
+    {
+      "description": "",
+      "fullName": "Quit to menu",
+      "functionType": "Action",
+      "name": "QuitLevel",
+      "sentence": "Quit to main menu",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
     }
   ],
   "eventsBasedBehaviors": [
@@ -686,6 +718,177 @@
               "name": "Behavior",
               "optional": false,
               "supplementaryInformation": "Core::ActiveObject",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": []
+    },
+    {
+      "description": "",
+      "fullName": "",
+      "name": "Button",
+      "objectType": "Sprite",
+      "eventsFunctions": [
+        {
+          "description": "",
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPreEvents",
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"Disabled\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"Normal\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"OnMouseOver\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Core::Button",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "",
+          "fullName": "Is mouse over",
+          "functionType": "Condition",
+          "name": "IsMouseOver",
+          "sentence": "Mouse is over _PARAM0_",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"OnMouseOver\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Core::Button",
               "type": "behavior"
             }
           ],

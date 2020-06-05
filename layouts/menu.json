@@ -80,6 +80,9 @@
         },
         {
           "name": "MoreLevels"
+        },
+        {
+          "name": "QuitScene"
         }
       ]
     }
@@ -305,7 +308,7 @@
       "name": "TableSmall",
       "width": 224,
       "x": 365,
-      "y": 208,
+      "y": 204,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -410,6 +413,41 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 40,
+      "layer": "",
+      "locked": false,
+      "name": "QuitScene",
+      "width": 40,
+      "x": 884,
+      "y": 36,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 80,
+      "layer": "",
+      "locked": false,
+      "name": "IconBackground",
+      "width": 80,
+      "x": 864,
+      "y": 16,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Action",
+          "value": "QuitScene"
+        }
+      ]
     }
   ],
   "objects": [
@@ -729,108 +767,6 @@
       ]
     },
     {
-      "name": "IconBackground",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "Action",
-          "value": ""
-        }
-      ],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Normal",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\icon-background.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "OnHover",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\icon-background-hover.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Disabled",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\icon-background-disabled.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "TableSmallBackground",
       "tags": "",
       "type": "Sprite",
@@ -914,7 +850,12 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Button",
+          "type": "Core::Button"
+        }
+      ],
       "animations": [
         {
           "name": "Normal",
@@ -946,7 +887,7 @@
           ]
         },
         {
-          "name": "OnHover",
+          "name": "OnMouseOver",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -955,7 +896,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\item-background-hover.png",
+                  "image": "assets\\gui\\item-background-mouseover.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1363,28 +1304,6 @@
       "events": []
     },
     {
-      "disabled": true,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"ProfileSelection\"",
-            "0",
-            "0"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Link",
@@ -1624,7 +1543,7 @@
       "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "name": "GUI",
+      "name": "User interface",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -1636,60 +1555,24 @@
             {
               "type": {
                 "inverted": false,
-                "value": "DepartScene"
+                "value": "SourisBouton"
               },
               "parameters": [
-                ""
+                "",
+                "Left"
               ],
               "subInstructions": []
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::String"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "Level",
-                "=",
-                "ToString(Level.Variable(Level))"
-              ],
+              "parameters": [],
               "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "IconBackground",
-                "\"Disabled\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "IconBackground",
-                "\"Normal\""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "disabled": false,
@@ -1698,31 +1581,28 @@
               "conditions": [
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
                     "inverted": false,
-                    "value": "SourisSurObjet"
+                    "value": "Core::Button::IsMouseOver"
                   },
                   "parameters": [
                     "IconBackground",
-                    "",
-                    "",
+                    "Button",
                     ""
                   ],
                   "subInstructions": []
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "IconBackground",
-                    "\"OnHover\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
+              "actions": [],
               "events": [
                 {
                   "disabled": false,
@@ -1732,88 +1612,77 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "SourisBouton"
+                        "value": "VarObjetTxt"
                       },
                       "parameters": [
-                        "",
-                        "Left"
+                        "IconBackground",
+                        "Action",
+                        "=",
+                        "\"Sound\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Sound",
+                        "=",
+                        "mod(Sound.Animation() + 1, 3)"
                       ],
                       "subInstructions": []
                     },
                     {
                       "type": {
                         "inverted": false,
-                        "value": "BuiltinCommonInstructions::Once"
+                        "value": "ModVarGlobal"
                       },
-                      "parameters": [],
+                      "parameters": [
+                        "Settings.Sound",
+                        "=",
+                        "2 - Sound.Animation()"
+                      ],
                       "subInstructions": []
                     }
                   ],
-                  "actions": [],
-                  "events": [
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
                       },
-                      "comment": "Music & sound",
-                      "comment2": ""
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarObjetTxt"
-                          },
-                          "parameters": [
-                            "IconBackground",
-                            "Action",
-                            "=",
-                            "\"Sound\""
-                          ],
-                          "subInstructions": []
-                        }
+                      "parameters": [
+                        "IconBackground",
+                        "Action",
+                        "=",
+                        "\"QuitScene\""
                       ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ChangeAnimation"
-                          },
-                          "parameters": [
-                            "Sound",
-                            "=",
-                            "mod(Sound.Animation() + 1, 3)"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "Settings.Sound",
-                            "=",
-                            "2 - Sound.Animation()"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
+                      "subInstructions": []
                     }
-                  ]
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Quit"
+                      },
+                      "parameters": [
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
                 }
               ]
             }
@@ -1877,7 +1746,7 @@
                         "",
                         "\"LevelIcon\"",
                         "388 + 64 * Variable(LevelIterator)",
-                        "240"
+                        "236"
                       ],
                       "subInstructions": []
                     },
@@ -2194,22 +2063,17 @@
             {
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "ItemBackground",
-                    "\"Normal\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Start a new level",
+              "comment2": ""
             },
             {
               "disabled": false,
@@ -2219,31 +2083,60 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisSurObjet"
+                    "value": "SourisBouton"
                   },
                   "parameters": [
-                    "ItemBackground",
                     "",
-                    "",
-                    ""
+                    "Left"
                   ],
                   "subInstructions": []
-                }
-              ],
-              "actions": [
+                },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetAnimationName"
+                    "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [
-                    "ItemBackground",
-                    "\"OnHover\""
-                  ],
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::Button::IsMouseOver"
+                      },
+                      "parameters": [
+                        "ItemBackground",
+                        "Button",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Level\" + ToString(ItemBackground.Variable(Level))",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             }
           ],
           "parameters": []
@@ -2284,6 +2177,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Button",
+      "type": "Core::Button"
+    },
     {
       "name": "Entity",
       "type": "Core::Entity"
