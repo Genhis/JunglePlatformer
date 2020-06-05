@@ -18,7 +18,6 @@
     - [/assets/gui/sound-off.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/sound-off.png)
     - [/assets/gui/sound-on.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/sound-on.png)
     - [/assets/gui/stars-1.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/stars-1.png)
-    - [/assets/gui/user](https://github.com/Genhis/CSC3224/tree/master/assets/gui)
 - [/assets/items/coin.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/coin.png): "[OPP 2017 - Sprites](https://openpixelproject.itch.io/opp2017sprites)" licensed under [CC0 1.0]
 - [/assets/items/heart.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/heart.png) a derivative of "[Heart pixel art](https://opengameart.org/content/heart-pixel-art)" by [DontMind8](https://opengameart.org/users/dontmind8) used under [CC BY 4.0]
 - [/assets/items/skull.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/skull.png): a derivative of "[Resources pack #1](https://opengameart.org/content/resouces-pack-1)" used under [CC0 1.0]

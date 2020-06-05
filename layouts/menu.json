@@ -30,9 +30,6 @@
       "objects": [
         {
           "name": "Cloud"
-        },
-        {
-          "name": "User"
         }
       ]
     },
@@ -47,9 +44,6 @@
         },
         {
           "name": "Cloud"
-        },
-        {
-          "name": "User"
         },
         {
           "name": "Sound"
@@ -737,117 +731,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\background\\cloud-2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "User",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [
-        {
-          "name": "Entity",
-          "type": "Core::Entity",
-          "DyingAnimation": 0,
-          "RespawnAnimation": 0,
-          "DyingCooldown": 0,
-          "Dead": false,
-          "DeleteOnDeath": true,
-          "FloatOnDeath": false,
-          "DyingTimer": 0,
-          "RespawnCooldown": 5,
-          "RespawnTimer": -1
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\user-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\user-2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\user-3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

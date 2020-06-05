@@ -1714,33 +1714,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/gui/user-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\gui\\user-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/gui/user-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\gui\\user-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/gui/user-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\gui\\user-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/gui/music-on.png",
         "kind": "image",
         "metadata": "",
@@ -2024,10 +1997,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/debug"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/profileselection"
     }
   ],
   "externalSourceFiles": []
