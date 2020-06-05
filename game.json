@@ -1783,6 +1783,15 @@
         "name": "assets\\gui\\icon-background.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/icon-background-hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\icon-background-hover.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1839,6 +1848,15 @@
         {
           "name": "Score",
           "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "children": [
+        {
+          "name": "Sound",
+          "value": "2"
         }
       ]
     }
