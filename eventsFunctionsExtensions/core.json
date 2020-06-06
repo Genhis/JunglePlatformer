@@ -223,6 +223,67 @@
     },
     {
       "description": "",
+      "fullName": "",
+      "functionType": "Expression",
+      "name": "SmoothNumber",
+      "sentence": "",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetReturnNumber"
+              },
+              "parameters": [
+                "GetArgumentAsNumber(\"Previous\") * GetArgumentAsNumber(\"Smoothing\") + GetArgumentAsNumber(\"Current\") * (1 - GetArgumentAsNumber(\"Smoothing\"))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Previous",
+          "longDescription": "",
+          "name": "Previous",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Current",
+          "longDescription": "",
+          "name": "Current",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Smoothing",
+          "longDescription": "",
+          "name": "Smoothing",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "",
       "fullName": "Get score",
       "functionType": "Expression",
       "name": "GetScore",
@@ -374,6 +435,46 @@
           "description": "Duration",
           "longDescription": "",
           "name": "Duration",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "",
+      "fullName": "To fixed string",
+      "functionType": "StringExpression",
+      "name": "ToFixedString",
+      "sentence": "",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "eventsFunctionContext.returnValue = eventsFunctionContext.getArgument(\"Number\").toFixed(eventsFunctionContext.getArgument(\"Digits\"))\n",
+          "parameterObjects": "",
+          "useStrict": true
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Number",
+          "longDescription": "",
+          "name": "Number",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Digits",
+          "longDescription": "",
+          "name": "Digits",
           "optional": false,
           "supplementaryInformation": "",
           "type": "expression"

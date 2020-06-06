@@ -2536,6 +2536,30 @@
     {
       "bold": false,
       "italic": false,
+      "name": "SimulationSpeed",
+      "smoothed": true,
+      "tags": "GUI",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "Time",
+          "value": "1"
+        }
+      ],
+      "behaviors": [],
+      "string": "Relative simulation speed: Unknown",
+      "font": "",
+      "characterSize": 16,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
       "name": "LivingObjects",
       "smoothed": true,
       "tags": "GUI",
@@ -2562,7 +2586,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Rendered objects: 0",
+      "string": "Visible objects: 0",
       "font": "",
       "characterSize": 16,
       "color": {

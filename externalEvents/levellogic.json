@@ -27,7 +27,7 @@
       "colorR": 155,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Moving objects",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

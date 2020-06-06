@@ -470,7 +470,7 @@
       "customSize": true,
       "height": 544,
       "layer": "",
-      "locked": false,
+      "locked": true,
       "name": "Transition",
       "width": 960,
       "x": 0,
@@ -2222,6 +2222,10 @@
     {
       "name": "MovingObject",
       "type": "Core::MovingObject"
+    },
+    {
+      "name": "Transition",
+      "type": "Core::Transition"
     }
   ]
 }

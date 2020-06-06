@@ -32,17 +32,6 @@
             "0"
           ],
           "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"DebugObjects\""
-          ],
-          "subInstructions": []
         }
       ],
       "events": [
@@ -80,39 +69,6 @@
           "events": []
         }
       ]
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Core::MeasureFPS"
-          },
-          "parameters": [
-            "",
-            "0.9",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "FPS",
-            "=",
-            "\"FPS: \" + ToString(round(Core::FPS()))"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
     },
     {
       "disabled": false,
@@ -225,64 +181,43 @@
     {
       "disabled": false,
       "folded": false,
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Count live objects every second",
-      "comment2": ""
-    },
-    {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
             "inverted": false,
-            "value": "BuiltinCommonInstructions::Or"
+            "value": "VarGlobal"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Timer"
-              },
-              "parameters": [
-                "",
-                "1",
-                "\"DebugObjects\""
-              ],
-              "subInstructions": []
-            }
-          ]
+          "parameters": [
+            "Debug.Visible",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
         }
       ],
       "actions": [
         {
           "type": {
             "inverted": false,
-            "value": "ResetTimer"
+            "value": "Core::MeasureFPS"
           },
           "parameters": [
             "",
-            "\"DebugObjects\""
+            "0.9",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "FPS",
+            "=",
+            "\"FPS: \" + ToString(round(Core::FPS()))"
           ],
           "subInstructions": []
         },
@@ -320,6 +255,156 @@
             {
               "type": {
                 "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "SimulationSpeed",
+                    "\"Debug\"",
+                    "0.1"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "SimulationSpeed",
+                "TimeDelta",
+                "=",
+                "SimulationSpeed.ObjectTimerElapsedTime(\"Debug\") * 1000 / (Time(\"timestamp\") - SimulationSpeed.Variable(Time))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "SimulationSpeed",
+                "Time",
+                "=",
+                "Time(\"timestamp\")"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "SimulationSpeed",
+                "\"Debug\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "SimulationSpeed",
+                "=",
+                "\"Relative simulation speed: \" + Core::ToFixedString(min(SimulationSpeed.Variable(TimeDelta) + 0.0167, 1), 3)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "SimulationSpeed",
+                    "TimeDelta",
+                    "<",
+                    "0.0001"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "SimulationSpeed",
+                    "=",
+                    "\"Relative simulation speed: Unknown\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosX"
+              },
+              "parameters": [
+                "Object",
+                "<=",
+                "CameraX(Object.Layer(), 0) + SceneWindowWidth() / 2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosX"
+              },
+              "parameters": [
+                "Object",
+                ">=",
+                "CameraX(Object.Layer(), 0) - SceneWindowWidth() / 2 - Object.Width()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Visible"
               },
               "parameters": [
@@ -337,7 +422,7 @@
               "parameters": [
                 "RenderedObjects",
                 "=",
-                "\"Rendered objects: \" + ToString(Count(Object))"
+                "\"Visible objects: \" + ToString(Count(Object))"
               ],
               "subInstructions": []
             }
