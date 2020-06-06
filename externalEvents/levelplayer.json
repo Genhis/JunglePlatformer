@@ -1309,6 +1309,18 @@
                             "-1"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Core::Entity::IsVulnerable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "LivingObject",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "actions": [
@@ -1327,13 +1339,12 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "Core::Entity::MakeInvulnerable"
+                            "value": "ModVarScene"
                           },
                           "parameters": [
-                            "Player",
-                            "LivingObject",
-                            "60",
-                            ""
+                            "Cheats.God",
+                            "=",
+                            "1"
                           ],
                           "subInstructions": []
                         },

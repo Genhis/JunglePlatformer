@@ -8244,7 +8244,7 @@
       "variables": [],
       "behaviors": [
         {
-          "name": "Entity",
+          "name": "LivingObject",
           "type": "Core::Entity",
           "DyingAnimation": 5,
           "RespawnAnimation": 0,
