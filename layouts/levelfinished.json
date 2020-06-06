@@ -1,0 +1,1098 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "LevelFinished",
+  "name": "LevelFinished",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": true,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 16,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridWidth": 16,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 1.384
+  },
+  "objectsGroups": [
+    {
+      "name": "Entity",
+      "objects": []
+    },
+    {
+      "name": "Object",
+      "objects": [
+        {
+          "name": "Background"
+        },
+        {
+          "name": "Header"
+        },
+        {
+          "name": "IconBackground"
+        },
+        {
+          "name": "Icon"
+        },
+        {
+          "name": "LivesIndicator"
+        },
+        {
+          "name": "ProgressBarBackground"
+        },
+        {
+          "name": "ProgressBar"
+        },
+        {
+          "name": "ProgressBarMarker"
+        },
+        {
+          "name": "Table"
+        },
+        {
+          "name": "Item"
+        },
+        {
+          "name": "Level"
+        },
+        {
+          "name": "Transition"
+        },
+        {
+          "name": "Message"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 544,
+      "layer": "GUI",
+      "locked": true,
+      "name": "Background",
+      "width": 960,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 368,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Table",
+      "width": 320,
+      "x": 320,
+      "y": 80,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 112,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Header",
+      "width": 320,
+      "x": 312,
+      "y": 32,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Item",
+      "width": 0,
+      "x": 368,
+      "y": 208,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Item",
+      "width": 0,
+      "x": 368,
+      "y": 304,
+      "zOrder": 2,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Item",
+      "width": 32,
+      "x": 368,
+      "y": 256,
+      "zOrder": 2,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "GUI",
+      "locked": false,
+      "name": "ProgressBarBackground",
+      "width": 208,
+      "x": 368,
+      "y": 144,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "GUI",
+      "locked": false,
+      "name": "ProgressBarBackground",
+      "width": 160,
+      "x": 416,
+      "y": 216,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Type",
+          "value": "Coin"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Level",
+      "width": 0,
+      "x": 432,
+      "y": 392,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Item",
+      "width": 48,
+      "x": 360,
+      "y": 352,
+      "zOrder": 2,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "GUI",
+      "locked": false,
+      "name": "ProgressBarBackground",
+      "width": 160,
+      "x": 416,
+      "y": 264,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Type",
+          "value": "Heart"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "GUI",
+      "locked": false,
+      "name": "ProgressBarBackground",
+      "width": 160,
+      "x": 416,
+      "y": 312,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Type",
+          "value": "Skull"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "GUI",
+      "locked": false,
+      "name": "ProgressBarBackground",
+      "width": 160,
+      "x": 416,
+      "y": 360,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Type",
+          "value": "Enemy"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 544,
+      "layer": "GUI",
+      "locked": true,
+      "name": "Transition",
+      "width": 960,
+      "x": 0,
+      "y": 0,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Message",
+      "width": 0,
+      "x": 400,
+      "y": 464,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "GUI",
+      "locked": false,
+      "name": "Icon",
+      "width": 24,
+      "x": 908,
+      "y": 27,
+      "zOrder": 2,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "GUI",
+      "locked": false,
+      "name": "IconBackground",
+      "width": 48,
+      "x": 896,
+      "y": 16,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Action",
+          "value": "QuitScene"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "height": 128,
+      "name": "Background",
+      "tags": "",
+      "texture": "assets\\tiles\\platform-081.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "name": "Header",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Rating",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\rating.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Item",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Coin",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\items\\coin.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enemy",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\enemies\\bat\\fly-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Heart",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\lives-indicator.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skull",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\items\\skull.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Level",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Level 0",
+      "font": "assets\\fonts\\Kavoon-Regular.ttf",
+      "characterSize": 24,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Message",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Message",
+      "font": "assets\\fonts\\Kavoon-Regular.ttf",
+      "characterSize": 32,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Debug"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "LevelProgress"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Transitions"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "ProgressBarBackground",
+                "Type",
+                "=",
+                "\"Coin\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "ProgressBar",
+                "ProgressBarBackground"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PanelSpriteObject::Width"
+              },
+              "parameters": [
+                "ProgressBar",
+                "=",
+                "(GlobalVariable(Scene.Current.Coin) / GlobalVariable(Scene.Total.Coin) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "ProgressBarBackground",
+                "Type",
+                "=",
+                "\"Enemy\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "ProgressBar",
+                "ProgressBarBackground"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PanelSpriteObject::Width"
+              },
+              "parameters": [
+                "ProgressBar",
+                "=",
+                "(GlobalVariable(Scene.Current.Enemy) / GlobalVariable(Scene.Total.Enemy) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "ProgressBarBackground",
+                "Type",
+                "=",
+                "\"Heart\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "ProgressBar",
+                "ProgressBarBackground"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PanelSpriteObject::Width"
+              },
+              "parameters": [
+                "ProgressBar",
+                "=",
+                "(GlobalVariable(Scene.Current.Heart) / GlobalVariable(Scene.Total.Heart) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "ProgressBarBackground",
+                "Type",
+                "=",
+                "\"Skull\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "ProgressBar",
+                "ProgressBarBackground"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PanelSpriteObject::Width"
+              },
+              "parameters": [
+                "ProgressBar",
+                "=",
+                "(GlobalVariable(Scene.Current.Skull) / GlobalVariable(Scene.Total.Skull) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Message",
+            "=",
+            "\"You did not score enough points to unlock level \" + ToString(GlobalVariable(Scene.LevelId) + 1)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "ProgressBarMarker",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Message",
+                "=",
+                "\"You unlocked level \" + ToString(GlobalVariable(Scene.LevelId) + 1) + \", congratulations!\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Message",
+            "=",
+            "(SceneWindowWidth() - Message.Width()) / 2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Level",
+            "=",
+            "\"Level \" + ToString(GlobalVariable(Scene.LevelId))"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Level",
+            "=",
+            "(SceneWindowWidth() - Level.Width()) / 2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Core::Transition::ChangeTransition"
+          },
+          "parameters": [
+            "Transition",
+            "Transition",
+            "\"FadeOut\"",
+            "2",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Transition",
+            "Transition",
+            "yes"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisBouton"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Core::Button::IsMouseOver"
+              },
+              "parameters": [
+                "IconBackground",
+                "Button",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "IconBackground",
+                "Action",
+                "=",
+                "\"QuitScene\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "name": "GUI",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "name": "Debug",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Button",
+      "type": "Core::Button"
+    },
+    {
+      "name": "Transition",
+      "type": "Core::Transition"
+    }
+  ]
+}

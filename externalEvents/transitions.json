@@ -1,0 +1,95 @@
+{
+  "associatedLayout": "Menu",
+  "lastChangeTimeStamp": 0,
+  "name": "Transitions",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Transition",
+            "Transition",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "Transition"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Transition",
+            "=",
+            "9999"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Core::Transition::IsFinished"
+          },
+          "parameters": [
+            "Transition",
+            "Transition",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Transition",
+            "Transition",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ]
+}

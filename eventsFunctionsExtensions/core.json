@@ -250,6 +250,36 @@
       ],
       "parameters": [],
       "objectGroups": []
+    },
+    {
+      "description": "",
+      "fullName": "Get total score",
+      "functionType": "Expression",
+      "name": "GetTotalScore",
+      "sentence": "",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetReturnNumber"
+              },
+              "parameters": [
+                "GlobalVariable(Scene.Total.Coin) * GlobalVariable(Score.Coin) + GlobalVariable(Scene.Total.Enemy) * GlobalVariable(Score.Enemy) + GlobalVariable(Scene.Total.Heart) * GlobalVariable(Score.Heart) + GlobalVariable(Scene.Total.Skull) * GlobalVariable(Score.Skull)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
     }
   ],
   "eventsBasedBehaviors": [
@@ -1872,7 +1902,7 @@
           "fullName": "Make invulnerable",
           "functionType": "Action",
           "name": "MakeInvulnerable",
-          "sentence": "Make _PARAM0_ invulnerable for _PARAM2_",
+          "sentence": "Make _PARAM0_ invulnerable for _PARAM2_ seconds",
           "events": [
             {
               "disabled": false,
@@ -3194,6 +3224,573 @@
           "extraInformation": [],
           "hidden": false,
           "name": "Speed"
+        }
+      ]
+    },
+    {
+      "description": "FadeIn, FadeOut",
+      "fullName": "",
+      "name": "Transition",
+      "objectType": "TiledSpriteObject::TiledSprite",
+      "eventsFunctions": [
+        {
+          "description": "",
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onActivate",
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Object",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Transition::PropertyType"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "\"FadeIn\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Transition::PropertyType"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "\"FadeOut\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "255"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "TiledSpriteObject::TiledSprite",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Core::Transition",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "",
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onDeActivate",
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Transition::SetPropertyFinished"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Transition::PropertyType"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "\"FadeOut\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Object"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "TiledSpriteObject::TiledSprite",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Core::Transition",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "",
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPostEvents",
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Transition::PropertyType"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "\"FadeIn\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "Object",
+                    "+",
+                    "TimeDelta() * 255 / Object.Behavior::PropertyDuration()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TiledSpriteObject::Opacity"
+                      },
+                      "parameters": [
+                        "Object",
+                        ">=",
+                        "255"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::Transition::SetPropertyFinished"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Transition::PropertyType"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "\"FadeOut\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TiledSpriteObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "Object",
+                    "-",
+                    "TimeDelta() * 255 / Object.Behavior::PropertyDuration()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TiledSpriteObject::Opacity"
+                      },
+                      "parameters": [
+                        "Object",
+                        "<=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Core::Transition::SetPropertyFinished"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "TiledSpriteObject::TiledSprite",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Core::Transition",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "",
+          "fullName": "Change transition",
+          "functionType": "Action",
+          "name": "ChangeTransition",
+          "sentence": "Change _PARAM0_ transition to _PARAM2_ taking _PARAM3_ seconds",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Transition::SetPropertyType"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "GetArgumentAsString(\"Type\")"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Transition::SetPropertyDuration"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "GetArgumentAsNumber(\"Duration\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "TiledSpriteObject::TiledSprite",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Core::Transition",
+              "type": "behavior"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Type",
+              "longDescription": "",
+              "name": "Type",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "string"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Duration",
+              "longDescription": "",
+              "name": "Duration",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "",
+          "fullName": "Is transition finished",
+          "functionType": "Condition",
+          "name": "IsFinished",
+          "sentence": "_PARAM0_ transition is finished",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Core::Transition::PropertyFinished"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "TiledSpriteObject::TiledSprite",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "Core::Transition",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [
+        {
+          "value": "",
+          "type": "String",
+          "label": "",
+          "description": "",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "Type"
+        },
+        {
+          "value": "",
+          "type": "Number",
+          "label": "",
+          "description": "",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "Duration"
+        },
+        {
+          "value": "",
+          "type": "Boolean",
+          "label": "",
+          "description": "",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "Finished"
         }
       ]
     }

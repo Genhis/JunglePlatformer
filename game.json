@@ -2024,6 +2024,24 @@
         "name": "assets\\items\\flag\\flagpole.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/rating.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\rating.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2137,7 +2155,7 @@
       ]
     },
     {
-      "name": "QuitScene",
+      "name": "Icon",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2145,7 +2163,94 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Leaderboard",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\leaderboard.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\next.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\previous.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QuitScene",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2197,7 +2302,12 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 16,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Type",
+          "value": "Main"
+        }
+      ],
       "behaviors": []
     },
     {
@@ -2285,6 +2395,89 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "SmallBackground",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\table-small-background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Small",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\table-small.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 256,
+      "name": "Transition",
+      "tags": "",
+      "texture": "assets\\transition.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 256,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Transition",
+          "type": "Core::Transition"
         }
       ]
     },
@@ -2463,19 +2656,19 @@
           "children": [
             {
               "name": "Coin",
-              "value": "0"
+              "value": "1"
             },
             {
               "name": "Enemy",
-              "value": "0"
+              "value": "1"
             },
             {
               "name": "Heart",
-              "value": "0"
+              "value": "1"
             },
             {
               "name": "Skull",
-              "value": "0"
+              "value": "1"
             }
           ]
         },
@@ -2488,23 +2681,19 @@
           "children": [
             {
               "name": "Coin",
-              "value": "0"
+              "value": "2"
             },
             {
               "name": "Enemy",
-              "value": "0"
+              "value": "6"
             },
             {
               "name": "Heart",
-              "value": "0"
-            },
-            {
-              "name": "Score",
-              "value": "0"
+              "value": "3"
             },
             {
               "name": "Skull",
-              "value": "0"
+              "value": "4"
             }
           ]
         }
@@ -2523,6 +2712,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/levelfinished"
     }
   ],
   "externalEvents": [
@@ -2548,11 +2741,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/levelprogress"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/leveltraps"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/leveluserinterface"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/transitions"
     }
   ],
   "eventsFunctionsExtensions": [

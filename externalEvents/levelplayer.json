@@ -921,7 +921,7 @@
       "colorR": 126,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Interaction",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -932,7 +932,7 @@
           "colorR": 126,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Flag",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1300,7 +1300,114 @@
                         }
                       ],
                       "actions": [],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Core::Entity::IsVulnerable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "LivingObject",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Core::Entity::MakeInvulnerable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "LivingObject",
+                                "60",
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlatformBehavior::IgnoreDefaultControls"
+                              },
+                              "parameters": [
+                                "Player",
+                                "PlatformerObject",
+                                "yes"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Core::Transition::ChangeTransition"
+                              },
+                              "parameters": [
+                                "Transition",
+                                "Transition",
+                                "\"FadeIn\"",
+                                "2",
+                                ""
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ActivateBehavior"
+                              },
+                              "parameters": [
+                                "Transition",
+                                "Transition",
+                                "yes"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "BehaviorActivated"
+                              },
+                              "parameters": [
+                                "Transition",
+                                "Transition"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Scene"
+                              },
+                              "parameters": [
+                                "",
+                                "\"LevelFinished\"",
+                                ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 }

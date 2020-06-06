@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.168
+    "zoomFactor": 1.12
   },
   "objectsGroups": [
     {
@@ -49,25 +49,13 @@
           "name": "Sound"
         },
         {
-          "name": "Leaderboard"
-        },
-        {
           "name": "IconBackground"
         },
         {
-          "name": "TableSmallBackground"
-        },
-        {
-          "name": "TableSmall"
+          "name": "Table"
         },
         {
           "name": "ItemBackground"
-        },
-        {
-          "name": "Previous"
-        },
-        {
-          "name": "Next"
         },
         {
           "name": "PageIndicator"
@@ -82,7 +70,10 @@
           "name": "MoreLevels"
         },
         {
-          "name": "QuitScene"
+          "name": "Icon"
+        },
+        {
+          "name": "Lock"
         }
       ]
     }
@@ -232,21 +223,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 48,
-      "layer": "",
-      "locked": false,
-      "name": "Leaderboard",
-      "width": 48,
-      "x": 880,
-      "y": 460,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 80,
       "layer": "",
       "locked": false,
@@ -290,56 +266,11 @@
       "height": 324,
       "layer": "",
       "locked": false,
-      "name": "TableSmallBackground",
+      "name": "Table",
       "width": 282,
       "x": 339,
       "y": 176,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 208,
-      "layer": "",
-      "locked": false,
-      "name": "TableSmall",
-      "width": 224,
-      "x": 365,
-      "y": 204,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 28,
-      "layer": "",
-      "locked": false,
-      "name": "Previous",
-      "width": 28,
-      "x": 394,
-      "y": 434,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 28,
-      "layer": "",
-      "locked": false,
-      "name": "Next",
-      "width": 28,
-      "x": 535,
-      "y": 434,
-      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -420,12 +351,17 @@
       "height": 40,
       "layer": "",
       "locked": false,
-      "name": "QuitScene",
+      "name": "Icon",
       "width": 40,
       "x": 884,
       "y": 36,
       "zOrder": 3,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -448,6 +384,86 @@
           "value": "QuitScene"
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "",
+      "locked": false,
+      "name": "Icon",
+      "width": 48,
+      "x": 880,
+      "y": 461,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 208,
+      "layer": "",
+      "locked": false,
+      "name": "Table",
+      "width": 224,
+      "x": 365,
+      "y": 204,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "",
+      "locked": false,
+      "name": "Icon",
+      "width": 24,
+      "x": 537,
+      "y": 436,
+      "zOrder": 4,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 24,
+      "layer": "",
+      "locked": false,
+      "name": "Icon",
+      "width": 24,
+      "x": 395,
+      "y": 436,
+      "zOrder": 4,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -728,123 +744,6 @@
       ]
     },
     {
-      "name": "Leaderboard",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\leaderboard.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "TableSmallBackground",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\table-small-background.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "TableSmall",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\table-small.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "ItemBackground",
       "tags": "",
       "type": "Sprite",
@@ -926,84 +825,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\gui\\item-background-disabled.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Previous",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\previous.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Next",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\gui\\next.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2196,6 +2017,18 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Scene.LevelId",
+                        "=",
+                        "ItemBackground.Variable(Level)"
+                      ],
+                      "subInstructions": []
+                    },
                     {
                       "type": {
                         "inverted": false,

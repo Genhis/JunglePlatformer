@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.12
+    "zoomFactor": 0.64
   },
   "objectsGroups": [
     {
@@ -287,13 +287,16 @@
           "name": "IconBackground"
         },
         {
-          "name": "QuitScene"
+          "name": "Icon"
         },
         {
           "name": "Flagpole"
         },
         {
           "name": "Flag"
+        },
+        {
+          "name": "Transition"
         }
       ]
     },
@@ -364,6 +367,10 @@
         },
         {
           "name": "Relative",
+          "value": "0"
+        },
+        {
+          "name": "Total",
           "value": "0"
         }
       ]

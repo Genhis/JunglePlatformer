@@ -1,0 +1,370 @@
+{
+  "associatedLayout": "LevelFinished",
+  "lastChangeTimeStamp": 0,
+  "name": "LevelProgress",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Score.Total",
+            "=",
+            "Core::GetTotalScore()"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "ProgressBarBackground",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CreateByName"
+              },
+              "parameters": [
+                "",
+                "ProgressBar",
+                "\"ProgressBar\"",
+                "ProgressBarBackground.X()",
+                "ProgressBarBackground.Y()",
+                "\"GUI\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "ProgressBarBackground",
+                "ProgressBar"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "ProgressBar",
+                "=",
+                "ProgressBarBackground.ZOrder() + 1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ProgressBarBackground",
+                    "Type",
+                    "=",
+                    "\"Main\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CreateByName"
+                  },
+                  "parameters": [
+                    "",
+                    "Score",
+                    "\"Score\"",
+                    "0",
+                    "ProgressBarBackground.Y() + 16",
+                    "\"GUI\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Score",
+                    "=",
+                    "ProgressBarBackground.ZOrder()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "ProgressBarBackground",
+                    "MarkerBuilder",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "3",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "ProgressBarBackground",
+                        "MarkerBuilder",
+                        "+",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "ProgressBarBackground",
+                        "MarkerBuilderStep",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "ProgressBarBackground.Variable(MarkerBuilder)",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "ProgressBarBackground",
+                            "MarkerBuilderStep",
+                            "+",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CreateByName"
+                          },
+                          "parameters": [
+                            "",
+                            "ProgressBarMarker",
+                            "\"ProgressBarMarker\"",
+                            "ProgressBarBackground.X() + (ProgressBarBackground.Width() - 16) / 3 * ProgressBarBackground.Variable(MarkerBuilder) + ProgressBarBackground.Variable(MarkerBuilderStep) * 4",
+                            "ProgressBarBackground.Y()",
+                            "\"GUI\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "ProgressBarMarker",
+                            "Id",
+                            "=",
+                            "ProgressBarBackground.Variable(MarkerBuilder)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "ProgressBarMarker",
+                            "=",
+                            "ProgressBarBackground.ZOrder() + 2"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Score.Current",
+            "=",
+            "Core::GetScore()"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Score.Relative",
+            "=",
+            "Variable(Score.Current) / Variable(Score.Total) * 12"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "ProgressBarMarker",
+            "=",
+            "min(Variable(Score.Relative) / 4 / ProgressBarMarker.Variable(Id), 1)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Score",
+            "=",
+            "ProgressBarBackground.X() + (ProgressBarBackground.Width() - Score.Width()) / 2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Score",
+            "=",
+            "ToString(Variable(Score.Current))"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "ProgressBarBackground",
+            "Type",
+            "=",
+            "\"Main\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "ProgressBar",
+            "ProgressBarBackground"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PanelSpriteObject::Width"
+          },
+          "parameters": [
+            "ProgressBar",
+            "=",
+            "(Variable(Score.Relative) + 1) * 16"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ]
+}

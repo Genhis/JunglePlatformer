@@ -39,9 +39,45 @@
             "value": "ModVarGlobal"
           },
           "parameters": [
+            "Scene.Current.Coin",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scene.Current.Enemy",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
             "Scene.Current.Heart",
             "=",
             "GlobalVariable(Player.Lives)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scene.Current.Skull",
+            "=",
+            "0"
           ],
           "subInstructions": []
         },
@@ -92,21 +128,52 @@
             "Count(Skull)"
           ],
           "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "Scene.Total.Score",
-            "=",
-            "GlobalVariable(Scene.Total.Coin) * GlobalVariable(Score.Coin) + GlobalVariable(Scene.Total.Enemy) * GlobalVariable(Score.Enemy) + GlobalVariable(Scene.Total.Heart) * GlobalVariable(Score.Heart) + GlobalVariable(Scene.Total.Skull) * GlobalVariable(Score.Skull)"
-          ],
-          "subInstructions": []
         }
       ],
       "events": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": false,
+      "folded": false,
+      "name": "Transitions",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Transitions"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BehaviorActivated"
+              },
+              "parameters": [
+                "Transition",
+                "Transition"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "parameters": []
     },
     {
       "disabled": false,
@@ -114,30 +181,6 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "Score.Current",
-            "=",
-            "Core::GetScore()"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "Score.Relative",
-            "=",
-            "Variable(Score.Current) / GlobalVariable(Scene.Total.Score) * 12"
-          ],
-          "subInstructions": []
-        },
         {
           "type": {
             "inverted": false,
@@ -149,57 +192,18 @@
             "LivesIndicator.Height() * GlobalVariable(Scene.Current.Heart)"
           ],
           "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "PanelSpriteObject::Width"
-          },
-          "parameters": [
-            "ProgressBar",
-            "=",
-            "(Variable(Score.Relative) + 1) * 16"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ChangeAnimation"
-          },
-          "parameters": [
-            "ProgressBarMarker",
-            "=",
-            "min(Variable(Score.Relative) / 4 / ProgressBarMarker.Variable(Id), 1)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "Score",
-            "=",
-            "ToString(Variable(Score.Current))"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "MettreX"
-          },
-          "parameters": [
-            "Score",
-            "=",
-            "(SceneWindowWidth() - Score.Width()) / 2"
-          ],
-          "subInstructions": []
         }
       ],
       "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "LevelProgress"
     },
     {
       "disabled": false,
