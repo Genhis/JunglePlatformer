@@ -13759,6 +13759,13 @@
           "type": "Core::ActiveObject"
         },
         {
+          "canBeGrabbed": false,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        },
+        {
           "name": "RotatingObject",
           "type": "Core::RotatingObject",
           "Direction": 1,
