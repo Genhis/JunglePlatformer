@@ -1832,6 +1832,18 @@
                                 "Stars"
                               ],
                               "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Stars",
+                                "=",
+                                "GlobalVariable(Level[ToString(Stars.Variable(Level))]) * 3"
+                              ],
+                              "subInstructions": []
                             }
                           ],
                           "events": [

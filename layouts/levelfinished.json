@@ -636,7 +636,20 @@
           "subInstructions": []
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Level[ToString(GlobalVariable(Scene.LevelId))]",
+            "=",
+            "Variable(Score.Relative)"
+          ],
+          "subInstructions": []
+        }
+      ],
       "events": [
         {
           "disabled": false,

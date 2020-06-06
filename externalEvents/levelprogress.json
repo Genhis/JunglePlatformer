@@ -276,7 +276,7 @@
           "parameters": [
             "Score.Relative",
             "=",
-            "Variable(Score.Current) / Variable(Score.Total) * 12"
+            "Variable(Score.Current) / Variable(Score.Total)"
           ],
           "subInstructions": []
         },
@@ -288,7 +288,7 @@
           "parameters": [
             "ProgressBarMarker",
             "=",
-            "min(Variable(Score.Relative) / 4 / ProgressBarMarker.Variable(Id), 1)"
+            "min(Variable(Score.Relative) / ProgressBarMarker.Variable(Id) * 3, 1)"
           ],
           "subInstructions": []
         },
@@ -359,7 +359,7 @@
           "parameters": [
             "ProgressBar",
             "=",
-            "(Variable(Score.Relative) + 1) * 16"
+            "(Variable(Score.Relative) * 12 + 1) * 16"
           ],
           "subInstructions": []
         }
