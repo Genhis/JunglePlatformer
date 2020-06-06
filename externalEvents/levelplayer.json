@@ -1299,115 +1299,49 @@
                           "subInstructions": []
                         }
                       ],
-                      "actions": [],
-                      "events": [
+                      "actions": [
                         {
-                          "disabled": false,
-                          "folded": false,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "Core::Entity::IsVulnerable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "LivingObject",
-                                ""
-                              ],
-                              "subInstructions": []
-                            }
+                          "type": {
+                            "inverted": false,
+                            "value": "PlatformBehavior::IgnoreDefaultControls"
+                          },
+                          "parameters": [
+                            "Player",
+                            "PlatformerObject",
+                            "yes"
                           ],
-                          "actions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "Core::Entity::MakeInvulnerable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "LivingObject",
-                                "60",
-                                ""
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "PlatformBehavior::IgnoreDefaultControls"
-                              },
-                              "parameters": [
-                                "Player",
-                                "PlatformerObject",
-                                "yes"
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "Core::Transition::ChangeTransition"
-                              },
-                              "parameters": [
-                                "Transition",
-                                "Transition",
-                                "\"FadeIn\"",
-                                "2",
-                                ""
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "ActivateBehavior"
-                              },
-                              "parameters": [
-                                "Transition",
-                                "Transition",
-                                "yes"
-                              ],
-                              "subInstructions": []
-                            }
-                          ],
-                          "events": []
+                          "subInstructions": []
                         },
                         {
-                          "disabled": false,
-                          "folded": false,
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "BehaviorActivated"
-                              },
-                              "parameters": [
-                                "Transition",
-                                "Transition"
-                              ],
-                              "subInstructions": []
-                            }
+                          "type": {
+                            "inverted": false,
+                            "value": "Core::Entity::MakeInvulnerable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "LivingObject",
+                            "60",
+                            ""
                           ],
-                          "actions": [
-                            {
-                              "type": {
-                                "inverted": false,
-                                "value": "Scene"
-                              },
-                              "parameters": [
-                                "",
-                                "\"LevelFinished\"",
-                                ""
-                              ],
-                              "subInstructions": []
-                            }
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Core::TransitionToScene"
+                          },
+                          "parameters": [
+                            "",
+                            "Transition",
+                            "Transition",
+                            "\"LevelFinished\"",
+                            "2",
+                            ""
                           ],
-                          "events": []
+                          "subInstructions": []
                         }
-                      ]
+                      ],
+                      "events": []
                     }
                   ]
                 }

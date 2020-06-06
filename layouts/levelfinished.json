@@ -960,32 +960,6 @@
             "(SceneWindowWidth() - Level.Width()) / 2"
           ],
           "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Core::Transition::ChangeTransition"
-          },
-          "parameters": [
-            "Transition",
-            "Transition",
-            "\"FadeOut\"",
-            "2",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "Transition",
-            "Transition",
-            "yes"
-          ],
-          "subInstructions": []
         }
       ],
       "events": []
@@ -1052,11 +1026,14 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "Core::TransitionToScene"
               },
               "parameters": [
                 "",
+                "Transition",
+                "Transition",
                 "\"Menu\"",
+                "2",
                 ""
               ],
               "subInstructions": []

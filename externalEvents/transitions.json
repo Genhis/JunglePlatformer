@@ -23,11 +23,25 @@
         {
           "type": {
             "inverted": false,
-            "value": "ActivateBehavior"
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Transition",
+            "=",
+            "9999"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Core::Transition::ChangeTransition"
           },
           "parameters": [
             "Transition",
             "Transition",
+            "\"FadeOut\"",
+            "2",
             ""
           ],
           "subInstructions": []
@@ -35,22 +49,12 @@
         {
           "type": {
             "inverted": false,
-            "value": "Cache"
-          },
-          "parameters": [
-            "Transition"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ChangePlan"
+            "value": "ActivateBehavior"
           },
           "parameters": [
             "Transition",
-            "=",
-            "9999"
+            "Transition",
+            "yes"
           ],
           "subInstructions": []
         }
@@ -89,7 +93,43 @@
           "subInstructions": []
         }
       ],
-      "events": []
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Transition",
+                "ToScene",
+                "=",
+                "\"\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "Transition.VariableString(ToScene)",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     }
   ]
 }

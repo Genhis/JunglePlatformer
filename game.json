@@ -2473,7 +2473,12 @@
       "texture": "assets\\transition.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 256,
-      "variables": [],
+      "variables": [
+        {
+          "name": "ToScene",
+          "value": ""
+        }
+      ],
       "behaviors": [
         {
           "name": "Transition",

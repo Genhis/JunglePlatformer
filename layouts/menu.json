@@ -464,6 +464,21 @@
       ],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 544,
+      "layer": "",
+      "locked": false,
+      "name": "Transition",
+      "width": 960,
+      "x": 0,
+      "y": 0,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1161,6 +1176,15 @@
         "includeConfig": 0
       },
       "target": "Debug"
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Transitions"
     },
     {
       "disabled": false,
@@ -2044,11 +2068,14 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "Scene"
+                        "value": "Core::TransitionToScene"
                       },
                       "parameters": [
                         "",
+                        "Transition",
+                        "Transition",
                         "\"Level\" + ToString(ItemBackground.Variable(Level))",
+                        "2",
                         ""
                       ],
                       "subInstructions": []
@@ -2081,12 +2108,6 @@
           "width": 0
         }
       ],
-      "effects": []
-    },
-    {
-      "name": "External",
-      "visibility": true,
-      "cameras": [],
       "effects": []
     },
     {

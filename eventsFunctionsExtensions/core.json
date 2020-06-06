@@ -280,6 +280,106 @@
       ],
       "parameters": [],
       "objectGroups": []
+    },
+    {
+      "description": "",
+      "fullName": "Transition to scene",
+      "functionType": "Action",
+      "name": "TransitionToScene",
+      "sentence": "Transition to _PARAM3_ using _PARAM1_ in _PARAM4_ seconds",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Core::Transition::ChangeTransition"
+              },
+              "parameters": [
+                "Overlay",
+                "Transition",
+                "\"FadeIn\"",
+                "GetArgumentAsNumber(\"Duration\")",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Overlay",
+                "Transition",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Overlay",
+                "ToScene",
+                "=",
+                "GetArgumentAsString(\"Scene\")"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Overlay",
+          "longDescription": "",
+          "name": "Overlay",
+          "optional": false,
+          "supplementaryInformation": "TiledSpriteObject::TiledSprite",
+          "type": "objectList"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Transition",
+          "longDescription": "",
+          "name": "Transition",
+          "optional": false,
+          "supplementaryInformation": "Core::Transition",
+          "type": "behavior"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Scene",
+          "longDescription": "",
+          "name": "Scene",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "sceneName"
+        },
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Duration",
+          "longDescription": "",
+          "name": "Duration",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
     }
   ],
   "eventsBasedBehaviors": [
