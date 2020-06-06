@@ -869,7 +869,20 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score.Current",
+                "-",
+                "GlobalVariable(Score.Heart)"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
@@ -879,7 +892,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarGlobal"
+                    "value": "VarScene"
                   },
                   "parameters": [
                     "Player.Lives",
@@ -912,7 +925,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarGlobal"
+                    "value": "VarScene"
                   },
                   "parameters": [
                     "Player.Lives",
@@ -975,7 +988,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarGlobal"
+                    "value": "ModVarScene"
                   },
                   "parameters": [
                     "Player.Lives",
@@ -2457,7 +2470,7 @@
           "colorR": 126,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Collectables",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2485,7 +2498,8 @@
                 {
                   "disabled": false,
                   "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Coin",
                   "conditions": [
                     {
                       "type": {
@@ -2530,12 +2544,12 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarGlobal"
+                        "value": "ModVarScene"
                       },
                       "parameters": [
-                        "Player.Score",
+                        "Score.Current",
                         "+",
-                        "100"
+                        "GlobalVariable(Score.Coin)"
                       ],
                       "subInstructions": []
                     }
@@ -2582,7 +2596,8 @@
                 {
                   "disabled": false,
                   "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Heart",
                   "conditions": [
                     {
                       "type": {
@@ -2627,12 +2642,24 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarGlobal"
+                        "value": "ModVarScene"
                       },
                       "parameters": [
                         "Player.Lives",
                         "+",
                         "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Score.Current",
+                        "+",
+                        "GlobalVariable(Score.Heart)"
                       ],
                       "subInstructions": []
                     }
@@ -2694,7 +2721,8 @@
                 {
                   "disabled": false,
                   "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Skull",
                   "conditions": [
                     {
                       "type": {
@@ -2739,12 +2767,12 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarGlobal"
+                        "value": "ModVarScene"
                       },
                       "parameters": [
-                        "Player.Score",
+                        "Score.Current",
                         "+",
-                        "250"
+                        "GlobalVariable(Score.Skull)"
                       ],
                       "subInstructions": []
                     }
@@ -2802,7 +2830,7 @@
       "colorR": 208,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Enemies",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3007,12 +3035,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarGlobal"
+                    "value": "ModVarScene"
                   },
                   "parameters": [
-                    "Player.Score",
+                    "Score.Current",
                     "+",
-                    "50"
+                    "GlobalVariable(Score.Enemy)"
                   ],
                   "subInstructions": []
                 },

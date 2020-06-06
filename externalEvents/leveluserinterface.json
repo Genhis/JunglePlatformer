@@ -32,6 +32,42 @@
             "0"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Player.Lives",
+            "=",
+            "GlobalVariable(Player.Lives)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Score.Current",
+            "=",
+            "GlobalVariable(Player.Lives) * GlobalVariable(Score.Heart)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Score.Total",
+            "=",
+            "Count(Coin) * GlobalVariable(Score.Coin) + Count(Skull) * GlobalVariable(Score.Skull) + (Count(Heart) + GlobalVariable(Player.Lives)) * GlobalVariable(Score.Heart) + Count(Enemy) * GlobalVariable(Score.Enemy)"
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -45,12 +81,48 @@
         {
           "type": {
             "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Score.Relative",
+            "=",
+            "Variable(Score.Current) / Variable(Score.Total) * 12"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
             "value": "TiledSpriteObject::Width"
           },
           "parameters": [
             "LivesIndicator",
             "=",
-            "LivesIndicator.Height() * GlobalVariable(Player.Lives)"
+            "LivesIndicator.Height() * Variable(Player.Lives)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PanelSpriteObject::Width"
+          },
+          "parameters": [
+            "ProgressBar",
+            "=",
+            "(Variable(Score.Relative) + 1) * 16"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "ProgressBarMarker",
+            "=",
+            "min(Variable(Score.Relative) / 4 / ProgressBarMarker.Variable(Id), 1)"
           ],
           "subInstructions": []
         },
@@ -62,7 +134,7 @@
           "parameters": [
             "Score",
             "=",
-            "ToString(GlobalVariable(Player.Score))"
+            "ToString(Variable(Score.Current))"
           ],
           "subInstructions": []
         },

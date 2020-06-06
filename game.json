@@ -2220,7 +2220,12 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Id",
+          "value": ""
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -2430,6 +2435,27 @@
         {
           "name": "Visible",
           "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "Score",
+      "children": [
+        {
+          "name": "Coin",
+          "value": "10"
+        },
+        {
+          "name": "Enemy",
+          "value": "15"
+        },
+        {
+          "name": "Heart",
+          "value": "35"
+        },
+        {
+          "name": "Skull",
+          "value": "25"
         }
       ]
     }

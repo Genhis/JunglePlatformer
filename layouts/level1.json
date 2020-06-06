@@ -288,6 +288,12 @@
         },
         {
           "name": "QuitScene"
+        },
+        {
+          "name": "Flagpole"
+        },
+        {
+          "name": "Flag"
         }
       ]
     },
@@ -345,6 +351,32 @@
         },
         {
           "name": "NoInteraction",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "Score",
+      "children": [
+        {
+          "name": "Current",
+          "value": "0"
+        },
+        {
+          "name": "Relative",
+          "value": "0"
+        },
+        {
+          "name": "Total",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "Player",
+      "children": [
+        {
+          "name": "Lives",
           "value": "0"
         }
       ]
@@ -706,21 +738,6 @@
       "width": 24,
       "x": 592,
       "y": 272,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 24,
-      "layer": "",
-      "locked": false,
-      "name": "Coin",
-      "width": 24,
-      "x": 592,
-      "y": 240,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -736,36 +753,6 @@
       "width": 24,
       "x": 592,
       "y": 208,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 24,
-      "layer": "",
-      "locked": false,
-      "name": "Coin",
-      "width": 24,
-      "x": 592,
-      "y": 176,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 24,
-      "layer": "",
-      "locked": false,
-      "name": "Coin",
-      "width": 24,
-      "x": 592,
-      "y": 144,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -780,7 +767,7 @@
       "name": "Coin",
       "width": 24,
       "x": 592,
-      "y": 112,
+      "y": 176,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -815,52 +802,7 @@
       "name": "Coin",
       "width": 24,
       "x": 592,
-      "y": 272,
-      "zOrder": 50,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 24,
-      "layer": "",
-      "locked": false,
-      "name": "Coin",
-      "width": 24,
-      "x": 592,
       "y": 240,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 24,
-      "layer": "",
-      "locked": false,
-      "name": "Coin",
-      "width": 24,
-      "x": 592,
-      "y": 208,
-      "zOrder": 50,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 24,
-      "layer": "",
-      "locked": false,
-      "name": "Coin",
-      "width": 24,
-      "x": 592,
-      "y": 176,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -876,7 +818,7 @@
       "width": 24,
       "x": 592,
       "y": 144,
-      "zOrder": 3,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -891,7 +833,7 @@
       "width": 24,
       "x": 592,
       "y": 112,
-      "zOrder": 3,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

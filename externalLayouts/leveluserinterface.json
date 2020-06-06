@@ -92,7 +92,7 @@
       "width": 16,
       "x": 506,
       "y": 6,
-      "zOrder": 2,
+      "zOrder": 3,
       "numberProperties": [
         {
           "name": "animation",
@@ -115,7 +115,32 @@
       "locked": false,
       "name": "ProgressBarMarker",
       "width": 16,
-      "x": 568,
+      "x": 570,
+      "y": 6,
+      "zOrder": 3,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Id",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "GUI",
+      "locked": false,
+      "name": "ProgressBarMarker",
+      "width": 16,
+      "x": 566,
       "y": 6,
       "zOrder": 2,
       "numberProperties": [
@@ -140,34 +165,9 @@
       "locked": false,
       "name": "ProgressBarMarker",
       "width": 16,
-      "x": 564,
+      "x": 574,
       "y": 6,
-      "zOrder": 2,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 0
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "Id",
-          "value": "3"
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 16,
-      "layer": "GUI",
-      "locked": false,
-      "name": "ProgressBarMarker",
-      "width": 16,
-      "x": 572,
-      "y": 6,
-      "zOrder": 2,
+      "zOrder": 4,
       "numberProperties": [
         {
           "name": "animation",
