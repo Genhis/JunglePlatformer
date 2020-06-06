@@ -1171,6 +1171,87 @@
     {
       "disabled": false,
       "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "LireFichierTxt"
+          },
+          "parameters": [
+            "\"Root\"",
+            "\"Level\"",
+            "",
+            "Json"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "JSONToGlobalVariableStructure"
+          },
+          "parameters": [
+            "VariableString(Json)",
+            "Level"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "LireFichierExp"
+          },
+          "parameters": [
+            "\"Root\"",
+            "\"Sound\"",
+            "",
+            "Json"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "Sound",
+            "=",
+            "Variable(Json)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Settings.Sound",
+            "=",
+            "2 - Sound.Animation()"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
@@ -1519,6 +1600,18 @@
                         "Settings.Sound",
                         "=",
                         "2 - Sound.Animation()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"Root\"",
+                        "\"Sound\"",
+                        "Sound.Animation()"
                       ],
                       "subInstructions": []
                     }

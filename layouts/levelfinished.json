@@ -669,18 +669,6 @@
         {
           "type": {
             "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "Level[ToString(GlobalVariable(Scene.LevelId))]",
-            "=",
-            "max(Variable(Score.Relative), GlobalVariable(Level[ToString(GlobalVariable(Scene.LevelId))]))"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "TextObject::String"
           },
           "parameters": [
@@ -765,7 +753,32 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level[ToString(GlobalVariable(Scene.LevelId))]",
+                "=",
+                "max(Variable(Score.Relative), GlobalVariable(Level[ToString(GlobalVariable(Scene.LevelId))]))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"Root\"",
+                "\"Level\"",
+                "GlobalVarToJSON(Level)"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
