@@ -9,7 +9,7 @@
       "colorR": 126,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "State",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -178,6 +178,14 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -217,11 +225,15 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ShowLayer"
+                    "value": "Core::TransitionToScene"
                   },
                   "parameters": [
                     "",
-                    "\"GameOver\""
+                    "Transition",
+                    "Transition",
+                    "\"LevelFinished\"",
+                    "2",
+                    ""
                   ],
                   "subInstructions": []
                 }

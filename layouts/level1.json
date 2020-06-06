@@ -272,9 +272,6 @@
           "name": "Score"
         },
         {
-          "name": "GameOver"
-        },
-        {
           "name": "ProgressBarBackground"
         },
         {
@@ -483,36 +480,6 @@
       "x": 672,
       "y": 440,
       "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "GameOver",
-      "locked": false,
-      "name": "GameOver",
-      "width": 0,
-      "x": 144,
-      "y": 192,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 544,
-      "layer": "GameOver",
-      "locked": false,
-      "name": "BackgroundFull",
-      "width": 960,
-      "x": 0,
-      "y": 0,
-      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -8277,14 +8244,17 @@
       "variables": [],
       "behaviors": [
         {
-          "name": "LivingObject",
+          "name": "Entity",
           "type": "Core::Entity",
-          "KillAnimationOffset": 0,
+          "DyingAnimation": 5,
+          "RespawnAnimation": 0,
           "DyingCooldown": 1,
           "Dead": false,
-          "DeleteAfterDeath": false,
-          "DyingAnimation": 5,
-          "RespawnAnimation": 0
+          "DeleteOnDeath": false,
+          "FloatOnDeath": false,
+          "DyingTimer": 0,
+          "RespawnCooldown": 5,
+          "RespawnTimer": -1
         },
         {
           "name": "PlatformerObject",
@@ -14286,25 +14256,6 @@
           ]
         }
       ]
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "GameOver",
-      "smoothed": true,
-      "tags": "GUI",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "          Game Over\nPlease refresh the page",
-      "font": "",
-      "characterSize": 60,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      }
     }
   ],
   "events": [
@@ -14367,12 +14318,6 @@
       "effects": []
     },
     {
-      "name": "GameOver",
-      "visibility": false,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "name": "Debug",
       "visibility": true,
       "cameras": [],
@@ -14423,6 +14368,10 @@
     {
       "name": "RotatingObject",
       "type": "Core::RotatingObject"
+    },
+    {
+      "name": "Transition",
+      "type": "Core::Transition"
     }
   ]
 }

@@ -254,7 +254,20 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "Scene.Current.Heart",
+            ">",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
       "actions": [
         {
           "type": {
@@ -295,18 +308,6 @@
         {
           "type": {
             "inverted": false,
-            "value": "MettreX"
-          },
-          "parameters": [
-            "Score",
-            "=",
-            "ProgressBarBackground.X() + (ProgressBarBackground.Width() - Score.Width()) / 2"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "TextObject::String"
           },
           "parameters": [
@@ -317,49 +318,71 @@
           "subInstructions": []
         }
       ],
-      "events": []
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "ProgressBarBackground",
+                "Type",
+                "=",
+                "\"Main\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "ProgressBar",
+                "ProgressBarBackground"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PanelSpriteObject::Width"
+              },
+              "parameters": [
+                "ProgressBar",
+                "=",
+                "(Variable(Score.Relative) * 12 + 1) * 16"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     },
     {
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "VarObjetTxt"
-          },
-          "parameters": [
-            "ProgressBarBackground",
-            "Type",
-            "=",
-            "\"Main\""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "LinkedObjects::PickObjectsLinkedTo"
-          },
-          "parameters": [
-            "",
-            "ProgressBar",
-            "ProgressBarBackground"
-          ],
-          "subInstructions": []
-        }
-      ],
+      "conditions": [],
       "actions": [
         {
           "type": {
             "inverted": false,
-            "value": "PanelSpriteObject::Width"
+            "value": "MettreX"
           },
           "parameters": [
-            "ProgressBar",
+            "Score",
             "=",
-            "(Variable(Score.Relative) * 12 + 1) * 16"
+            "ProgressBarBackground.X() + (ProgressBarBackground.Width() - Score.Width()) / 2"
           ],
           "subInstructions": []
         }

@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.384
+    "zoomFactor": 1.168
   },
   "objectsGroups": [
     {
@@ -424,6 +424,35 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Loser",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\gui\\loser.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -648,294 +677,6 @@
             "max(Variable(Score.Relative), GlobalVariable(Level[ToString(GlobalVariable(Scene.LevelId))]))"
           ],
           "subInstructions": []
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "ProgressBarBackground",
-                "Type",
-                "=",
-                "\"Coin\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "LinkedObjects::PickObjectsLinkedTo"
-              },
-              "parameters": [
-                "",
-                "ProgressBar",
-                "ProgressBarBackground"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PanelSpriteObject::Width"
-              },
-              "parameters": [
-                "ProgressBar",
-                "=",
-                "(GlobalVariable(Scene.Current.Coin) / GlobalVariable(Scene.Total.Coin) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "ProgressBarBackground",
-                "Type",
-                "=",
-                "\"Enemy\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "LinkedObjects::PickObjectsLinkedTo"
-              },
-              "parameters": [
-                "",
-                "ProgressBar",
-                "ProgressBarBackground"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PanelSpriteObject::Width"
-              },
-              "parameters": [
-                "ProgressBar",
-                "=",
-                "(GlobalVariable(Scene.Current.Enemy) / GlobalVariable(Scene.Total.Enemy) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "ProgressBarBackground",
-                "Type",
-                "=",
-                "\"Heart\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "LinkedObjects::PickObjectsLinkedTo"
-              },
-              "parameters": [
-                "",
-                "ProgressBar",
-                "ProgressBarBackground"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PanelSpriteObject::Width"
-              },
-              "parameters": [
-                "ProgressBar",
-                "=",
-                "(GlobalVariable(Scene.Current.Heart) / GlobalVariable(Scene.Total.Heart) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "ProgressBarBackground",
-                "Type",
-                "=",
-                "\"Skull\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "LinkedObjects::PickObjectsLinkedTo"
-              },
-              "parameters": [
-                "",
-                "ProgressBar",
-                "ProgressBarBackground"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PanelSpriteObject::Width"
-              },
-              "parameters": [
-                "ProgressBar",
-                "=",
-                "(GlobalVariable(Scene.Current.Skull) / GlobalVariable(Scene.Total.Skull) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "Message",
-            "=",
-            "\"You did not score enough points to unlock level \" + ToString(GlobalVariable(Scene.LevelId) + 1)"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Animation"
-              },
-              "parameters": [
-                "ProgressBarMarker",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Message",
-                "=",
-                "\"You unlocked level \" + ToString(GlobalVariable(Scene.LevelId) + 1) + \", congratulations!\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ]
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "MettreX"
-          },
-          "parameters": [
-            "Message",
-            "=",
-            "(SceneWindowWidth() - Message.Width()) / 2"
-          ],
-          "subInstructions": []
         },
         {
           "type": {
@@ -962,7 +703,338 @@
           "subInstructions": []
         }
       ],
-      "events": []
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Scene.Current.Heart",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Header",
+                "\"Loser\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Message"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Scene.Current.Heart",
+                ">",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ProgressBarBackground",
+                    "Type",
+                    "=",
+                    "\"Coin\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "ProgressBar",
+                    "ProgressBarBackground"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PanelSpriteObject::Width"
+                  },
+                  "parameters": [
+                    "ProgressBar",
+                    "=",
+                    "(GlobalVariable(Scene.Current.Coin) / GlobalVariable(Scene.Total.Coin) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ProgressBarBackground",
+                    "Type",
+                    "=",
+                    "\"Enemy\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "ProgressBar",
+                    "ProgressBarBackground"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PanelSpriteObject::Width"
+                  },
+                  "parameters": [
+                    "ProgressBar",
+                    "=",
+                    "(GlobalVariable(Scene.Current.Enemy) / GlobalVariable(Scene.Total.Enemy) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ProgressBarBackground",
+                    "Type",
+                    "=",
+                    "\"Heart\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "ProgressBar",
+                    "ProgressBarBackground"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PanelSpriteObject::Width"
+                  },
+                  "parameters": [
+                    "ProgressBar",
+                    "=",
+                    "(GlobalVariable(Scene.Current.Heart) / GlobalVariable(Scene.Total.Heart) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ProgressBarBackground",
+                    "Type",
+                    "=",
+                    "\"Skull\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "ProgressBar",
+                    "ProgressBarBackground"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PanelSpriteObject::Width"
+                  },
+                  "parameters": [
+                    "ProgressBar",
+                    "=",
+                    "(GlobalVariable(Scene.Current.Skull) / GlobalVariable(Scene.Total.Skull) * (ProgressBarBackground.Width() / 16 - 1) + 1) * 16"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Message",
+                    "=",
+                    "\"You did not score enough points to unlock level \" + ToString(GlobalVariable(Scene.LevelId) + 1)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "ProgressBarMarker",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Message",
+                        "=",
+                        "\"You unlocked level \" + ToString(GlobalVariable(Scene.LevelId) + 1) + \", congratulations!\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Message",
+                    "=",
+                    "(SceneWindowWidth() - Message.Width()) / 2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ]
     },
     {
       "disabled": false,

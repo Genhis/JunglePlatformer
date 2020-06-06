@@ -2027,21 +2027,30 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/gui/rating.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\gui\\rating.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/transition.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\transition.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/loser.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\loser.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gui/rating.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gui\\rating.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
