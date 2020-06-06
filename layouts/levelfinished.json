@@ -645,7 +645,7 @@
           "parameters": [
             "Level[ToString(GlobalVariable(Scene.LevelId))]",
             "=",
-            "Variable(Score.Relative)"
+            "max(Variable(Score.Relative), GlobalVariable(Level[ToString(GlobalVariable(Scene.LevelId))]))"
           ],
           "subInstructions": []
         }
