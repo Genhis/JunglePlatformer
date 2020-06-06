@@ -45,7 +45,41 @@
           "subInstructions": []
         }
       ],
-      "events": []
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Debug.Visible",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Debug\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     },
     {
       "disabled": false,
