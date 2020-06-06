@@ -184,12 +184,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarScene"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "Score.Current",
+                "Scene.Current.Heart",
                 "-",
-                "GlobalVariable(Score.Heart)"
+                "1"
               ],
               "subInstructions": []
             }
@@ -203,12 +203,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarScene"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Player.Lives",
+                    "Scene.Current.Heart",
                     "=",
-                    "1"
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -236,12 +236,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarScene"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Player.Lives",
+                    "Scene.Current.Heart",
                     ">",
-                    "1"
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -293,18 +293,6 @@
                   "parameters": [
                     "Player",
                     ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Player.Lives",
-                    "-",
-                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -1858,12 +1846,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Score.Current",
+                    "Scene.Current.Coin",
                     "+",
-                    "GlobalVariable(Score.Coin)"
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -1956,24 +1944,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Player.Lives",
+                    "Scene.Current.Heart",
                     "+",
                     "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Score.Current",
-                    "+",
-                    "GlobalVariable(Score.Heart)"
                   ],
                   "subInstructions": []
                 }
@@ -2081,12 +2057,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Score.Current",
+                    "Scene.Current.Skull",
                     "+",
-                    "GlobalVariable(Score.Skull)"
+                    "1"
                   ],
                   "subInstructions": []
                 }

@@ -220,6 +220,36 @@
         }
       ],
       "objectGroups": []
+    },
+    {
+      "description": "",
+      "fullName": "Get score",
+      "functionType": "Expression",
+      "name": "GetScore",
+      "sentence": "",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetReturnNumber"
+              },
+              "parameters": [
+                "GlobalVariable(Scene.Current.Coin) * GlobalVariable(Score.Coin) + GlobalVariable(Scene.Current.Enemy) * GlobalVariable(Score.Enemy) + GlobalVariable(Scene.Current.Heart) * GlobalVariable(Score.Heart) + GlobalVariable(Scene.Current.Skull) * GlobalVariable(Score.Skull)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
     }
   ],
   "eventsBasedBehaviors": [

@@ -203,12 +203,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarScene"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "Score.Current",
+                "Scene.Current.Enemy",
                 "+",
-                "GlobalVariable(Score.Enemy)"
+                "1"
               ],
               "subInstructions": []
             },

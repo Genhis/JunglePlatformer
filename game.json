@@ -2392,10 +2392,6 @@
         {
           "name": "Lives",
           "value": "3"
-        },
-        {
-          "name": "Score",
-          "value": "0"
         }
       ]
     },
@@ -2456,6 +2452,61 @@
         {
           "name": "Skull",
           "value": "25"
+        }
+      ]
+    },
+    {
+      "name": "Scene",
+      "children": [
+        {
+          "name": "Current",
+          "children": [
+            {
+              "name": "Coin",
+              "value": "0"
+            },
+            {
+              "name": "Enemy",
+              "value": "0"
+            },
+            {
+              "name": "Heart",
+              "value": "0"
+            },
+            {
+              "name": "Skull",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "LevelId",
+          "value": "0"
+        },
+        {
+          "name": "Total",
+          "children": [
+            {
+              "name": "Coin",
+              "value": "0"
+            },
+            {
+              "name": "Enemy",
+              "value": "0"
+            },
+            {
+              "name": "Heart",
+              "value": "0"
+            },
+            {
+              "name": "Score",
+              "value": "0"
+            },
+            {
+              "name": "Skull",
+              "value": "0"
+            }
+          ]
         }
       ]
     }

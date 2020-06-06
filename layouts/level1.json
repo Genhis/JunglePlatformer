@@ -365,19 +365,6 @@
         {
           "name": "Relative",
           "value": "0"
-        },
-        {
-          "name": "Total",
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "name": "Player",
-      "children": [
-        {
-          "name": "Lives",
-          "value": "0"
         }
       ]
     }
@@ -13759,10 +13746,10 @@
           "type": "Core::ActiveObject"
         },
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         },
         {

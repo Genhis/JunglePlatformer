@@ -36,10 +36,10 @@
         {
           "type": {
             "inverted": false,
-            "value": "ModVarScene"
+            "value": "ModVarGlobal"
           },
           "parameters": [
-            "Player.Lives",
+            "Scene.Current.Heart",
             "=",
             "GlobalVariable(Player.Lives)"
           ],
@@ -48,24 +48,60 @@
         {
           "type": {
             "inverted": false,
-            "value": "ModVarScene"
+            "value": "ModVarGlobal"
           },
           "parameters": [
-            "Score.Current",
+            "Scene.Total.Coin",
             "=",
-            "GlobalVariable(Player.Lives) * GlobalVariable(Score.Heart)"
+            "Count(Coin)"
           ],
           "subInstructions": []
         },
         {
           "type": {
             "inverted": false,
-            "value": "ModVarScene"
+            "value": "ModVarGlobal"
           },
           "parameters": [
-            "Score.Total",
+            "Scene.Total.Enemy",
             "=",
-            "Count(Coin) * GlobalVariable(Score.Coin) + Count(Skull) * GlobalVariable(Score.Skull) + (Count(Heart) + GlobalVariable(Player.Lives)) * GlobalVariable(Score.Heart) + Count(Enemy) * GlobalVariable(Score.Enemy)"
+            "Count(Enemy)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scene.Total.Heart",
+            "=",
+            "Count(Heart) + GlobalVariable(Player.Lives)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scene.Total.Skull",
+            "=",
+            "Count(Skull)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scene.Total.Score",
+            "=",
+            "GlobalVariable(Scene.Total.Coin) * GlobalVariable(Score.Coin) + GlobalVariable(Scene.Total.Enemy) * GlobalVariable(Score.Enemy) + GlobalVariable(Scene.Total.Heart) * GlobalVariable(Score.Heart) + GlobalVariable(Scene.Total.Skull) * GlobalVariable(Score.Skull)"
           ],
           "subInstructions": []
         }
@@ -84,9 +120,21 @@
             "value": "ModVarScene"
           },
           "parameters": [
+            "Score.Current",
+            "=",
+            "Core::GetScore()"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
             "Score.Relative",
             "=",
-            "Variable(Score.Current) / Variable(Score.Total) * 12"
+            "Variable(Score.Current) / GlobalVariable(Scene.Total.Score) * 12"
           ],
           "subInstructions": []
         },
@@ -98,7 +146,7 @@
           "parameters": [
             "LivesIndicator",
             "=",
-            "LivesIndicator.Height() * Variable(Player.Lives)"
+            "LivesIndicator.Height() * GlobalVariable(Scene.Current.Heart)"
           ],
           "subInstructions": []
         },
