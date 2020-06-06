@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.024
+    "zoomFactor": 1.12
   },
   "objectsGroups": [
     {
@@ -269,16 +269,10 @@
           "name": "SpikedBall"
         },
         {
-          "name": "Checkpoint"
-        },
-        {
           "name": "Score"
         },
         {
           "name": "GameOver"
-        },
-        {
-          "name": "LevelFinished"
         },
         {
           "name": "ProgressBarBackground"
@@ -7129,21 +7123,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Checkpoint",
-      "width": 0,
-      "x": 1616,
-      "y": 176,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 40,
       "layer": "",
@@ -7236,26 +7215,6 @@
       ],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Checkpoint",
-      "width": 0,
-      "x": 3008,
-      "y": 432,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "Id",
-          "value": "2"
-        }
-      ]
     },
     {
       "angle": 45,
@@ -7778,21 +7737,6 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "LevelFinished",
-      "width": 0,
-      "x": 4160,
-      "y": 64,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
       "name": "Chain",
       "width": 0,
       "x": 3972,
@@ -7870,7 +7814,7 @@
       "locked": false,
       "name": "Skull",
       "width": 21,
-      "x": 4384,
+      "x": 4128,
       "y": 208,
       "zOrder": 50,
       "numberProperties": [],
@@ -8046,26 +7990,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "Checkpoint",
-      "width": 0,
-      "x": 3744,
-      "y": 368,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "Id",
-          "value": "3"
-        }
-      ]
     },
     {
       "angle": 0,
@@ -8288,6 +8212,81 @@
       "x": 3608,
       "y": 181,
       "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Flagpole",
+      "width": 0,
+      "x": 1622,
+      "y": 149,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Id",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Flagpole",
+      "width": 0,
+      "x": 3008,
+      "y": 421,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Id",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Flagpole",
+      "width": 0,
+      "x": 3744,
+      "y": 357,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Id",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Flagpole",
+      "width": 0,
+      "x": 4384,
+      "y": 197,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -14127,20 +14126,20 @@
       ]
     },
     {
-      "name": "Checkpoint",
-      "tags": "Checkpoint",
+      "name": "Flagpole",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Id",
-          "value": "1"
+          "value": "-1"
         }
       ],
       "behaviors": [],
       "animations": [
         {
-          "name": "Inactive",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -14149,7 +14148,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\checkpoint.png",
+                  "image": "assets\\items\\flag\\flagpole.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14167,18 +14166,164 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Flag",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
         {
-          "name": "Active",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.1111,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\checkpoint-active.png",
+                  "image": "assets\\items\\flag\\flag-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\items\\flag\\flag-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\items\\flag\\flag-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\items\\flag\\flag-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\items\\flag\\flag-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\items\\flag\\flag-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\items\\flag\\flag-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\items\\flag\\flag-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\items\\flag\\flag-9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14212,25 +14357,6 @@
       "string": "          Game Over\nPlease refresh the page",
       "font": "",
       "characterSize": 60,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      }
-    },
-    {
-      "bold": true,
-      "italic": false,
-      "name": "LevelFinished",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "  Level Finished\nCongratulations!",
-      "font": "",
-      "characterSize": 32,
       "color": {
         "b": 255,
         "g": 255,

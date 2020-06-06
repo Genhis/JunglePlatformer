@@ -24,6 +24,8 @@
     - [/assets/gui/stars-1.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/stars-1.png)
 - [/assets/gui/lives-indicator.png](https://github.com/Genhis/CSC3224/tree/master/assets/gui/lives-indicator.png) "[Heart pixel art]" by [DontMind8] licensed under [CC BY 4.0]
 - [/assets/items/coin.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/coin.png): "[OPP 2017 - Sprites](https://openpixelproject.itch.io/opp2017sprites)" licensed under [CC0 1.0]
+- [/assets/items/flag](https://github.com/Genhis/CSC3224/tree/master/assets/items/flag): a derivative of "[Stencil animated flag](https://opengameart.org/content/stencil-animated-flag)" used under [CC0 1.0]
+- [/assets/items/flag/flagpole.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/flag/flagpole.png): a derivative of "[OPP 2017 - Castle tiles]" used under [CC0 1.0]
 - [/assets/items/heart.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/heart.png) a derivative of "[Heart pixel art]" by [DontMind8] used under [CC BY 4.0]
 - [/assets/items/skull.png](https://github.com/Genhis/CSC3224/tree/master/assets/items/skull.png): a derivative of "[Resources pack #1](https://opengameart.org/content/resouces-pack-1)" used under [CC0 1.0]
 - [/assets/player/adventurer](https://github.com/Genhis/CSC3224/tree/master/assets/player/adventurer): "[Jungle pack]" by [Jesse Munguia] except "die" animation which is derived from this work

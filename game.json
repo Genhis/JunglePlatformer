@@ -1344,24 +1344,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/checkpoint.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\checkpoint.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/checkpoint-active.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\checkpoint-active.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/sounds/walk-leaves-2.ogg",
         "kind": "audio",
         "metadata": "",
@@ -1952,6 +1934,96 @@
         "name": "assets\\gui\\item-background-disabled.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flag-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flag-9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/items/flag/flagpole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\items\\flag\\flagpole.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2383,11 +2455,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/leveluserinterface"
+      "referenceTo": "/externalEvents/levellogic"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/levellogic"
+      "referenceTo": "/externalEvents/leveluserinterface"
     }
   ],
   "eventsFunctionsExtensions": [
