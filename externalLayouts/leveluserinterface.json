@@ -71,21 +71,6 @@
           "value": "QuitScene"
         }
       ]
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 544,
-      "layer": "GUI",
-      "locked": false,
-      "name": "Transition",
-      "width": 960,
-      "x": 0,
-      "y": 0,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "editionSettings": {

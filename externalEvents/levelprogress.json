@@ -71,6 +71,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PanelSpriteObject::Height"
+              },
+              "parameters": [
+                "ProgressBar",
+                "=",
+                "ProgressBarBackground.Height()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ChangePlan"
               },
               "parameters": [

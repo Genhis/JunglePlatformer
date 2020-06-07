@@ -2321,7 +2321,7 @@
       "behaviors": []
     },
     {
-      "bottomMargin": 0,
+      "bottomMargin": 7,
       "height": 16,
       "leftMargin": 7,
       "name": "ProgressBarBackground",
@@ -2329,7 +2329,7 @@
       "tags": "",
       "texture": "assets\\gui\\progressbar-background.png",
       "tiled": true,
-      "topMargin": 0,
+      "topMargin": 7,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 16,
       "variables": [
@@ -2341,7 +2341,7 @@
       "behaviors": []
     },
     {
-      "bottomMargin": 0,
+      "bottomMargin": 6,
       "height": 16,
       "leftMargin": 8,
       "name": "ProgressBar",
@@ -2349,7 +2349,7 @@
       "tags": "",
       "texture": "assets\\gui\\progressbar.png",
       "tiled": true,
-      "topMargin": 0,
+      "topMargin": 9,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 16,
       "variables": [],
@@ -2775,6 +2775,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/levelfinished"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/loading"
     }
   ],
   "externalEvents": [

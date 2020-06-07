@@ -23,6 +23,44 @@
         {
           "type": {
             "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Transition",
+            "0",
+            "0",
+            "\"GUI\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TiledSpriteObject::Width"
+          },
+          "parameters": [
+            "Transition",
+            "=",
+            "SceneWindowWidth()"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TiledSpriteObject::Height"
+          },
+          "parameters": [
+            "Transition",
+            "=",
+            "SceneWindowHeight()"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
             "value": "ChangePlan"
           },
           "parameters": [

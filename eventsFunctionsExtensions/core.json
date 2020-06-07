@@ -223,6 +223,49 @@
     },
     {
       "description": "",
+      "fullName": "Center object horizontally",
+      "functionType": "Action",
+      "name": "CenterObjectX",
+      "sentence": "Center _PARAM1_ horizontally",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Object",
+                "=",
+                "CameraX(Object.Layer(), 0) - Object.Width() / 2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Object",
+          "longDescription": "",
+          "name": "Object",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "",
       "fullName": "",
       "functionType": "Expression",
       "name": "SmoothNumber",

@@ -464,21 +464,6 @@
       ],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 544,
-      "layer": "",
-      "locked": true,
-      "name": "Transition",
-      "width": 960,
-      "x": 0,
-      "y": 0,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -1162,87 +1147,6 @@
             "Cloud",
             "MovingObject",
             "yes"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "LireFichierTxt"
-          },
-          "parameters": [
-            "\"Root\"",
-            "\"Level\"",
-            "",
-            "Json"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "JSONToGlobalVariableStructure"
-          },
-          "parameters": [
-            "VariableString(Json)",
-            "Level"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "LireFichierExp"
-          },
-          "parameters": [
-            "\"Root\"",
-            "\"Sound\"",
-            "",
-            "Json"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ChangeAnimation"
-          },
-          "parameters": [
-            "Sound",
-            "=",
-            "Variable(Json)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "Settings.Sound",
-            "=",
-            "2 - Sound.Animation()"
           ],
           "subInstructions": []
         }
@@ -2201,6 +2105,12 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "name": "GUI",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     },
     {
