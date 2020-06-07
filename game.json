@@ -2072,6 +2072,41 @@
         "metadata": "",
         "name": "assets\\sounds\\winner.wav",
         "userAdded": true
+      },
+      {
+        "file": "assets/sounds/music/Tribal.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\music\\Tribal.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/music/tribal.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\music\\tribal.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/music/revenge-of-the-jungle.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\music\\revenge-of-the-jungle.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/music/death-is-just-another-path.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\music\\death-is-just-another-path.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "assets/sounds/music/jungle-jumpin.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\music\\jungle-jumpin.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2506,7 +2541,7 @@
       "variables": [
         {
           "name": "ToScene",
-          "value": ""
+          "value": "_"
         }
       ],
       "behaviors": [
@@ -2643,13 +2678,17 @@
       "children": [
         {
           "name": "Lives",
-          "value": "1"
+          "value": "3"
         }
       ]
     },
     {
       "name": "Settings",
       "children": [
+        {
+          "name": "MusicVolume",
+          "value": "35"
+        },
         {
           "name": "Sound",
           "value": "2"

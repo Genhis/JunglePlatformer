@@ -36,6 +36,12 @@
 - [/assets/large-platform.png](https://github.com/Genhis/CSC3224/tree/master/assets/large-platform.png): a derivative of "[OPP 2017 - Castle tiles]" used under [CC0 1.0]
 - [/assets/small-platform.png](https://github.com/Genhis/CSC3224/tree/master/assets/small-platform.png): a derivative of "[OPP 2017 - Castle tiles]" used under [CC0 1.0]
 
+## Music
+- [/assets/sounds/music/death-is-just-another-path.ogg](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/music/death-is-just-another-path.ogg): a derivative of "[Death Is Just Another Path](https://opengameart.org/content/death-is-just-another-path)" by [Otto Halmén](https://opengameart.org/users/otto-halm%C3%A9n) used under [OGA BY 3.0]
+- [/assets/sounds/music/jungle-jumpin.mp3](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/music/jungle-jumpin.mp3): "[Jungle Jumpin'](https://opengameart.org/content/jungle-jumpin)" by Scott Elliott licensed under [CC BY 4.0]
+- [/assets/sounds/music/revenge-of-the-jungle.ogg](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/music/revenge-of-the-jungle.ogg): "[Revenge of the jungle](https://opengameart.org/content/revenge-of-the-jungle)" licensed under [CC0 1.0]
+- [/assets/sounds/music/tribal.mp3](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/music/tribal.mp3): "[Tribal](https://opengameart.org/content/tribal)" licensed under [CC0 1.0]
+
 ## Sounds
 - [/assets/sounds/activate-checkpoint.ogg](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/activate-checkpoint.ogg): "[50 CC0 retro / synth SFX]" licensed under [CC0 1.0]
 - [/assets/sounds/die.ogg](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/die.ogg): "[50 CC0 retro / synth SFX]" licensed under [CC0 1.0]

@@ -353,24 +353,12 @@
         {
           "type": {
             "inverted": false,
-            "value": "ChangeAnimation"
-          },
-          "parameters": [
-            "Sound",
-            "=",
-            "Variable(Json)"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "ModVarGlobal"
           },
           "parameters": [
             "Settings.Sound",
             "=",
-            "2 - Sound.Animation()"
+            "2 - Variable(Json)"
           ],
           "subInstructions": []
         }

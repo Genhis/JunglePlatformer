@@ -106,6 +106,42 @@
       "conditions": [
         {
           "type": {
+            "inverted": true,
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "Transition",
+            "ToScene",
+            "=",
+            "\"_\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVolumeMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1",
+            "-",
+            "GlobalVariable(Settings.MusicVolume) * TimeDelta() / Transition.Transition::GetDuration()"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "inverted": false,
             "value": "Core::Transition::IsFinished"
           },
@@ -146,7 +182,7 @@
                 "Transition",
                 "ToScene",
                 "=",
-                "\"\""
+                "\"_\""
               ],
               "subInstructions": []
             }
