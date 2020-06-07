@@ -2051,6 +2051,27 @@
         "name": "assets\\gui\\rating.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sounds/gui/click.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\gui\\click.ogg",
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/game-over.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\game-over.wav",
+        "userAdded": false
+      },
+      {
+        "file": "assets/sounds/winner.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\winner.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2622,7 +2643,7 @@
       "children": [
         {
           "name": "Lives",
-          "value": "3"
+          "value": "1"
         }
       ]
     },

@@ -39,6 +39,7 @@
 ## Sounds
 - [/assets/sounds/activate-checkpoint.ogg](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/activate-checkpoint.ogg): "[50 CC0 retro / synth SFX]" licensed under [CC0 1.0]
 - [/assets/sounds/die.ogg](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/die.ogg): "[50 CC0 retro / synth SFX]" licensed under [CC0 1.0]
+- [/assets/sounds/game-over.wav](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/game-over.wav): "[Game Over - Bad chest SFX](https://opengameart.org/content/game-over-bad-chest-sfx)" licensed under [CC0 1.0]
 - [/assets/sounds/jump.wav](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/jump.wav): taken from GDevelop ExamplePlatformer
 - [/assets/sounds/kill.ogg](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/kill.ogg): "[50 CC0 retro / synth SFX]" licensed under [CC0 1.0]
 - [/assets/sounds/pickup-coin.ogg](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/pickup-coin.ogg): "[50 CC0 retro / synth SFX]" licensed under [CC0 1.0]
@@ -46,6 +47,8 @@
 - [/assets/sounds/respawn.wav](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/respawn.wav): "[512 Sound Effects (8-bit style)]" licensed under [CC0 1.0]
 - [/assets/sounds/walk-leaves-01.wav](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/walk-leaves-01.wav): "[Different steps]" licensed under [CC0 1.0]
 - [/assets/sounds/walk-leaves-02.wav](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/walk-leaves-02.wav): "[Different steps]" licensed under [CC0 1.0]
+- [/assets/sounds/winner.wav](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/winner.wav): "[Won! (Orchestral winning jingle)](https://opengameart.org/content/won-orchestral-winning-jingle)" by [spuispuin](https://opengameart.org/users/spuispuin) licensed under [CC BY 4.0]
+- [/assets/sounds/gui/click.ogg](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/gui/click.ogg): "[50 CC0 retro / synth SFX]" licensed under [CC0 1.0]
 
 ## Fonts
 - [/assets/fonts/Kavoon-Regular.ttf](https://github.com/Genhis/CSC3224/tree/master/assets/fonts/Kavoon-Regular.ttf): "[Kavoon](https://fonts.google.com/specimen/Kavoon)" licensed under [OFL 1.1]
