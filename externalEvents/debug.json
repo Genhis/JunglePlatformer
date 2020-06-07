@@ -139,6 +139,17 @@
                 "\"Debug\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "RemoveObjectTimer"
+              },
+              "parameters": [
+                "SimulationSpeed",
+                "\"Debug\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -170,6 +181,55 @@
               "parameters": [
                 "",
                 "\"Debug\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "SimulationSpeed",
+                "\"Debug\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "SimulationSpeed",
+                "Time",
+                "=",
+                "Time(\"timestamp\")"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "SimulationSpeed",
+                "TimeDelta",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "SimulationSpeed",
+                "=",
+                "\"Relative simulation speed: Unknown\""
               ],
               "subInstructions": []
             }
@@ -255,33 +315,14 @@
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "ObjectTimer"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ObjectTimer"
-                  },
-                  "parameters": [
-                    "SimulationSpeed",
-                    "\"Debug\"",
-                    "0.1"
-                  ],
-                  "subInstructions": []
-                }
-              ]
+              "parameters": [
+                "SimulationSpeed",
+                "\"Debug\"",
+                "0.1"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
