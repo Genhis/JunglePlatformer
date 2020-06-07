@@ -128,9 +128,44 @@
             "Count(Skull)"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "CameraEnd",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
         }
       ],
-      "events": []
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Object",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "CameraEnd",
+                "=",
+                "max(Variable(CameraEnd), Object.X() + Object.Width())"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     },
     {
       "disabled": false,
@@ -304,7 +339,7 @@
             "Player",
             "ClampedX",
             "=",
-            "max(Player.X(), SceneWindowWidth() / 2)"
+            "min(max(Player.X(), SceneWindowWidth() / 2), Variable(CameraEnd) - SceneWindowWidth() / 2)"
           ],
           "subInstructions": []
         },
