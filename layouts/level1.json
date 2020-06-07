@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.904
+    "zoomFactor": 1.048
   },
   "objectsGroups": [
     {
@@ -8530,6 +8530,19 @@
         {
           "name": "Active",
           "value": "1"
+        },
+        {
+          "name": "RotatingObject",
+          "children": [
+            {
+              "name": "Direction",
+              "value": "0"
+            },
+            {
+              "name": "Speed",
+              "value": "3"
+            }
+          ]
         }
       ],
       "behaviors": [

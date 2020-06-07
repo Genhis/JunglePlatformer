@@ -2687,7 +2687,7 @@
       "children": [
         {
           "name": "MusicVolume",
-          "value": "35"
+          "value": "50"
         },
         {
           "name": "Sound",
@@ -2810,6 +2810,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level3"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

@@ -3436,7 +3436,7 @@
                       "parameters": [
                         "Object",
                         "-",
-                        "Object.Behavior::PropertySpeed() * 36 * TimeDelta()"
+                        "Object.Variable(RotatingObject.Speed) * 36 * TimeDelta()"
                       ],
                       "subInstructions": []
                     }
@@ -3471,7 +3471,7 @@
                       "parameters": [
                         "Object",
                         "+",
-                        "Object.Behavior::PropertySpeed() * 36 * TimeDelta()"
+                        "Object.Variable(RotatingObject.Speed) * 36 * TimeDelta()"
                       ],
                       "subInstructions": []
                     }
@@ -3515,15 +3515,6 @@
           "extraInformation": [],
           "hidden": true,
           "name": "Direction"
-        },
-        {
-          "value": "3",
-          "type": "Number",
-          "label": "",
-          "description": "",
-          "extraInformation": [],
-          "hidden": false,
-          "name": "Speed"
         }
       ]
     },
