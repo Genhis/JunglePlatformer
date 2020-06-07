@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.52
+    "zoomFactor": 1.072
   },
   "objectsGroups": [
     {
@@ -6547,8 +6547,8 @@
       "locked": false,
       "name": "ChangeDirection",
       "width": 0,
-      "x": 2545,
-      "y": 45,
+      "x": 2541,
+      "y": 42,
       "zOrder": 40,
       "numberProperties": [
         {
@@ -6567,8 +6567,8 @@
       "locked": false,
       "name": "ChangeDirection",
       "width": 0,
-      "x": 2320,
-      "y": 45,
+      "x": 2324,
+      "y": 42,
       "zOrder": 40,
       "numberProperties": [
         {
@@ -6587,8 +6587,8 @@
       "locked": false,
       "name": "ChangeDirection",
       "width": 0,
-      "x": 2320,
-      "y": -32,
+      "x": 2324,
+      "y": -29,
       "zOrder": 40,
       "numberProperties": [
         {
@@ -6607,8 +6607,8 @@
       "locked": false,
       "name": "ChangeDirection",
       "width": 0,
-      "x": 2545,
-      "y": -32,
+      "x": 2541,
+      "y": -29,
       "zOrder": 40,
       "numberProperties": [
         {
@@ -7771,66 +7771,6 @@
           "value": 11
         }
       ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 24,
-      "layer": "",
-      "locked": false,
-      "name": "Skull",
-      "width": 21,
-      "x": 192,
-      "y": 336,
-      "zOrder": 50,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 24,
-      "layer": "",
-      "locked": false,
-      "name": "Skull",
-      "width": 21,
-      "x": 192,
-      "y": 368,
-      "zOrder": 50,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 24,
-      "layer": "",
-      "locked": false,
-      "name": "Skull",
-      "width": 21,
-      "x": 192,
-      "y": 400,
-      "zOrder": 50,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 24,
-      "layer": "",
-      "locked": false,
-      "name": "Skull",
-      "width": 21,
-      "x": 192,
-      "y": 432,
-      "zOrder": 50,
-      "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
