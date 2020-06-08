@@ -4767,7 +4767,21 @@
         }
       ],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "RotatingObject",
+          "children": [
+            {
+              "name": "Direction",
+              "value": "0"
+            },
+            {
+              "name": "Speed",
+              "value": "2"
+            }
+          ]
+        }
+      ]
     },
     {
       "angle": 0,
@@ -4777,7 +4791,7 @@
       "locked": false,
       "name": "ChangeDirection",
       "width": 0,
-      "x": 1808,
+      "x": 1824,
       "y": 16,
       "zOrder": 40,
       "numberProperties": [
@@ -4797,7 +4811,7 @@
       "locked": false,
       "name": "ChangeDirection",
       "width": 0,
-      "x": 1912,
+      "x": 1904,
       "y": 16,
       "zOrder": 40,
       "numberProperties": [
