@@ -9209,7 +9209,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Throughout the game, you will meet various enemies\nand you can kill them by jumping on them\n\nEach enemy killed is worth 15 points",
+      "string": "Throughout the game, you will meet various enemies\nand you can kill them by jumping on them\n\nEvery enemy killed is worth 15 points",
       "font": "assets\\fonts\\Kavoon-Regular.ttf",
       "characterSize": 16,
       "color": {

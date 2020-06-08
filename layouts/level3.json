@@ -22,7 +22,7 @@
     "gridWidth": 16,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.168
+    "zoomFactor": 1.408
   },
   "objectsGroups": [
     {
@@ -1352,7 +1352,25 @@
         }
       ],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "ActiveObject",
+          "children": [
+            {
+              "name": "HasTimer",
+              "value": "1"
+            },
+            {
+              "name": "TimeActive",
+              "value": "2.5"
+            },
+            {
+              "name": "TimeInactive",
+              "value": "1"
+            }
+          ]
+        }
+      ]
     },
     {
       "angle": 0,
@@ -7875,7 +7893,25 @@
         }
       ],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "ActiveObject",
+          "children": [
+            {
+              "name": "HasTimer",
+              "value": "1"
+            },
+            {
+              "name": "TimeActive",
+              "value": "1"
+            },
+            {
+              "name": "TimeInactive",
+              "value": "1.5"
+            }
+          ]
+        }
+      ]
     },
     {
       "angle": 0,
@@ -8261,6 +8297,174 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "Snake",
+      "width": 64,
+      "x": 2192,
+      "y": 432,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "ChangeDirection",
+      "width": 0,
+      "x": 2496,
+      "y": 448,
+      "zOrder": 40,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "ChangeDirection",
+      "width": 0,
+      "x": 2192,
+      "y": 448,
+      "zOrder": 40,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "ChangeDirection",
+      "width": 0,
+      "x": 1888,
+      "y": 144,
+      "zOrder": 40,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "SmallMovingPlatform",
+      "width": 0,
+      "x": 1632,
+      "y": 144,
+      "zOrder": 70,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "ChangeDirection",
+      "width": 0,
+      "x": 1632,
+      "y": 144,
+      "zOrder": 40,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 40,
+      "layer": "",
+      "locked": false,
+      "name": "Spikes",
+      "width": 48,
+      "x": 3296,
+      "y": 154,
+      "zOrder": 10,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "ActiveObject",
+          "children": [
+            {
+              "name": "HasTimer",
+              "value": "1"
+            },
+            {
+              "name": "TimeActive",
+              "value": "0.6"
+            },
+            {
+              "name": "TimeInactive",
+              "value": "1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Flagpole",
+      "width": 0,
+      "x": 3132,
+      "y": 390,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Id",
+          "value": "3"
+        }
+      ]
     }
   ],
   "objects": [
