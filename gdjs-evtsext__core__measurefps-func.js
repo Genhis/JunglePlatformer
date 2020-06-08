@@ -4,7 +4,7 @@ gdjs.evtsExt__Core__MeasureFPS.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Core__MeasureFPS.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__MeasureFPS.eventsList0x5b7328 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__MeasureFPS.eventsList0x5b76d8 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -16,7 +16,7 @@ gdjs.evtsExt__Core__MeasureFPS.eventsList0x5b7328 = function(runtimeScene, event
 }
 
 
-}; //End of gdjs.evtsExt__Core__MeasureFPS.eventsList0x5b7328
+}; //End of gdjs.evtsExt__Core__MeasureFPS.eventsList0x5b76d8
 
 
 gdjs.evtsExt__Core__MeasureFPS.func = function(runtimeScene, Smoothing, parentEventsFunctionContext) {
@@ -51,7 +51,7 @@ if (argName === "Smoothing") return Smoothing;
 };
 
 
-gdjs.evtsExt__Core__MeasureFPS.eventsList0x5b7328(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__MeasureFPS.eventsList0x5b76d8(runtimeScene, eventsFunctionContext);
 return;
 }
 

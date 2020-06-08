@@ -102,27 +102,15 @@ gdjs.RuntimeScene.prototype.loadFromScene = function(sceneData) {
         this._initialBehaviorSharedData.put(data.name, data);
     }
 
-    var that = this;
-    function loadObject(objData) {
-        var objectName = objData.name;
-        var objectType = objData.type;
-
-        that._objects.put(objectName, objData);
-        that._instances.put(objectName, []); //Also reserve an array for the instances
-        that._instancesCache.put(objectName, []); //and for cached instances
-        //And cache the constructor for the performance sake:
-        that._objectsCtor.put(objectName, gdjs.getObjectConstructor(objectType));
-    }
-
-    //Load objects: Global objects first...
+    //Registering objects: Global objects first...
     var initialGlobalObjectsData = this.getGame().getInitialObjectsData();
     for(var i = 0, len = initialGlobalObjectsData.length;i<len;++i) {
-        loadObject(initialGlobalObjectsData[i]);
+        this.registerObject(initialGlobalObjectsData[i]);
     }
     //...then the scene objects
     this._initialObjectsData = sceneData.objects;
     for(var i = 0, len = this._initialObjectsData.length;i<len;++i) {
-        loadObject(this._initialObjectsData[i]);
+        this.registerObject(this._initialObjectsData[i]);
     }
 
     //Create initial instances of objects
@@ -155,6 +143,47 @@ gdjs.RuntimeScene.prototype.loadFromScene = function(sceneData) {
     this._isLoaded = true;
     this._timeManager.reset();
 };
+
+/**
+ * Check if an object is registered, meaning that instances of it can be created and lives in the scene.
+ * @see gdjs.RuntimeScene#registerObject
+ */
+gdjs.RuntimeScene.prototype.isObjectRegistered = function(objectName) {
+    return (
+        this._objects.containsKey(objectName) &&
+        this._instances.containsKey(objectName) &&
+        this._instancesCache.containsKey(objectName) &&
+        this._objectsCtor.containsKey(objectName)
+    );
+}
+
+/**
+ * Register a {@link gdjs.RuntimeObject} so that instances of it can be used in the scene.
+ * @param {ObjectData} objectData The data for the object to register.
+ */
+gdjs.RuntimeScene.prototype.registerObject = function(objectData) {
+    this._objects.put(objectData.name, objectData);
+    this._instances.put(objectData.name, []); //Also reserve an array for the instances
+    this._instancesCache.put(objectData.name, []); //and for cached instances
+    this._objectsCtor.put(objectData.name, gdjs.getObjectConstructor(objectData.type)); //And cache the constructor for the performance sake
+}
+
+/**
+ * Update the data of a {@link gdjs.RuntimeObject} so that instances use this when constructed.
+ * @param {ObjectData} objectData The data for the object to register.
+ */
+gdjs.RuntimeScene.prototype.updateObject = function(objectData) {
+    if (!this.isObjectRegistered(objectData.name)) {
+        console.warn(
+            "Tried to call updateObject for an object that was not registered (" +
+            objectData.name +
+            "). Call registerObject first."
+        );
+    }
+
+    this._objects.put(objectData.name, objectData);
+    // Don't erase instances, nor instances cache, or objectsCtor cache.
+}
 
 /**
  * Called when a scene is "paused", i.e it will be not be rendered again
@@ -237,7 +266,7 @@ gdjs.RuntimeScene.prototype.unloadScene = function() {
  * Create objects from initial instances data ( for example, the initial instances
  * of the scene or from an external layout ).
  *
- * @param {Object} data The instances data
+ * @param {InstanceData[]} data The instances data
  * @param {number} xPos The offset on X axis
  * @param {number} yPos The offset on Y axis
  */
@@ -509,12 +538,22 @@ gdjs.RuntimeScene.prototype._updateObjectsPostEvents = function() {
 };
 
 /**
- * Change the background color
+ * Change the background color, by setting the RGB components.
+ * Internally, the color is stored as an hexadecimal number.
+ *
+ * @param {number} r The color red component (0-255).
+ * @param {number} g The color green component (0-255).
+ * @param {number} b The color blue component (0-255).
  */
 gdjs.RuntimeScene.prototype.setBackgroundColor = function(r,g,b) {
     this._backgroundColor = parseInt(gdjs.rgbToHex(r,g,b),16);
 };
 
+
+/**
+ * Get the background color, as an hexadecimal number.
+ * @returns {number} The current background color.
+ */
 gdjs.RuntimeScene.prototype.getBackgroundColor = function() {
     return this._backgroundColor;
 }

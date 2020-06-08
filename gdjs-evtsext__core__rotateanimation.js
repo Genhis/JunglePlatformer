@@ -30,7 +30,7 @@ gdjs.evtsExt__Core__RotateAnimation.RotateAnimation.prototype.doStepPostEventsCo
 gdjs.evtsExt__Core__RotateAnimation.RotateAnimation.prototype.doStepPostEventsContext.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__RotateAnimation.RotateAnimation.prototype.doStepPostEventsContext.eventsList0x5b7088 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__RotateAnimation.RotateAnimation.prototype.doStepPostEventsContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -55,7 +55,7 @@ gdjs.evtsExt__Core__RotateAnimation.RotateAnimation.prototype.doStepPostEventsCo
 }
 
 
-}; //End of gdjs.evtsExt__Core__RotateAnimation.RotateAnimation.prototype.doStepPostEventsContext.eventsList0x5b7088
+}; //End of gdjs.evtsExt__Core__RotateAnimation.RotateAnimation.prototype.doStepPostEventsContext.eventsList0x5b7438
 
 
 gdjs.evtsExt__Core__RotateAnimation.RotateAnimation.prototype.doStepPostEvents = function(parentEventsFunctionContext) {
@@ -97,7 +97,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__RotateAnimation.RotateAnimation.prototype.doStepPostEventsContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__RotateAnimation.RotateAnimation.prototype.doStepPostEventsContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__RotateAnimation.RotateAnimation.prototype.doStepPostEventsContext.eventsList0x5b7088(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__RotateAnimation.RotateAnimation.prototype.doStepPostEventsContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
 return;
 }
 

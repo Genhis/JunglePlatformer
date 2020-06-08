@@ -4,7 +4,7 @@ gdjs.evtsExt__Core__FPS.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Core__FPS.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__FPS.eventsList0x5b7328 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__FPS.eventsList0x5b76d8 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -15,7 +15,7 @@ gdjs.evtsExt__Core__FPS.eventsList0x5b7328 = function(runtimeScene, eventsFuncti
 }
 
 
-}; //End of gdjs.evtsExt__Core__FPS.eventsList0x5b7328
+}; //End of gdjs.evtsExt__Core__FPS.eventsList0x5b76d8
 
 
 gdjs.evtsExt__Core__FPS.func = function(runtimeScene, parentEventsFunctionContext) {
@@ -49,7 +49,7 @@ var eventsFunctionContext = {
 };
 
 
-gdjs.evtsExt__Core__FPS.eventsList0x5b7328(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__FPS.eventsList0x5b76d8(runtimeScene, eventsFunctionContext);
 return Number(eventsFunctionContext.returnValue) || 0;
 }
 

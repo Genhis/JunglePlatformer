@@ -31,7 +31,7 @@ gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPo
 gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.userFunc0xa3fbd0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.userFunc0xefb4a8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 function lerp(a, b, time) {
     a = parseInt(a);
@@ -55,7 +55,7 @@ const time = behavior._getTime() % colors.length;
 obj.setColor(colorLerp(colors[Math.floor(time)], colors[Math.ceil(time) % colors.length], time % 1));
 behavior._setTime(time);
 };
-gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.eventsList0x5b7088 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -73,12 +73,12 @@ gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPo
 {
 
 
-gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.userFunc0xa3fbd0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.userFunc0xefb4a8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
-}; //End of gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.eventsList0x5b7088
+}; //End of gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.eventsList0x5b7438
 
 
 gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEvents = function(parentEventsFunctionContext) {
@@ -120,7 +120,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.eventsList0x5b7088(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
 return;
 }
 

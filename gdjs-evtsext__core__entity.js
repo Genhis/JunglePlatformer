@@ -40,7 +40,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.condition1Is
 gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.condition2IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x7302ec = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x767a7c = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -89,8 +89,8 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.GDObjectObje
 }
 
 
-}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x7302ec
-gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x73015c = function(runtimeScene, eventsFunctionContext) {
+}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x767a7c
+gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x7678d4 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -123,14 +123,14 @@ if (gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.conditio
 }
 }
 { //Subevents
-gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x7302ec(runtimeScene, eventsFunctionContext);} //End of subevents
+gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x767a7c(runtimeScene, eventsFunctionContext);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x73015c
-gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x7309cc = function(runtimeScene, eventsFunctionContext) {
+}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x7678d4
+gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x768094 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -158,8 +158,8 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.GDObjectObje
 }
 
 
-}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x7309cc
-gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x5b7088 = function(runtimeScene, eventsFunctionContext) {
+}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x768094
+gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -188,7 +188,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.GDObjectObje
 }
 }
 { //Subevents
-gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x73015c(runtimeScene, eventsFunctionContext);} //End of subevents
+gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x7678d4(runtimeScene, eventsFunctionContext);} //End of subevents
 }
 
 }
@@ -221,13 +221,13 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.GDObjectObje
 }
 }
 { //Subevents
-gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x7309cc(runtimeScene, eventsFunctionContext);} //End of subevents
+gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x768094(runtimeScene, eventsFunctionContext);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x5b7088
+}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x5b7438
 
 
 gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEvents = function(parentEventsFunctionContext) {
@@ -270,7 +270,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.GDObjectObje
 gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.GDObjectObjects2.length = 0;
 gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.GDObjectObjects3.length = 0;
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x5b7088(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Entity.Entity.prototype.doStepPostEventsContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
 return;
 }
 gdjs.evtsExt__Core__Entity.Entity.prototype.KillContext = {};
@@ -282,7 +282,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.KillContext.condition0IsTrue_0 = {va
 gdjs.evtsExt__Core__Entity.Entity.prototype.KillContext.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.KillContext.eventsList0x5b7088 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Entity.Entity.prototype.KillContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -313,7 +313,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.KillContext.GDObjectObjects1.length 
 }
 
 
-}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.KillContext.eventsList0x5b7088
+}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.KillContext.eventsList0x5b7438
 
 
 gdjs.evtsExt__Core__Entity.Entity.prototype.Kill = function(parentEventsFunctionContext) {
@@ -355,7 +355,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__Entity.Entity.prototype.KillContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Entity.Entity.prototype.KillContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.KillContext.eventsList0x5b7088(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Entity.Entity.prototype.KillContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
 return;
 }
 gdjs.evtsExt__Core__Entity.Entity.prototype.RespawnContext = {};
@@ -367,7 +367,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.RespawnContext.condition0IsTrue_0 = 
 gdjs.evtsExt__Core__Entity.Entity.prototype.RespawnContext.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.RespawnContext.eventsList0x5b7088 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Entity.Entity.prototype.RespawnContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -401,7 +401,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.RespawnContext.GDObjectObjects1.leng
 }
 
 
-}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.RespawnContext.eventsList0x5b7088
+}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.RespawnContext.eventsList0x5b7438
 
 
 gdjs.evtsExt__Core__Entity.Entity.prototype.Respawn = function(X, Y, parentEventsFunctionContext) {
@@ -445,7 +445,7 @@ if (argName === "Y") return Y;
 gdjs.evtsExt__Core__Entity.Entity.prototype.RespawnContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Entity.Entity.prototype.RespawnContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.RespawnContext.eventsList0x5b7088(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Entity.Entity.prototype.RespawnContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
 return;
 }
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsDyingContext = {};
@@ -457,7 +457,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.IsDyingContext.condition0IsTrue_0 = 
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsDyingContext.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.IsDyingContext.eventsList0x5b7088 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Entity.Entity.prototype.IsDyingContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -478,7 +478,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.IsDyingContext.GDObjectObjects1.leng
 }
 
 
-}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.IsDyingContext.eventsList0x5b7088
+}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.IsDyingContext.eventsList0x5b7438
 
 
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsDying = function(parentEventsFunctionContext) {
@@ -520,7 +520,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsDyingContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsDyingContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.IsDyingContext.eventsList0x5b7088(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Entity.Entity.prototype.IsDyingContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
 return !!eventsFunctionContext.returnValue;
 }
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsDeadContext = {};
@@ -533,7 +533,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.IsDeadContext.condition1IsTrue_0 = {
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsDeadContext.condition2IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.IsDeadContext.eventsList0x5b7088 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Entity.Entity.prototype.IsDeadContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -565,7 +565,7 @@ if (gdjs.evtsExt__Core__Entity.Entity.prototype.IsDeadContext.condition1IsTrue_0
 }
 
 
-}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.IsDeadContext.eventsList0x5b7088
+}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.IsDeadContext.eventsList0x5b7438
 
 
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsDead = function(parentEventsFunctionContext) {
@@ -607,7 +607,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsDeadContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsDeadContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.IsDeadContext.eventsList0x5b7088(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Entity.Entity.prototype.IsDeadContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
 return !!eventsFunctionContext.returnValue;
 }
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsVulnerableContext = {};
@@ -620,7 +620,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.IsVulnerableContext.condition1IsTrue
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsVulnerableContext.condition2IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.IsVulnerableContext.eventsList0x5b7088 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Entity.Entity.prototype.IsVulnerableContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -661,7 +661,7 @@ if (gdjs.evtsExt__Core__Entity.Entity.prototype.IsVulnerableContext.condition1Is
 }
 
 
-}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.IsVulnerableContext.eventsList0x5b7088
+}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.IsVulnerableContext.eventsList0x5b7438
 
 
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsVulnerable = function(parentEventsFunctionContext) {
@@ -703,7 +703,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsVulnerableContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Entity.Entity.prototype.IsVulnerableContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.IsVulnerableContext.eventsList0x5b7088(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Entity.Entity.prototype.IsVulnerableContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
 return !!eventsFunctionContext.returnValue;
 }
 gdjs.evtsExt__Core__Entity.Entity.prototype.MakeVulnerableContext = {};
@@ -715,7 +715,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.MakeVulnerableContext.condition0IsTr
 gdjs.evtsExt__Core__Entity.Entity.prototype.MakeVulnerableContext.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.MakeVulnerableContext.eventsList0x5b7088 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Entity.Entity.prototype.MakeVulnerableContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -740,7 +740,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.MakeVulnerableContext.GDObjectObject
 }
 
 
-}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.MakeVulnerableContext.eventsList0x5b7088
+}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.MakeVulnerableContext.eventsList0x5b7438
 
 
 gdjs.evtsExt__Core__Entity.Entity.prototype.MakeVulnerable = function(parentEventsFunctionContext) {
@@ -782,7 +782,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__Entity.Entity.prototype.MakeVulnerableContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Entity.Entity.prototype.MakeVulnerableContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.MakeVulnerableContext.eventsList0x5b7088(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Entity.Entity.prototype.MakeVulnerableContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
 return;
 }
 gdjs.evtsExt__Core__Entity.Entity.prototype.MakeInvulnerableContext = {};
@@ -793,7 +793,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.MakeInvulnerableContext.conditionTru
 gdjs.evtsExt__Core__Entity.Entity.prototype.MakeInvulnerableContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.MakeInvulnerableContext.eventsList0x5b7088 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Entity.Entity.prototype.MakeInvulnerableContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -814,7 +814,7 @@ gdjs.evtsExt__Core__Entity.Entity.prototype.MakeInvulnerableContext.GDObjectObje
 }
 
 
-}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.MakeInvulnerableContext.eventsList0x5b7088
+}; //End of gdjs.evtsExt__Core__Entity.Entity.prototype.MakeInvulnerableContext.eventsList0x5b7438
 
 
 gdjs.evtsExt__Core__Entity.Entity.prototype.MakeInvulnerable = function(Time, parentEventsFunctionContext) {
@@ -857,7 +857,7 @@ if (argName === "Time") return Time;
 gdjs.evtsExt__Core__Entity.Entity.prototype.MakeInvulnerableContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Entity.Entity.prototype.MakeInvulnerableContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Entity.Entity.prototype.MakeInvulnerableContext.eventsList0x5b7088(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Entity.Entity.prototype.MakeInvulnerableContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
 return;
 }
 
