@@ -1140,6 +1140,17 @@
             "2 - GlobalVariable(Settings.Sound)"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"MusicCheck\""
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -1171,6 +1182,18 @@
             "1"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Timer"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"MusicCheck\""
+          ],
+          "subInstructions": []
         }
       ],
       "actions": [
@@ -1186,6 +1209,17 @@
             "",
             "GlobalVariable(Settings.MusicVolume)",
             "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"MusicCheck\""
           ],
           "subInstructions": []
         }
