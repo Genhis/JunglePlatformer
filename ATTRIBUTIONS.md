@@ -2,6 +2,9 @@
 
 ***Note:** Where the license permits it, a derivative of the original work included in this project is not licensed under the same license. All rights reserved for derivative works.* 
 
+## Fonts
+- [/assets/fonts/Kavoon-Regular.ttf](https://github.com/Genhis/CSC3224/tree/master/assets/fonts/Kavoon-Regular.ttf): "[Kavoon](https://fonts.google.com/specimen/Kavoon)" licensed under [OFL 1.1]
+
 ## Images
 - [/assets/background/cloud](https://github.com/Genhis/CSC3224/tree/master/assets/background): a derivative of "[Free jungle cartoon 2D game UI]" used under [CraftPix.net license]
 - [/assets/background/jungle](https://github.com/Genhis/CSC3224/tree/master/assets/background): a derivative of "[Jungle pack]" by [Jesse Munguia]
@@ -56,9 +59,6 @@
 - [/assets/sounds/winner.wav](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/winner.wav): "[Won! (Orchestral winning jingle)](https://opengameart.org/content/won-orchestral-winning-jingle)" by [spuispuin](https://opengameart.org/users/spuispuin) licensed under [CC BY 4.0]
 - [/assets/sounds/gui/click.ogg](https://github.com/Genhis/CSC3224/tree/master/assets/sounds/gui/click.ogg): "[50 CC0 retro / synth SFX]" licensed under [CC0 1.0]
 
-## Fonts
-- [/assets/fonts/Kavoon-Regular.ttf](https://github.com/Genhis/CSC3224/tree/master/assets/fonts/Kavoon-Regular.ttf): "[Kavoon](https://fonts.google.com/specimen/Kavoon)" licensed under [OFL 1.1]
-
 [CC BY 3.0]: http://creativecommons.org/licenses/by/3.0/
 [CC BY 4.0]: https://creativecommons.org/licenses/by/4.0/
 [CC0 1.0]: https://creativecommons.org/publicdomain/zero/1.0/
@@ -70,10 +70,10 @@
 [512 Sound Effects (8-bit style)]: https://opengameart.org/content/512-sound-effects-8-bit-style
 [Different steps]: https://opengameart.org/content/different-steps-on-wood-stone-leaves-gravel-and-mud
 [Free jungle cartoon 2D game UI]: https://craftpix.net/freebies/free-jungle-cartoon-2d-game-ui/
-[Heart pixel art](https://opengameart.org/content/heart-pixel-art)
+[Heart pixel art]: https://opengameart.org/content/heart-pixel-art
 [Jungle pack]: https://jesse-m.itch.io/jungle-pack
 [OPP 2017 - Castle tiles]: https://openpixelproject.itch.io/opp2017castle
 [Pixel Adventure 1]: https://pixel-frog.itch.io/pixel-adventure-1
 
-[DontMind8](https://opengameart.org/users/dontmind8)
+[DontMind8]: https://opengameart.org/users/dontmind8
 [Jesse Munguia]: https://twitter.com/Jsf23Art
