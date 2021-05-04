@@ -8,9 +8,9 @@ A platformer game made in GDevelop.
 
 ## Debug Controls
 
-**F3:** display debug information
-**Ctrl+F:** fly mode + god mode
-**Ctrl+I:** disable interaction with game objects
+- **F3:** display debug information
+- **Ctrl+F:** fly mode + god mode
+- **Ctrl+I:** disable interaction with game objects
 
 ## License and Attributions
 
