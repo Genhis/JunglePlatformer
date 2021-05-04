@@ -338,7 +338,7 @@
       "locked": false,
       "name": "MoreLevels",
       "width": 0,
-      "x": 400,
+      "x": 414,
       "y": 320,
       "zOrder": 12,
       "numberProperties": [],
@@ -1083,7 +1083,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "   More levels\ncomming soon!",
+      "string": "  More levels\ncoming soon!",
       "font": "assets\\fonts\\Kavoon-Regular.ttf",
       "characterSize": 20,
       "color": {
