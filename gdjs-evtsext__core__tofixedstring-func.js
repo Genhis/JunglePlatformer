@@ -4,33 +4,34 @@ gdjs.evtsExt__Core__ToFixedString.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Core__ToFixedString.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__ToFixedString.userFunc0xf08e68 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__ToFixedString.userFunc0xe59698 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = eventsFunctionContext.getArgument("Number").toFixed(eventsFunctionContext.getArgument("Digits"))
 
 };
-gdjs.evtsExt__Core__ToFixedString.eventsList0x5b76d8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__ToFixedString.eventsList0x5b7f18 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__Core__ToFixedString.userFunc0xf08e68(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Core__ToFixedString.userFunc0xe59698(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
-}; //End of gdjs.evtsExt__Core__ToFixedString.eventsList0x5b76d8
+}; //End of gdjs.evtsExt__Core__ToFixedString.eventsList0x5b7f18
 
 
 gdjs.evtsExt__Core__ToFixedString.func = function(runtimeScene, Number, Digits, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
+  _objectArraysMap: {
+},
   _behaviorNamesMap: {
 },
   getObjects: function(objectName) {
-        var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -55,7 +56,7 @@ if (argName === "Digits") return Digits;
 };
 
 
-gdjs.evtsExt__Core__ToFixedString.eventsList0x5b76d8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__ToFixedString.eventsList0x5b7f18(runtimeScene, eventsFunctionContext);
 return "" + eventsFunctionContext.returnValue;
 }
 

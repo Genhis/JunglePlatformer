@@ -6,7 +6,7 @@ gdjs.evtsExt__Core__TransitionToScene.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Core__TransitionToScene.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__TransitionToScene.eventsList0x5b76d8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__TransitionToScene.eventsList0x5b7f18 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -17,7 +17,7 @@ gdjs.evtsExt__Core__TransitionToScene.GDOverlayObjects1.createFrom(eventsFunctio
     gdjs.evtsExt__Core__TransitionToScene.GDOverlayObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Transition")).ChangeTransition("FadeIn", (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("Duration")) || 0 : 0), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.evtsExt__Core__TransitionToScene.GDOverlayObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__Core__TransitionToScene.GDOverlayObjects1[i].activateBehavior("Transition", true);
+    gdjs.evtsExt__Core__TransitionToScene.GDOverlayObjects1[i].activateBehavior(eventsFunctionContext.getBehaviorName("Transition"), true);
 }
 }{for(var i = 0, len = gdjs.evtsExt__Core__TransitionToScene.GDOverlayObjects1.length ;i < len;++i) {
     gdjs.evtsExt__Core__TransitionToScene.GDOverlayObjects1[i].returnVariable(gdjs.evtsExt__Core__TransitionToScene.GDOverlayObjects1[i].getVariables().get("ToScene")).setString((typeof eventsFunctionContext !== 'undefined' ? "" + eventsFunctionContext.getArgument("Scene") : ""));
@@ -27,7 +27,7 @@ gdjs.evtsExt__Core__TransitionToScene.GDOverlayObjects1.createFrom(eventsFunctio
 }
 
 
-}; //End of gdjs.evtsExt__Core__TransitionToScene.eventsList0x5b76d8
+}; //End of gdjs.evtsExt__Core__TransitionToScene.eventsList0x5b7f18
 
 
 gdjs.evtsExt__Core__TransitionToScene.func = function(runtimeScene, Overlay, Transition, Scene, Duration, parentEventsFunctionContext) {
@@ -35,12 +35,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Overlay": Overlay
 },
+  _objectArraysMap: {
+"Overlay": gdjs.objectsListsToArray(Overlay)
+},
   _behaviorNamesMap: {
 "Transition": Transition
 },
   getObjects: function(objectName) {
-        var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -67,7 +69,7 @@ if (argName === "Duration") return Duration;
 gdjs.evtsExt__Core__TransitionToScene.GDOverlayObjects1.length = 0;
 gdjs.evtsExt__Core__TransitionToScene.GDOverlayObjects2.length = 0;
 
-gdjs.evtsExt__Core__TransitionToScene.eventsList0x5b76d8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__TransitionToScene.eventsList0x5b7f18(runtimeScene, eventsFunctionContext);
 return;
 }
 

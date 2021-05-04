@@ -32,7 +32,7 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.onActivateContext.condition0
 gdjs.evtsExt__Core__Transition.Transition.prototype.onActivateContext.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Transition.Transition.prototype.onActivateContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Transition.Transition.prototype.onActivateContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -93,7 +93,7 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.onActivateContext.GDObjectOb
 }
 
 
-}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.onActivateContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.onActivateContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__Transition.Transition.prototype.onActivate = function(parentEventsFunctionContext) {
@@ -105,12 +105,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -135,7 +137,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__Transition.Transition.prototype.onActivateContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Transition.Transition.prototype.onActivateContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Transition.Transition.prototype.onActivateContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Transition.Transition.prototype.onActivateContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return;
 }
 gdjs.evtsExt__Core__Transition.Transition.prototype.onDeActivateContext = {};
@@ -147,7 +149,7 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.onDeActivateContext.conditio
 gdjs.evtsExt__Core__Transition.Transition.prototype.onDeActivateContext.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Transition.Transition.prototype.onDeActivateContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Transition.Transition.prototype.onDeActivateContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -185,7 +187,7 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.onDeActivateContext.GDObject
 }
 
 
-}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.onDeActivateContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.onDeActivateContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__Transition.Transition.prototype.onDeActivate = function(parentEventsFunctionContext) {
@@ -197,12 +199,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -227,7 +231,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__Transition.Transition.prototype.onDeActivateContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Transition.Transition.prototype.onDeActivateContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Transition.Transition.prototype.onDeActivateContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Transition.Transition.prototype.onDeActivateContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return;
 }
 gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext = {};
@@ -239,7 +243,7 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.cond
 gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0x777d3c = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0xf0c3b4 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -264,8 +268,8 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.GDOb
 }
 
 
-}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0x777d3c
-gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0x7780c4 = function(runtimeScene, eventsFunctionContext) {
+}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0xf0c3b4
+gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0xef3e64 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -290,8 +294,8 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.GDOb
 }
 
 
-}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0x7780c4
-gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0xef3e64
+gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -313,7 +317,7 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.GDOb
 }
 }
 { //Subevents
-gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0x777d3c(runtimeScene, eventsFunctionContext);} //End of subevents
+gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0xf0c3b4(runtimeScene, eventsFunctionContext);} //End of subevents
 }
 
 }
@@ -339,13 +343,13 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.GDOb
 }
 }
 { //Subevents
-gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0x7780c4(runtimeScene, eventsFunctionContext);} //End of subevents
+gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0xef3e64(runtimeScene, eventsFunctionContext);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEvents = function(parentEventsFunctionContext) {
@@ -357,12 +361,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -387,7 +393,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Transition.Transition.prototype.doStepPostEventsContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return;
 }
 gdjs.evtsExt__Core__Transition.Transition.prototype.ChangeTransitionContext = {};
@@ -398,7 +404,7 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.ChangeTransitionContext.cond
 gdjs.evtsExt__Core__Transition.Transition.prototype.ChangeTransitionContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Transition.Transition.prototype.ChangeTransitionContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Transition.Transition.prototype.ChangeTransitionContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -416,7 +422,7 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.ChangeTransitionContext.GDOb
 }
 
 
-}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.ChangeTransitionContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.ChangeTransitionContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__Transition.Transition.prototype.ChangeTransition = function(Type, Duration, parentEventsFunctionContext) {
@@ -428,12 +434,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -460,7 +468,7 @@ if (argName === "Duration") return Duration;
 gdjs.evtsExt__Core__Transition.Transition.prototype.ChangeTransitionContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Transition.Transition.prototype.ChangeTransitionContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Transition.Transition.prototype.ChangeTransitionContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Transition.Transition.prototype.ChangeTransitionContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return;
 }
 gdjs.evtsExt__Core__Transition.Transition.prototype.IsFinishedContext = {};
@@ -472,7 +480,7 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.IsFinishedContext.condition0
 gdjs.evtsExt__Core__Transition.Transition.prototype.IsFinishedContext.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Transition.Transition.prototype.IsFinishedContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Transition.Transition.prototype.IsFinishedContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -493,7 +501,7 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.IsFinishedContext.GDObjectOb
 }
 
 
-}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.IsFinishedContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.IsFinishedContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__Transition.Transition.prototype.IsFinished = function(parentEventsFunctionContext) {
@@ -505,12 +513,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -535,7 +545,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__Transition.Transition.prototype.IsFinishedContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Transition.Transition.prototype.IsFinishedContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Transition.Transition.prototype.IsFinishedContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Transition.Transition.prototype.IsFinishedContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return !!eventsFunctionContext.returnValue;
 }
 gdjs.evtsExt__Core__Transition.Transition.prototype.GetDurationContext = {};
@@ -546,7 +556,7 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.GetDurationContext.condition
 gdjs.evtsExt__Core__Transition.Transition.prototype.GetDurationContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Transition.Transition.prototype.GetDurationContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Transition.Transition.prototype.GetDurationContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -558,7 +568,7 @@ gdjs.evtsExt__Core__Transition.Transition.prototype.GetDurationContext.GDObjectO
 }
 
 
-}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.GetDurationContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__Transition.Transition.prototype.GetDurationContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__Transition.Transition.prototype.GetDuration = function(parentEventsFunctionContext) {
@@ -570,12 +580,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -600,7 +612,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__Transition.Transition.prototype.GetDurationContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Transition.Transition.prototype.GetDurationContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Transition.Transition.prototype.GetDurationContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Transition.Transition.prototype.GetDurationContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return Number(eventsFunctionContext.returnValue) || 0;
 }
 

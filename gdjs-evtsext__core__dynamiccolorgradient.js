@@ -31,7 +31,7 @@ gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPo
 gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.userFunc0xefb4a8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.userFunc0xe5a250 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 function lerp(a, b, time) {
     a = parseInt(a);
@@ -55,7 +55,7 @@ const time = behavior._getTime() % colors.length;
 obj.setColor(colorLerp(colors[Math.floor(time)], colors[Math.ceil(time) % colors.length], time % 1));
 behavior._setTime(time);
 };
-gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -73,12 +73,12 @@ gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPo
 {
 
 
-gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.userFunc0xefb4a8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.userFunc0xe5a250(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
-}; //End of gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEvents = function(parentEventsFunctionContext) {
@@ -90,12 +90,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -120,7 +122,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__DynamicColorGradient.DynamicColorGradient.prototype.doStepPostEventsContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return;
 }
 

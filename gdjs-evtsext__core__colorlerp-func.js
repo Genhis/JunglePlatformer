@@ -4,7 +4,7 @@ gdjs.evtsExt__Core__ColorLerp.conditionTrue_0 = {val:false};
 gdjs.evtsExt__Core__ColorLerp.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__ColorLerp.userFunc0x775b98 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__ColorLerp.userFunc0xefadf0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 function lerp(a, b, time) {
     a = parseInt(a);
@@ -19,28 +19,29 @@ const time = Math.min(Math.max(eventsFunctionContext.getArgument("Time"), 0), 1)
 eventsFunctionContext.returnValue = lerp(a[0], b[0], time) + ";" + lerp(a[1], b[1], time) + ";" + lerp(a[2], b[2], time);
 
 };
-gdjs.evtsExt__Core__ColorLerp.eventsList0x5b76d8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__ColorLerp.eventsList0x5b7f18 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__Core__ColorLerp.userFunc0x775b98(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Core__ColorLerp.userFunc0xefadf0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
-}; //End of gdjs.evtsExt__Core__ColorLerp.eventsList0x5b76d8
+}; //End of gdjs.evtsExt__Core__ColorLerp.eventsList0x5b7f18
 
 
 gdjs.evtsExt__Core__ColorLerp.func = function(runtimeScene, From, To, Time, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
+  _objectArraysMap: {
+},
   _behaviorNamesMap: {
 },
   getObjects: function(objectName) {
-        var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -66,7 +67,7 @@ if (argName === "Time") return Time;
 };
 
 
-gdjs.evtsExt__Core__ColorLerp.eventsList0x5b76d8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__ColorLerp.eventsList0x5b7f18(runtimeScene, eventsFunctionContext);
 return "" + eventsFunctionContext.returnValue;
 }
 

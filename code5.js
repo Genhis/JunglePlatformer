@@ -142,7 +142,7 @@ gdjs.LevelFinishedCode.condition2IsTrue_1 = {val:false};
 gdjs.LevelFinishedCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.LevelFinishedCode.eventsList0xb57664 = function(runtimeScene) {
+gdjs.LevelFinishedCode.eventsList0xe2e5cc = function(runtimeScene) {
 
 {
 
@@ -157,8 +157,8 @@ gdjs.LevelFinishedCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariable
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0xb57664
-gdjs.LevelFinishedCode.eventsList0xd788e4 = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0xe2e5cc
+gdjs.LevelFinishedCode.eventsList0xe2e974 = function(runtimeScene) {
 
 {
 
@@ -203,8 +203,8 @@ gdjs.LevelFinishedCode.GDSimulationSpeedObjects1.createFrom(runtimeScene.getObje
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0xd788e4
-gdjs.LevelFinishedCode.mapOf = Hashtable.newFrom({});gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDBackgroundObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDHeaderObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDIconBackgroundObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDIconObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDLivesIndicatorObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDProgressBarBackgroundObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDProgressBarObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDProgressBarMarkerObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDTableObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDItemObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDLevelObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDTransitionObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDMessageObjects1Objects = Hashtable.newFrom({"Background": gdjs.LevelFinishedCode.GDBackgroundObjects1, "Header": gdjs.LevelFinishedCode.GDHeaderObjects1, "IconBackground": gdjs.LevelFinishedCode.GDIconBackgroundObjects1, "Icon": gdjs.LevelFinishedCode.GDIconObjects1, "LivesIndicator": gdjs.LevelFinishedCode.GDLivesIndicatorObjects1, "ProgressBarBackground": gdjs.LevelFinishedCode.GDProgressBarBackgroundObjects1, "ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects1, "ProgressBarMarker": gdjs.LevelFinishedCode.GDProgressBarMarkerObjects1, "Table": gdjs.LevelFinishedCode.GDTableObjects1, "Item": gdjs.LevelFinishedCode.GDItemObjects1, "Level": gdjs.LevelFinishedCode.GDLevelObjects1, "Transition": gdjs.LevelFinishedCode.GDTransitionObjects1, "Message": gdjs.LevelFinishedCode.GDMessageObjects1});gdjs.LevelFinishedCode.eventsList0x6b065c = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0xe2e974
+gdjs.LevelFinishedCode.mapOf = Hashtable.newFrom({});gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDBackgroundObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDHeaderObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDIconBackgroundObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDIconObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDLivesIndicatorObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDProgressBarBackgroundObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDProgressBarObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDProgressBarMarkerObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDTableObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDItemObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDLevelObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDTransitionObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDMessageObjects1Objects = Hashtable.newFrom({"Background": gdjs.LevelFinishedCode.GDBackgroundObjects1, "Header": gdjs.LevelFinishedCode.GDHeaderObjects1, "IconBackground": gdjs.LevelFinishedCode.GDIconBackgroundObjects1, "Icon": gdjs.LevelFinishedCode.GDIconObjects1, "LivesIndicator": gdjs.LevelFinishedCode.GDLivesIndicatorObjects1, "ProgressBarBackground": gdjs.LevelFinishedCode.GDProgressBarBackgroundObjects1, "ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects1, "ProgressBarMarker": gdjs.LevelFinishedCode.GDProgressBarMarkerObjects1, "Table": gdjs.LevelFinishedCode.GDTableObjects1, "Item": gdjs.LevelFinishedCode.GDItemObjects1, "Level": gdjs.LevelFinishedCode.GDLevelObjects1, "Transition": gdjs.LevelFinishedCode.GDTransitionObjects1, "Message": gdjs.LevelFinishedCode.GDMessageObjects1});gdjs.LevelFinishedCode.eventsList0xeefa5c = function(runtimeScene) {
 
 {
 
@@ -229,8 +229,8 @@ gdjs.LevelFinishedCode.GDSimulationSpeedObjects2.length = k;}if (gdjs.LevelFinis
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0x6b065c
-gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDBackgroundObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDHeaderObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDIconBackgroundObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDIconObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDLivesIndicatorObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDProgressBarBackgroundObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDProgressBarObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDProgressBarMarkerObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDTableObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDItemObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDLevelObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDTransitionObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDMessageObjects1Objects = Hashtable.newFrom({"Background": gdjs.LevelFinishedCode.GDBackgroundObjects1, "Header": gdjs.LevelFinishedCode.GDHeaderObjects1, "IconBackground": gdjs.LevelFinishedCode.GDIconBackgroundObjects1, "Icon": gdjs.LevelFinishedCode.GDIconObjects1, "LivesIndicator": gdjs.LevelFinishedCode.GDLivesIndicatorObjects1, "ProgressBarBackground": gdjs.LevelFinishedCode.GDProgressBarBackgroundObjects1, "ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects1, "ProgressBarMarker": gdjs.LevelFinishedCode.GDProgressBarMarkerObjects1, "Table": gdjs.LevelFinishedCode.GDTableObjects1, "Item": gdjs.LevelFinishedCode.GDItemObjects1, "Level": gdjs.LevelFinishedCode.GDLevelObjects1, "Transition": gdjs.LevelFinishedCode.GDTransitionObjects1, "Message": gdjs.LevelFinishedCode.GDMessageObjects1});gdjs.LevelFinishedCode.eventsList0x76cd3c = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0xeefa5c
+gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDBackgroundObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDHeaderObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDIconBackgroundObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDIconObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDLivesIndicatorObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDProgressBarBackgroundObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDProgressBarObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDProgressBarMarkerObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDTableObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDItemObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDLevelObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDTransitionObjects1ObjectsGDgdjs_46LevelFinishedCode_46GDMessageObjects1Objects = Hashtable.newFrom({"Background": gdjs.LevelFinishedCode.GDBackgroundObjects1, "Header": gdjs.LevelFinishedCode.GDHeaderObjects1, "IconBackground": gdjs.LevelFinishedCode.GDIconBackgroundObjects1, "Icon": gdjs.LevelFinishedCode.GDIconObjects1, "LivesIndicator": gdjs.LevelFinishedCode.GDLivesIndicatorObjects1, "ProgressBarBackground": gdjs.LevelFinishedCode.GDProgressBarBackgroundObjects1, "ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects1, "ProgressBarMarker": gdjs.LevelFinishedCode.GDProgressBarMarkerObjects1, "Table": gdjs.LevelFinishedCode.GDTableObjects1, "Item": gdjs.LevelFinishedCode.GDItemObjects1, "Level": gdjs.LevelFinishedCode.GDLevelObjects1, "Transition": gdjs.LevelFinishedCode.GDTransitionObjects1, "Message": gdjs.LevelFinishedCode.GDMessageObjects1});gdjs.LevelFinishedCode.eventsList0x6d7d1c = function(runtimeScene) {
 
 {
 
@@ -261,7 +261,7 @@ gdjs.LevelFinishedCode.GDSimulationSpeedObjects2.length = k;}if (gdjs.LevelFinis
 }
 }
 { //Subevents
-gdjs.LevelFinishedCode.eventsList0x6b065c(runtimeScene);} //End of subevents
+gdjs.LevelFinishedCode.eventsList0xeefa5c(runtimeScene);} //End of subevents
 }
 
 }
@@ -589,11 +589,11 @@ gdjs.LevelFinishedCode.GDRenderedObjectsObjects1.createFrom(runtimeScene.getObje
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0x76cd3c
-gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects2});gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDScoreObjects3Objects = Hashtable.newFrom({"Score": gdjs.LevelFinishedCode.GDScoreObjects3});gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarMarkerObjects6Objects = Hashtable.newFrom({"ProgressBarMarker": gdjs.LevelFinishedCode.GDProgressBarMarkerObjects6});gdjs.LevelFinishedCode.eventsList0xf01e14 = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0x6d7d1c
+gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects2});gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDScoreObjects3Objects = Hashtable.newFrom({"Score": gdjs.LevelFinishedCode.GDScoreObjects3});gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarMarkerObjects6Objects = Hashtable.newFrom({"ProgressBarMarker": gdjs.LevelFinishedCode.GDProgressBarMarkerObjects6});gdjs.LevelFinishedCode.eventsList0x6cb55c = function(runtimeScene) {
 
-}; //End of gdjs.LevelFinishedCode.eventsList0xf01e14
-gdjs.LevelFinishedCode.eventsList0x8372dc = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0x6cb55c
+gdjs.LevelFinishedCode.eventsList0xdb9dfc = function(runtimeScene) {
 
 {
 
@@ -625,8 +625,8 @@ if (true)
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0x8372dc
-gdjs.LevelFinishedCode.eventsList0xe3a2ec = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0xdb9dfc
+gdjs.LevelFinishedCode.eventsList0x6c4dac = function(runtimeScene) {
 
 {
 
@@ -646,15 +646,15 @@ if (true)
 }
 }
 { //Subevents: 
-gdjs.LevelFinishedCode.eventsList0x8372dc(runtimeScene);} //Subevents end.
+gdjs.LevelFinishedCode.eventsList0xdb9dfc(runtimeScene);} //Subevents end.
 }
 }
 
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0xe3a2ec
-gdjs.LevelFinishedCode.eventsList0xd455fc = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0x6c4dac
+gdjs.LevelFinishedCode.eventsList0x6c2614 = function(runtimeScene) {
 
 {
 
@@ -683,14 +683,14 @@ gdjs.LevelFinishedCode.GDScoreObjects3.length = 0;
 }
 }
 { //Subevents
-gdjs.LevelFinishedCode.eventsList0xe3a2ec(runtimeScene);} //End of subevents
+gdjs.LevelFinishedCode.eventsList0x6c4dac(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0xd455fc
-gdjs.LevelFinishedCode.eventsList0xc546ac = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0x6c2614
+gdjs.LevelFinishedCode.eventsList0xe2eedc = function(runtimeScene) {
 
 {
 
@@ -715,15 +715,15 @@ if (true) {
 }
 }
 { //Subevents: 
-gdjs.LevelFinishedCode.eventsList0xd455fc(runtimeScene);} //Subevents end.
+gdjs.LevelFinishedCode.eventsList0x6c2614(runtimeScene);} //Subevents end.
 }
 }
 
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0xc546ac
-gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarObjects1Objects = Hashtable.newFrom({"ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects1});gdjs.LevelFinishedCode.eventsList0x5bb61c = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0xe2eedc
+gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarObjects1Objects = Hashtable.newFrom({"ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects1});gdjs.LevelFinishedCode.eventsList0xee0ea4 = function(runtimeScene) {
 
 {
 
@@ -754,8 +754,8 @@ if (gdjs.LevelFinishedCode.condition1IsTrue_0.val) {
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0x5bb61c
-gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDTransitionObjects1Objects = Hashtable.newFrom({"Transition": gdjs.LevelFinishedCode.GDTransitionObjects1});gdjs.LevelFinishedCode.eventsList0x776874 = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0xee0ea4
+gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDTransitionObjects1Objects = Hashtable.newFrom({"Transition": gdjs.LevelFinishedCode.GDTransitionObjects1});gdjs.LevelFinishedCode.eventsList0xeedb2c = function(runtimeScene) {
 
 {
 
@@ -778,8 +778,8 @@ gdjs.LevelFinishedCode.GDTransitionObjects1.length = k;}if (gdjs.LevelFinishedCo
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0x776874
-gdjs.LevelFinishedCode.eventsList0xb3f4dc = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0xeedb2c
+gdjs.LevelFinishedCode.eventsList0xeedc8c = function(runtimeScene) {
 
 {
 
@@ -794,8 +794,8 @@ gdjs.LevelFinishedCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariable
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0xb3f4dc
-gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects2});gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects2});gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects2});gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects2});gdjs.LevelFinishedCode.eventsList0xf0d494 = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0xeedc8c
+gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects2});gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects2});gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects2});gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.LevelFinishedCode.GDProgressBarObjects2});gdjs.LevelFinishedCode.eventsList0xe2db14 = function(runtimeScene) {
 
 {
 
@@ -820,8 +820,8 @@ gdjs.LevelFinishedCode.GDProgressBarMarkerObjects2.length = k;}if (gdjs.LevelFin
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0xf0d494
-gdjs.LevelFinishedCode.eventsList0x69d08c = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0xe2db14
+gdjs.LevelFinishedCode.eventsList0xe2c6dc = function(runtimeScene) {
 
 {
 
@@ -966,7 +966,7 @@ gdjs.LevelFinishedCode.GDMessageObjects2.createFrom(runtimeScene.getObjects("Mes
 }
 }
 { //Subevents
-gdjs.LevelFinishedCode.eventsList0xf0d494(runtimeScene);} //End of subevents
+gdjs.LevelFinishedCode.eventsList0xe2db14(runtimeScene);} //End of subevents
 }
 
 }
@@ -985,8 +985,8 @@ gdjs.LevelFinishedCode.GDMessageObjects1.createFrom(runtimeScene.getObjects("Mes
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0x69d08c
-gdjs.LevelFinishedCode.eventsList0xc1b2bc = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0xe2c6dc
+gdjs.LevelFinishedCode.eventsList0x6da65c = function(runtimeScene) {
 
 {
 
@@ -1005,7 +1005,7 @@ gdjs.LevelFinishedCode.GDMessageObjects2.createFrom(runtimeScene.getObjects("Mes
 }
 }
 { //Subevents
-gdjs.LevelFinishedCode.eventsList0xb3f4dc(runtimeScene);} //End of subevents
+gdjs.LevelFinishedCode.eventsList0xeedc8c(runtimeScene);} //End of subevents
 }
 
 }
@@ -1022,14 +1022,14 @@ gdjs.LevelFinishedCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariable
 }{gdjs.evtTools.storage.writeStringInJSONFile("Root", "Level", gdjs.evtTools.network.variableStructureToJSON(runtimeScene.getGame().getVariables().getFromIndex(2)));
 }
 { //Subevents
-gdjs.LevelFinishedCode.eventsList0x69d08c(runtimeScene);} //End of subevents
+gdjs.LevelFinishedCode.eventsList0xe2c6dc(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0xc1b2bc
-gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDTransitionObjects1Objects = Hashtable.newFrom({"Transition": gdjs.LevelFinishedCode.GDTransitionObjects1});gdjs.LevelFinishedCode.eventsList0xf05ce4 = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0x6da65c
+gdjs.LevelFinishedCode.mapOfGDgdjs_46LevelFinishedCode_46GDTransitionObjects1Objects = Hashtable.newFrom({"Transition": gdjs.LevelFinishedCode.GDTransitionObjects1});gdjs.LevelFinishedCode.eventsList0xe2e054 = function(runtimeScene) {
 
 {
 
@@ -1063,8 +1063,8 @@ gdjs.LevelFinishedCode.GDTransitionObjects1.createFrom(runtimeScene.getObjects("
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0xf05ce4
-gdjs.LevelFinishedCode.eventsList0x5b71c8 = function(runtimeScene) {
+}; //End of gdjs.LevelFinishedCode.eventsList0xe2e054
+gdjs.LevelFinishedCode.eventsList0x5b7a18 = function(runtimeScene) {
 
 {
 
@@ -1083,7 +1083,7 @@ gdjs.LevelFinishedCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.scene
 {gdjs.evtTools.runtimeScene.createObjectsFromExternalLayout(runtimeScene, "Debug", 0, 0);
 }
 { //Subevents
-gdjs.LevelFinishedCode.eventsList0xb57664(runtimeScene);} //End of subevents
+gdjs.LevelFinishedCode.eventsList0xe2e5cc(runtimeScene);} //End of subevents
 }
 
 }
@@ -1099,14 +1099,14 @@ gdjs.LevelFinishedCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed
 }if ( gdjs.LevelFinishedCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelFinishedCode.conditionTrue_1 = gdjs.LevelFinishedCode.condition1IsTrue_0;
-gdjs.LevelFinishedCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15457388);
+gdjs.LevelFinishedCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14871100);
 }
 }}
 if (gdjs.LevelFinishedCode.condition1IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Visible").setNumber(1 - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Visible")));
 }
 { //Subevents
-gdjs.LevelFinishedCode.eventsList0xd788e4(runtimeScene);} //End of subevents
+gdjs.LevelFinishedCode.eventsList0xe2e974(runtimeScene);} //End of subevents
 }
 
 }
@@ -1147,7 +1147,7 @@ gdjs.LevelFinishedCode.GDTransitionObjects1.createFrom(runtimeScene.getObjects("
 }
 }
 { //Subevents
-gdjs.LevelFinishedCode.eventsList0x76cd3c(runtimeScene);} //End of subevents
+gdjs.LevelFinishedCode.eventsList0x6d7d1c(runtimeScene);} //End of subevents
 }
 
 }
@@ -1170,7 +1170,7 @@ gdjs.LevelFinishedCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.scene
 {runtimeScene.getVariables().get("Score").getChild("Total").setNumber(gdjs.evtsExt__Core__GetTotalScore.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 }
 { //Subevents
-gdjs.LevelFinishedCode.eventsList0xc546ac(runtimeScene);} //End of subevents
+gdjs.LevelFinishedCode.eventsList0xe2eedc(runtimeScene);} //End of subevents
 }
 
 }
@@ -1195,7 +1195,7 @@ gdjs.LevelFinishedCode.GDScoreObjects1.createFrom(runtimeScene.getObjects("Score
 }
 }
 { //Subevents
-gdjs.LevelFinishedCode.eventsList0x5bb61c(runtimeScene);} //End of subevents
+gdjs.LevelFinishedCode.eventsList0xee0ea4(runtimeScene);} //End of subevents
 }
 
 }
@@ -1293,7 +1293,7 @@ gdjs.LevelFinishedCode.GDTransitionObjects1.length = k;}if (gdjs.LevelFinishedCo
 }
 }
 { //Subevents
-gdjs.LevelFinishedCode.eventsList0x776874(runtimeScene);} //End of subevents
+gdjs.LevelFinishedCode.eventsList0xeedb2c(runtimeScene);} //End of subevents
 }
 
 }
@@ -1315,7 +1315,7 @@ gdjs.LevelFinishedCode.GDLevelObjects1.createFrom(runtimeScene.getObjects("Level
 }
 }
 { //Subevents
-gdjs.LevelFinishedCode.eventsList0xc1b2bc(runtimeScene);} //End of subevents
+gdjs.LevelFinishedCode.eventsList0x6da65c(runtimeScene);} //End of subevents
 }
 
 }
@@ -1331,19 +1331,19 @@ gdjs.LevelFinishedCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButto
 }if ( gdjs.LevelFinishedCode.condition0IsTrue_0.val ) {
 {
 {gdjs.LevelFinishedCode.conditionTrue_1 = gdjs.LevelFinishedCode.condition1IsTrue_0;
-gdjs.LevelFinishedCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13185836);
+gdjs.LevelFinishedCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14868788);
 }
 }}
 if (gdjs.LevelFinishedCode.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.LevelFinishedCode.eventsList0xf05ce4(runtimeScene);} //End of subevents
+gdjs.LevelFinishedCode.eventsList0xe2e054(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.LevelFinishedCode.eventsList0x5b71c8
+}; //End of gdjs.LevelFinishedCode.eventsList0x5b7a18
 
 
 gdjs.LevelFinishedCode.func = function(runtimeScene) {
@@ -1464,7 +1464,7 @@ gdjs.LevelFinishedCode.GDMessageObjects4.length = 0;
 gdjs.LevelFinishedCode.GDMessageObjects5.length = 0;
 gdjs.LevelFinishedCode.GDMessageObjects6.length = 0;
 
-gdjs.LevelFinishedCode.eventsList0x5b71c8(runtimeScene);
+gdjs.LevelFinishedCode.eventsList0x5b7a18(runtimeScene);
 return;
 
 }

@@ -29,7 +29,7 @@ gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.SetDirectionContext.
 gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.SetDirectionContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.SetDirectionContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.SetDirectionContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -44,7 +44,7 @@ gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.SetDirectionContext.
 }
 
 
-}; //End of gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.SetDirectionContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.SetDirectionContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.SetDirection = function(parentEventsFunctionContext) {
@@ -56,12 +56,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -86,7 +88,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.SetDirectionContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.SetDirectionContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.SetDirectionContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.SetDirectionContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return;
 }
 gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext = {};
@@ -99,7 +101,7 @@ gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsCont
 gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.eventsList0x771cbc = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.eventsList0xf0ac94 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -148,8 +150,8 @@ gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsCont
 }
 
 
-}; //End of gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.eventsList0x771cbc
-gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+}; //End of gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.eventsList0xf0ac94
+gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -167,13 +169,13 @@ for(var i = 0, k = 0, l = gdjs.evtsExt__Core__RotatingObject.RotatingObject.prot
 gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.GDObjectObjects1.length = k;}if (gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.eventsList0x771cbc(runtimeScene, eventsFunctionContext);} //End of subevents
+gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.eventsList0xf0ac94(runtimeScene, eventsFunctionContext);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEvents = function(parentEventsFunctionContext) {
@@ -185,12 +187,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -216,7 +220,7 @@ gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsCont
 gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.GDObjectObjects2.length = 0;
 gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.GDObjectObjects3.length = 0;
 
-gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__RotatingObject.RotatingObject.prototype.doStepPostEventsContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return;
 }
 

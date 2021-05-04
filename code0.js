@@ -128,10 +128,10 @@ gdjs.LoadingCode.condition1IsTrue_1 = {val:false};
 gdjs.LoadingCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.LoadingCode.GDProgressBarObjects2});gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDScoreObjects3Objects = Hashtable.newFrom({"Score": gdjs.LoadingCode.GDScoreObjects3});gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDProgressBarMarkerObjects6Objects = Hashtable.newFrom({"ProgressBarMarker": gdjs.LoadingCode.GDProgressBarMarkerObjects6});gdjs.LoadingCode.eventsList0xf183b4 = function(runtimeScene) {
+gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.LoadingCode.GDProgressBarObjects2});gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDScoreObjects3Objects = Hashtable.newFrom({"Score": gdjs.LoadingCode.GDScoreObjects3});gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDProgressBarMarkerObjects6Objects = Hashtable.newFrom({"ProgressBarMarker": gdjs.LoadingCode.GDProgressBarMarkerObjects6});gdjs.LoadingCode.eventsList0xe55f84 = function(runtimeScene) {
 
-}; //End of gdjs.LoadingCode.eventsList0xf183b4
-gdjs.LoadingCode.eventsList0xf05d34 = function(runtimeScene) {
+}; //End of gdjs.LoadingCode.eventsList0xe55f84
+gdjs.LoadingCode.eventsList0x8ea5a4 = function(runtimeScene) {
 
 {
 
@@ -163,8 +163,8 @@ if (true)
 }
 
 
-}; //End of gdjs.LoadingCode.eventsList0xf05d34
-gdjs.LoadingCode.eventsList0x915c84 = function(runtimeScene) {
+}; //End of gdjs.LoadingCode.eventsList0x8ea5a4
+gdjs.LoadingCode.eventsList0xf0af9c = function(runtimeScene) {
 
 {
 
@@ -184,15 +184,15 @@ if (true)
 }
 }
 { //Subevents: 
-gdjs.LoadingCode.eventsList0xf05d34(runtimeScene);} //Subevents end.
+gdjs.LoadingCode.eventsList0x8ea5a4(runtimeScene);} //Subevents end.
 }
 }
 
 }
 
 
-}; //End of gdjs.LoadingCode.eventsList0x915c84
-gdjs.LoadingCode.eventsList0x7742ec = function(runtimeScene) {
+}; //End of gdjs.LoadingCode.eventsList0xf0af9c
+gdjs.LoadingCode.eventsList0xf18ae4 = function(runtimeScene) {
 
 {
 
@@ -221,14 +221,14 @@ gdjs.LoadingCode.GDScoreObjects3.length = 0;
 }
 }
 { //Subevents
-gdjs.LoadingCode.eventsList0x915c84(runtimeScene);} //End of subevents
+gdjs.LoadingCode.eventsList0xf0af9c(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.LoadingCode.eventsList0x7742ec
-gdjs.LoadingCode.eventsList0xe4a6ac = function(runtimeScene) {
+}; //End of gdjs.LoadingCode.eventsList0xf18ae4
+gdjs.LoadingCode.eventsList0xf1890c = function(runtimeScene) {
 
 {
 
@@ -253,15 +253,15 @@ if (true) {
 }
 }
 { //Subevents: 
-gdjs.LoadingCode.eventsList0x7742ec(runtimeScene);} //Subevents end.
+gdjs.LoadingCode.eventsList0xf18ae4(runtimeScene);} //Subevents end.
 }
 }
 
 }
 
 
-}; //End of gdjs.LoadingCode.eventsList0xe4a6ac
-gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDProgressBarObjects1Objects = Hashtable.newFrom({"ProgressBar": gdjs.LoadingCode.GDProgressBarObjects1});gdjs.LoadingCode.eventsList0xf14f3c = function(runtimeScene) {
+}; //End of gdjs.LoadingCode.eventsList0xf1890c
+gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDProgressBarObjects1Objects = Hashtable.newFrom({"ProgressBar": gdjs.LoadingCode.GDProgressBarObjects1});gdjs.LoadingCode.eventsList0xe56234 = function(runtimeScene) {
 
 {
 
@@ -292,8 +292,8 @@ if (gdjs.LoadingCode.condition1IsTrue_0.val) {
 }
 
 
-}; //End of gdjs.LoadingCode.eventsList0xf14f3c
-gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDTransitionObjects1Objects = Hashtable.newFrom({"Transition": gdjs.LoadingCode.GDTransitionObjects1});gdjs.LoadingCode.eventsList0xc5504c = function(runtimeScene) {
+}; //End of gdjs.LoadingCode.eventsList0xe56234
+gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDTransitionObjects1Objects = Hashtable.newFrom({"Transition": gdjs.LoadingCode.GDTransitionObjects1});gdjs.LoadingCode.eventsList0xf0649c = function(runtimeScene) {
 
 {
 
@@ -316,8 +316,8 @@ gdjs.LoadingCode.GDTransitionObjects1.length = k;}if (gdjs.LoadingCode.condition
 }
 
 
-}; //End of gdjs.LoadingCode.eventsList0xc5504c
-gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDContinueObjects1Objects = Hashtable.newFrom({"Continue": gdjs.LoadingCode.GDContinueObjects1});gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDTransitionObjects1Objects = Hashtable.newFrom({"Transition": gdjs.LoadingCode.GDTransitionObjects1});gdjs.LoadingCode.eventsList0x5b71c8 = function(runtimeScene) {
+}; //End of gdjs.LoadingCode.eventsList0xf0649c
+gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDContinueObjects1Objects = Hashtable.newFrom({"Continue": gdjs.LoadingCode.GDContinueObjects1});gdjs.LoadingCode.mapOfGDgdjs_46LoadingCode_46GDTransitionObjects1Objects = Hashtable.newFrom({"Transition": gdjs.LoadingCode.GDTransitionObjects1});gdjs.LoadingCode.eventsList0x5b7a18 = function(runtimeScene) {
 
 {
 
@@ -336,7 +336,7 @@ gdjs.LoadingCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBe
 {runtimeScene.getVariables().get("Score").getChild("Total").setNumber(gdjs.evtsExt__Core__GetTotalScore.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 }
 { //Subevents
-gdjs.LoadingCode.eventsList0xe4a6ac(runtimeScene);} //End of subevents
+gdjs.LoadingCode.eventsList0xf1890c(runtimeScene);} //End of subevents
 }
 
 }
@@ -361,7 +361,7 @@ gdjs.LoadingCode.GDScoreObjects1.createFrom(runtimeScene.getObjects("Score"));
 }
 }
 { //Subevents
-gdjs.LoadingCode.eventsList0xf14f3c(runtimeScene);} //End of subevents
+gdjs.LoadingCode.eventsList0xe56234(runtimeScene);} //End of subevents
 }
 
 }
@@ -459,7 +459,7 @@ gdjs.LoadingCode.GDTransitionObjects1.length = k;}if (gdjs.LoadingCode.condition
 }
 }
 { //Subevents
-gdjs.LoadingCode.eventsList0xc5504c(runtimeScene);} //End of subevents
+gdjs.LoadingCode.eventsList0xf0649c(runtimeScene);} //End of subevents
 }
 
 }
@@ -538,7 +538,7 @@ gdjs.LoadingCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBe
 }
 
 
-}; //End of gdjs.LoadingCode.eventsList0x5b71c8
+}; //End of gdjs.LoadingCode.eventsList0x5b7a18
 
 
 gdjs.LoadingCode.func = function(runtimeScene) {
@@ -647,7 +647,7 @@ gdjs.LoadingCode.GDContinueObjects4.length = 0;
 gdjs.LoadingCode.GDContinueObjects5.length = 0;
 gdjs.LoadingCode.GDContinueObjects6.length = 0;
 
-gdjs.LoadingCode.eventsList0x5b71c8(runtimeScene);
+gdjs.LoadingCode.eventsList0x5b7a18(runtimeScene);
 return;
 
 }

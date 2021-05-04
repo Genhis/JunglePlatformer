@@ -36,7 +36,7 @@ gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.condition2IsT
 gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.condition3IsTrue_1 = {val:false};
 
 
-gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.mapOfGDgdjs_46evtsExt_95_95Core_95_95Button_46Button_46prototype_46doStepPreEventsContext_46GDObjectObjects1Objects = Hashtable.newFrom({"Object": gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.GDObjectObjects1});gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0xc5249c = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.mapOfGDgdjs_46evtsExt_95_95Core_95_95Button_46Button_46prototype_46doStepPreEventsContext_46GDObjectObjects1Objects = Hashtable.newFrom({"Object": gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.GDObjectObjects1});gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0xeee764 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -52,7 +52,7 @@ gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.condition1IsT
 }if ( gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.condition1IsTrue_0.val ) {
 {
 {gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.conditionTrue_1 = gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.condition2IsTrue_0;
-gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7748884);
+gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15753732);
 }
 }}
 }
@@ -63,8 +63,8 @@ if (gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.condition
 }
 
 
-}; //End of gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0xc5249c
-gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0xd427e4 = function(runtimeScene, eventsFunctionContext) {
+}; //End of gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0xeee764
+gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0xf04224 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -80,14 +80,14 @@ gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.condition0IsT
 }
 }
 { //Subevents
-gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0xc5249c(runtimeScene, eventsFunctionContext);} //End of subevents
+gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0xeee764(runtimeScene, eventsFunctionContext);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0xd427e4
-gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+}; //End of gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0xf04224
+gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -109,13 +109,13 @@ gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.GDObjectObjec
 }
 }
 { //Subevents
-gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0xd427e4(runtimeScene, eventsFunctionContext);} //End of subevents
+gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0xf04224(runtimeScene, eventsFunctionContext);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEvents = function(parentEventsFunctionContext) {
@@ -127,12 +127,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -157,7 +159,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Button.Button.prototype.doStepPreEventsContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return;
 }
 gdjs.evtsExt__Core__Button.Button.prototype.IsMouseOverContext = {};
@@ -169,7 +171,7 @@ gdjs.evtsExt__Core__Button.Button.prototype.IsMouseOverContext.condition0IsTrue_
 gdjs.evtsExt__Core__Button.Button.prototype.IsMouseOverContext.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Button.Button.prototype.IsMouseOverContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Button.Button.prototype.IsMouseOverContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -190,7 +192,7 @@ gdjs.evtsExt__Core__Button.Button.prototype.IsMouseOverContext.GDObjectObjects1.
 }
 
 
-}; //End of gdjs.evtsExt__Core__Button.Button.prototype.IsMouseOverContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__Button.Button.prototype.IsMouseOverContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__Button.Button.prototype.IsMouseOver = function(parentEventsFunctionContext) {
@@ -202,12 +204,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -232,7 +236,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__Button.Button.prototype.IsMouseOverContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Button.Button.prototype.IsMouseOverContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Button.Button.prototype.IsMouseOverContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Button.Button.prototype.IsMouseOverContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return !!eventsFunctionContext.returnValue;
 }
 gdjs.evtsExt__Core__Button.Button.prototype.DisableContext = {};
@@ -243,7 +247,7 @@ gdjs.evtsExt__Core__Button.Button.prototype.DisableContext.conditionTrue_0 = {va
 gdjs.evtsExt__Core__Button.Button.prototype.DisableContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__Button.Button.prototype.DisableContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__Button.Button.prototype.DisableContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -258,7 +262,7 @@ gdjs.evtsExt__Core__Button.Button.prototype.DisableContext.GDObjectObjects1.crea
 }
 
 
-}; //End of gdjs.evtsExt__Core__Button.Button.prototype.DisableContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__Button.Button.prototype.DisableContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__Button.Button.prototype.Disable = function(parentEventsFunctionContext) {
@@ -270,12 +274,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -300,7 +306,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__Button.Button.prototype.DisableContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__Button.Button.prototype.DisableContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__Button.Button.prototype.DisableContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__Button.Button.prototype.DisableContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return;
 }
 

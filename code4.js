@@ -506,7 +506,7 @@ gdjs.Level3Code.condition2IsTrue_1 = {val:false};
 gdjs.Level3Code.condition3IsTrue_1 = {val:false};
 
 
-gdjs.Level3Code.eventsList0xd9841c = function(runtimeScene) {
+gdjs.Level3Code.eventsList0xdb9d84 = function(runtimeScene) {
 
 {
 
@@ -521,8 +521,8 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9841c
-gdjs.Level3Code.eventsList0xd987ac = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xdb9d84
+gdjs.Level3Code.eventsList0x8e9fc4 = function(runtimeScene) {
 
 {
 
@@ -567,8 +567,8 @@ gdjs.Level3Code.GDSimulationSpeedObjects1.createFrom(runtimeScene.getObjects("Si
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd987ac
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBatObjects1ObjectsGDgdjs_46Level3Code_46GDCoinObjects1ObjectsGDgdjs_46Level3Code_46GDHeartObjects1ObjectsGDgdjs_46Level3Code_46GDSkullObjects1ObjectsGDgdjs_46Level3Code_46GDSnakeObjects1Objects = Hashtable.newFrom({"Bat": gdjs.Level3Code.GDBatObjects1, "Coin": gdjs.Level3Code.GDCoinObjects1, "Heart": gdjs.Level3Code.GDHeartObjects1, "Skull": gdjs.Level3Code.GDSkullObjects1, "Snake": gdjs.Level3Code.GDSnakeObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDParallax1Objects1ObjectsGDgdjs_46Level3Code_46GDParallax2Objects1ObjectsGDgdjs_46Level3Code_46GDParallax3Objects1ObjectsGDgdjs_46Level3Code_46GDParallax4Objects1ObjectsGDgdjs_46Level3Code_46GDAdventurerObjects1ObjectsGDgdjs_46Level3Code_46GDPlatformVerticalObjects1ObjectsGDgdjs_46Level3Code_46GDPlatformHorizontalObjects1ObjectsGDgdjs_46Level3Code_46GDPlatformCornerObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundTopObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundRightObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundBottomObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundLeftObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundCornerObjects1ObjectsGDgdjs_46Level3Code_46GDGroundTopObjects1ObjectsGDgdjs_46Level3Code_46GDGroundRightObjects1ObjectsGDgdjs_46Level3Code_46GDGroundBottomObjects1ObjectsGDgdjs_46Level3Code_46GDGroundLeftObjects1ObjectsGDgdjs_46Level3Code_46GDGroundFullObjects1ObjectsGDgdjs_46Level3Code_46GDGroundCornerObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundTopObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundRightObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundBottomObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundLeftObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundHorizontalObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundVerticalObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundFullObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundCornerObjects1ObjectsGDgdjs_46Level3Code_46GDChangeDirectionObjects1ObjectsGDgdjs_46Level3Code_46GDSmallMovingPlatformObjects1ObjectsGDgdjs_46Level3Code_46GDLargeMovingPlatformObjects1ObjectsGDgdjs_46Level3Code_46GDBatObjects1ObjectsGDgdjs_46Level3Code_46GDSnakeObjects1ObjectsGDgdjs_46Level3Code_46GDButtonObjects1ObjectsGDgdjs_46Level3Code_46GDCoinObjects1ObjectsGDgdjs_46Level3Code_46GDHeartObjects1ObjectsGDgdjs_46Level3Code_46GDSkullObjects1ObjectsGDgdjs_46Level3Code_46GDSawObjects1ObjectsGDgdjs_46Level3Code_46GDSpikesObjects1ObjectsGDgdjs_46Level3Code_46GDChainObjects1ObjectsGDgdjs_46Level3Code_46GDSpikedBallObjects1ObjectsGDgdjs_46Level3Code_46GDScoreObjects1ObjectsGDgdjs_46Level3Code_46GDProgressBarBackgroundObjects1ObjectsGDgdjs_46Level3Code_46GDProgressBarObjects1ObjectsGDgdjs_46Level3Code_46GDProgressBarMarkerObjects1ObjectsGDgdjs_46Level3Code_46GDIconBackgroundObjects1ObjectsGDgdjs_46Level3Code_46GDIconObjects1ObjectsGDgdjs_46Level3Code_46GDFlagpoleObjects1ObjectsGDgdjs_46Level3Code_46GDFlagObjects1ObjectsGDgdjs_46Level3Code_46GDTransitionObjects1Objects = Hashtable.newFrom({"Parallax1": gdjs.Level3Code.GDParallax1Objects1, "Parallax2": gdjs.Level3Code.GDParallax2Objects1, "Parallax3": gdjs.Level3Code.GDParallax3Objects1, "Parallax4": gdjs.Level3Code.GDParallax4Objects1, "Adventurer": gdjs.Level3Code.GDAdventurerObjects1, "PlatformVertical": gdjs.Level3Code.GDPlatformVerticalObjects1, "PlatformHorizontal": gdjs.Level3Code.GDPlatformHorizontalObjects1, "PlatformCorner": gdjs.Level3Code.GDPlatformCornerObjects1, "ForegroundTop": gdjs.Level3Code.GDForegroundTopObjects1, "ForegroundRight": gdjs.Level3Code.GDForegroundRightObjects1, "ForegroundBottom": gdjs.Level3Code.GDForegroundBottomObjects1, "ForegroundLeft": gdjs.Level3Code.GDForegroundLeftObjects1, "ForegroundCorner": gdjs.Level3Code.GDForegroundCornerObjects1, "GroundTop": gdjs.Level3Code.GDGroundTopObjects1, "GroundRight": gdjs.Level3Code.GDGroundRightObjects1, "GroundBottom": gdjs.Level3Code.GDGroundBottomObjects1, "GroundLeft": gdjs.Level3Code.GDGroundLeftObjects1, "GroundFull": gdjs.Level3Code.GDGroundFullObjects1, "GroundCorner": gdjs.Level3Code.GDGroundCornerObjects1, "BackgroundTop": gdjs.Level3Code.GDBackgroundTopObjects1, "BackgroundRight": gdjs.Level3Code.GDBackgroundRightObjects1, "BackgroundBottom": gdjs.Level3Code.GDBackgroundBottomObjects1, "BackgroundLeft": gdjs.Level3Code.GDBackgroundLeftObjects1, "BackgroundHorizontal": gdjs.Level3Code.GDBackgroundHorizontalObjects1, "BackgroundVertical": gdjs.Level3Code.GDBackgroundVerticalObjects1, "BackgroundFull": gdjs.Level3Code.GDBackgroundFullObjects1, "BackgroundCorner": gdjs.Level3Code.GDBackgroundCornerObjects1, "ChangeDirection": gdjs.Level3Code.GDChangeDirectionObjects1, "SmallMovingPlatform": gdjs.Level3Code.GDSmallMovingPlatformObjects1, "LargeMovingPlatform": gdjs.Level3Code.GDLargeMovingPlatformObjects1, "Bat": gdjs.Level3Code.GDBatObjects1, "Snake": gdjs.Level3Code.GDSnakeObjects1, "Button": gdjs.Level3Code.GDButtonObjects1, "Coin": gdjs.Level3Code.GDCoinObjects1, "Heart": gdjs.Level3Code.GDHeartObjects1, "Skull": gdjs.Level3Code.GDSkullObjects1, "Saw": gdjs.Level3Code.GDSawObjects1, "Spikes": gdjs.Level3Code.GDSpikesObjects1, "Chain": gdjs.Level3Code.GDChainObjects1, "SpikedBall": gdjs.Level3Code.GDSpikedBallObjects1, "Score": gdjs.Level3Code.GDScoreObjects1, "ProgressBarBackground": gdjs.Level3Code.GDProgressBarBackgroundObjects1, "ProgressBar": gdjs.Level3Code.GDProgressBarObjects1, "ProgressBarMarker": gdjs.Level3Code.GDProgressBarMarkerObjects1, "IconBackground": gdjs.Level3Code.GDIconBackgroundObjects1, "Icon": gdjs.Level3Code.GDIconObjects1, "Flagpole": gdjs.Level3Code.GDFlagpoleObjects1, "Flag": gdjs.Level3Code.GDFlagObjects1, "Transition": gdjs.Level3Code.GDTransitionObjects1});gdjs.Level3Code.eventsList0xd996dc = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0x8e9fc4
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBatObjects1ObjectsGDgdjs_46Level3Code_46GDCoinObjects1ObjectsGDgdjs_46Level3Code_46GDHeartObjects1ObjectsGDgdjs_46Level3Code_46GDSkullObjects1ObjectsGDgdjs_46Level3Code_46GDSnakeObjects1Objects = Hashtable.newFrom({"Bat": gdjs.Level3Code.GDBatObjects1, "Coin": gdjs.Level3Code.GDCoinObjects1, "Heart": gdjs.Level3Code.GDHeartObjects1, "Skull": gdjs.Level3Code.GDSkullObjects1, "Snake": gdjs.Level3Code.GDSnakeObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDParallax1Objects1ObjectsGDgdjs_46Level3Code_46GDParallax2Objects1ObjectsGDgdjs_46Level3Code_46GDParallax3Objects1ObjectsGDgdjs_46Level3Code_46GDParallax4Objects1ObjectsGDgdjs_46Level3Code_46GDAdventurerObjects1ObjectsGDgdjs_46Level3Code_46GDPlatformVerticalObjects1ObjectsGDgdjs_46Level3Code_46GDPlatformHorizontalObjects1ObjectsGDgdjs_46Level3Code_46GDPlatformCornerObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundTopObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundRightObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundBottomObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundLeftObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundCornerObjects1ObjectsGDgdjs_46Level3Code_46GDGroundTopObjects1ObjectsGDgdjs_46Level3Code_46GDGroundRightObjects1ObjectsGDgdjs_46Level3Code_46GDGroundBottomObjects1ObjectsGDgdjs_46Level3Code_46GDGroundLeftObjects1ObjectsGDgdjs_46Level3Code_46GDGroundFullObjects1ObjectsGDgdjs_46Level3Code_46GDGroundCornerObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundTopObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundRightObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundBottomObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundLeftObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundHorizontalObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundVerticalObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundFullObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundCornerObjects1ObjectsGDgdjs_46Level3Code_46GDChangeDirectionObjects1ObjectsGDgdjs_46Level3Code_46GDSmallMovingPlatformObjects1ObjectsGDgdjs_46Level3Code_46GDLargeMovingPlatformObjects1ObjectsGDgdjs_46Level3Code_46GDBatObjects1ObjectsGDgdjs_46Level3Code_46GDSnakeObjects1ObjectsGDgdjs_46Level3Code_46GDButtonObjects1ObjectsGDgdjs_46Level3Code_46GDCoinObjects1ObjectsGDgdjs_46Level3Code_46GDHeartObjects1ObjectsGDgdjs_46Level3Code_46GDSkullObjects1ObjectsGDgdjs_46Level3Code_46GDSawObjects1ObjectsGDgdjs_46Level3Code_46GDSpikesObjects1ObjectsGDgdjs_46Level3Code_46GDChainObjects1ObjectsGDgdjs_46Level3Code_46GDSpikedBallObjects1ObjectsGDgdjs_46Level3Code_46GDScoreObjects1ObjectsGDgdjs_46Level3Code_46GDProgressBarBackgroundObjects1ObjectsGDgdjs_46Level3Code_46GDProgressBarObjects1ObjectsGDgdjs_46Level3Code_46GDProgressBarMarkerObjects1ObjectsGDgdjs_46Level3Code_46GDIconBackgroundObjects1ObjectsGDgdjs_46Level3Code_46GDIconObjects1ObjectsGDgdjs_46Level3Code_46GDFlagpoleObjects1ObjectsGDgdjs_46Level3Code_46GDFlagObjects1ObjectsGDgdjs_46Level3Code_46GDTransitionObjects1Objects = Hashtable.newFrom({"Parallax1": gdjs.Level3Code.GDParallax1Objects1, "Parallax2": gdjs.Level3Code.GDParallax2Objects1, "Parallax3": gdjs.Level3Code.GDParallax3Objects1, "Parallax4": gdjs.Level3Code.GDParallax4Objects1, "Adventurer": gdjs.Level3Code.GDAdventurerObjects1, "PlatformVertical": gdjs.Level3Code.GDPlatformVerticalObjects1, "PlatformHorizontal": gdjs.Level3Code.GDPlatformHorizontalObjects1, "PlatformCorner": gdjs.Level3Code.GDPlatformCornerObjects1, "ForegroundTop": gdjs.Level3Code.GDForegroundTopObjects1, "ForegroundRight": gdjs.Level3Code.GDForegroundRightObjects1, "ForegroundBottom": gdjs.Level3Code.GDForegroundBottomObjects1, "ForegroundLeft": gdjs.Level3Code.GDForegroundLeftObjects1, "ForegroundCorner": gdjs.Level3Code.GDForegroundCornerObjects1, "GroundTop": gdjs.Level3Code.GDGroundTopObjects1, "GroundRight": gdjs.Level3Code.GDGroundRightObjects1, "GroundBottom": gdjs.Level3Code.GDGroundBottomObjects1, "GroundLeft": gdjs.Level3Code.GDGroundLeftObjects1, "GroundFull": gdjs.Level3Code.GDGroundFullObjects1, "GroundCorner": gdjs.Level3Code.GDGroundCornerObjects1, "BackgroundTop": gdjs.Level3Code.GDBackgroundTopObjects1, "BackgroundRight": gdjs.Level3Code.GDBackgroundRightObjects1, "BackgroundBottom": gdjs.Level3Code.GDBackgroundBottomObjects1, "BackgroundLeft": gdjs.Level3Code.GDBackgroundLeftObjects1, "BackgroundHorizontal": gdjs.Level3Code.GDBackgroundHorizontalObjects1, "BackgroundVertical": gdjs.Level3Code.GDBackgroundVerticalObjects1, "BackgroundFull": gdjs.Level3Code.GDBackgroundFullObjects1, "BackgroundCorner": gdjs.Level3Code.GDBackgroundCornerObjects1, "ChangeDirection": gdjs.Level3Code.GDChangeDirectionObjects1, "SmallMovingPlatform": gdjs.Level3Code.GDSmallMovingPlatformObjects1, "LargeMovingPlatform": gdjs.Level3Code.GDLargeMovingPlatformObjects1, "Bat": gdjs.Level3Code.GDBatObjects1, "Snake": gdjs.Level3Code.GDSnakeObjects1, "Button": gdjs.Level3Code.GDButtonObjects1, "Coin": gdjs.Level3Code.GDCoinObjects1, "Heart": gdjs.Level3Code.GDHeartObjects1, "Skull": gdjs.Level3Code.GDSkullObjects1, "Saw": gdjs.Level3Code.GDSawObjects1, "Spikes": gdjs.Level3Code.GDSpikesObjects1, "Chain": gdjs.Level3Code.GDChainObjects1, "SpikedBall": gdjs.Level3Code.GDSpikedBallObjects1, "Score": gdjs.Level3Code.GDScoreObjects1, "ProgressBarBackground": gdjs.Level3Code.GDProgressBarBackgroundObjects1, "ProgressBar": gdjs.Level3Code.GDProgressBarObjects1, "ProgressBarMarker": gdjs.Level3Code.GDProgressBarMarkerObjects1, "IconBackground": gdjs.Level3Code.GDIconBackgroundObjects1, "Icon": gdjs.Level3Code.GDIconObjects1, "Flagpole": gdjs.Level3Code.GDFlagpoleObjects1, "Flag": gdjs.Level3Code.GDFlagObjects1, "Transition": gdjs.Level3Code.GDTransitionObjects1});gdjs.Level3Code.eventsList0xeed96c = function(runtimeScene) {
 
 {
 
@@ -593,8 +593,8 @@ gdjs.Level3Code.GDSimulationSpeedObjects2.length = k;}if (gdjs.Level3Code.condit
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd996dc
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDParallax1Objects1ObjectsGDgdjs_46Level3Code_46GDParallax2Objects1ObjectsGDgdjs_46Level3Code_46GDParallax3Objects1ObjectsGDgdjs_46Level3Code_46GDParallax4Objects1ObjectsGDgdjs_46Level3Code_46GDAdventurerObjects1ObjectsGDgdjs_46Level3Code_46GDPlatformVerticalObjects1ObjectsGDgdjs_46Level3Code_46GDPlatformHorizontalObjects1ObjectsGDgdjs_46Level3Code_46GDPlatformCornerObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundTopObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundRightObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundBottomObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundLeftObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundCornerObjects1ObjectsGDgdjs_46Level3Code_46GDGroundTopObjects1ObjectsGDgdjs_46Level3Code_46GDGroundRightObjects1ObjectsGDgdjs_46Level3Code_46GDGroundBottomObjects1ObjectsGDgdjs_46Level3Code_46GDGroundLeftObjects1ObjectsGDgdjs_46Level3Code_46GDGroundFullObjects1ObjectsGDgdjs_46Level3Code_46GDGroundCornerObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundTopObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundRightObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundBottomObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundLeftObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundHorizontalObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundVerticalObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundFullObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundCornerObjects1ObjectsGDgdjs_46Level3Code_46GDChangeDirectionObjects1ObjectsGDgdjs_46Level3Code_46GDSmallMovingPlatformObjects1ObjectsGDgdjs_46Level3Code_46GDLargeMovingPlatformObjects1ObjectsGDgdjs_46Level3Code_46GDBatObjects1ObjectsGDgdjs_46Level3Code_46GDSnakeObjects1ObjectsGDgdjs_46Level3Code_46GDButtonObjects1ObjectsGDgdjs_46Level3Code_46GDCoinObjects1ObjectsGDgdjs_46Level3Code_46GDHeartObjects1ObjectsGDgdjs_46Level3Code_46GDSkullObjects1ObjectsGDgdjs_46Level3Code_46GDSawObjects1ObjectsGDgdjs_46Level3Code_46GDSpikesObjects1ObjectsGDgdjs_46Level3Code_46GDChainObjects1ObjectsGDgdjs_46Level3Code_46GDSpikedBallObjects1ObjectsGDgdjs_46Level3Code_46GDScoreObjects1ObjectsGDgdjs_46Level3Code_46GDProgressBarBackgroundObjects1ObjectsGDgdjs_46Level3Code_46GDProgressBarObjects1ObjectsGDgdjs_46Level3Code_46GDProgressBarMarkerObjects1ObjectsGDgdjs_46Level3Code_46GDIconBackgroundObjects1ObjectsGDgdjs_46Level3Code_46GDIconObjects1ObjectsGDgdjs_46Level3Code_46GDFlagpoleObjects1ObjectsGDgdjs_46Level3Code_46GDFlagObjects1ObjectsGDgdjs_46Level3Code_46GDTransitionObjects1Objects = Hashtable.newFrom({"Parallax1": gdjs.Level3Code.GDParallax1Objects1, "Parallax2": gdjs.Level3Code.GDParallax2Objects1, "Parallax3": gdjs.Level3Code.GDParallax3Objects1, "Parallax4": gdjs.Level3Code.GDParallax4Objects1, "Adventurer": gdjs.Level3Code.GDAdventurerObjects1, "PlatformVertical": gdjs.Level3Code.GDPlatformVerticalObjects1, "PlatformHorizontal": gdjs.Level3Code.GDPlatformHorizontalObjects1, "PlatformCorner": gdjs.Level3Code.GDPlatformCornerObjects1, "ForegroundTop": gdjs.Level3Code.GDForegroundTopObjects1, "ForegroundRight": gdjs.Level3Code.GDForegroundRightObjects1, "ForegroundBottom": gdjs.Level3Code.GDForegroundBottomObjects1, "ForegroundLeft": gdjs.Level3Code.GDForegroundLeftObjects1, "ForegroundCorner": gdjs.Level3Code.GDForegroundCornerObjects1, "GroundTop": gdjs.Level3Code.GDGroundTopObjects1, "GroundRight": gdjs.Level3Code.GDGroundRightObjects1, "GroundBottom": gdjs.Level3Code.GDGroundBottomObjects1, "GroundLeft": gdjs.Level3Code.GDGroundLeftObjects1, "GroundFull": gdjs.Level3Code.GDGroundFullObjects1, "GroundCorner": gdjs.Level3Code.GDGroundCornerObjects1, "BackgroundTop": gdjs.Level3Code.GDBackgroundTopObjects1, "BackgroundRight": gdjs.Level3Code.GDBackgroundRightObjects1, "BackgroundBottom": gdjs.Level3Code.GDBackgroundBottomObjects1, "BackgroundLeft": gdjs.Level3Code.GDBackgroundLeftObjects1, "BackgroundHorizontal": gdjs.Level3Code.GDBackgroundHorizontalObjects1, "BackgroundVertical": gdjs.Level3Code.GDBackgroundVerticalObjects1, "BackgroundFull": gdjs.Level3Code.GDBackgroundFullObjects1, "BackgroundCorner": gdjs.Level3Code.GDBackgroundCornerObjects1, "ChangeDirection": gdjs.Level3Code.GDChangeDirectionObjects1, "SmallMovingPlatform": gdjs.Level3Code.GDSmallMovingPlatformObjects1, "LargeMovingPlatform": gdjs.Level3Code.GDLargeMovingPlatformObjects1, "Bat": gdjs.Level3Code.GDBatObjects1, "Snake": gdjs.Level3Code.GDSnakeObjects1, "Button": gdjs.Level3Code.GDButtonObjects1, "Coin": gdjs.Level3Code.GDCoinObjects1, "Heart": gdjs.Level3Code.GDHeartObjects1, "Skull": gdjs.Level3Code.GDSkullObjects1, "Saw": gdjs.Level3Code.GDSawObjects1, "Spikes": gdjs.Level3Code.GDSpikesObjects1, "Chain": gdjs.Level3Code.GDChainObjects1, "SpikedBall": gdjs.Level3Code.GDSpikedBallObjects1, "Score": gdjs.Level3Code.GDScoreObjects1, "ProgressBarBackground": gdjs.Level3Code.GDProgressBarBackgroundObjects1, "ProgressBar": gdjs.Level3Code.GDProgressBarObjects1, "ProgressBarMarker": gdjs.Level3Code.GDProgressBarMarkerObjects1, "IconBackground": gdjs.Level3Code.GDIconBackgroundObjects1, "Icon": gdjs.Level3Code.GDIconObjects1, "Flagpole": gdjs.Level3Code.GDFlagpoleObjects1, "Flag": gdjs.Level3Code.GDFlagObjects1, "Transition": gdjs.Level3Code.GDTransitionObjects1});gdjs.Level3Code.eventsList0xd99254 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xeed96c
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDParallax1Objects1ObjectsGDgdjs_46Level3Code_46GDParallax2Objects1ObjectsGDgdjs_46Level3Code_46GDParallax3Objects1ObjectsGDgdjs_46Level3Code_46GDParallax4Objects1ObjectsGDgdjs_46Level3Code_46GDAdventurerObjects1ObjectsGDgdjs_46Level3Code_46GDPlatformVerticalObjects1ObjectsGDgdjs_46Level3Code_46GDPlatformHorizontalObjects1ObjectsGDgdjs_46Level3Code_46GDPlatformCornerObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundTopObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundRightObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundBottomObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundLeftObjects1ObjectsGDgdjs_46Level3Code_46GDForegroundCornerObjects1ObjectsGDgdjs_46Level3Code_46GDGroundTopObjects1ObjectsGDgdjs_46Level3Code_46GDGroundRightObjects1ObjectsGDgdjs_46Level3Code_46GDGroundBottomObjects1ObjectsGDgdjs_46Level3Code_46GDGroundLeftObjects1ObjectsGDgdjs_46Level3Code_46GDGroundFullObjects1ObjectsGDgdjs_46Level3Code_46GDGroundCornerObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundTopObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundRightObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundBottomObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundLeftObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundHorizontalObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundVerticalObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundFullObjects1ObjectsGDgdjs_46Level3Code_46GDBackgroundCornerObjects1ObjectsGDgdjs_46Level3Code_46GDChangeDirectionObjects1ObjectsGDgdjs_46Level3Code_46GDSmallMovingPlatformObjects1ObjectsGDgdjs_46Level3Code_46GDLargeMovingPlatformObjects1ObjectsGDgdjs_46Level3Code_46GDBatObjects1ObjectsGDgdjs_46Level3Code_46GDSnakeObjects1ObjectsGDgdjs_46Level3Code_46GDButtonObjects1ObjectsGDgdjs_46Level3Code_46GDCoinObjects1ObjectsGDgdjs_46Level3Code_46GDHeartObjects1ObjectsGDgdjs_46Level3Code_46GDSkullObjects1ObjectsGDgdjs_46Level3Code_46GDSawObjects1ObjectsGDgdjs_46Level3Code_46GDSpikesObjects1ObjectsGDgdjs_46Level3Code_46GDChainObjects1ObjectsGDgdjs_46Level3Code_46GDSpikedBallObjects1ObjectsGDgdjs_46Level3Code_46GDScoreObjects1ObjectsGDgdjs_46Level3Code_46GDProgressBarBackgroundObjects1ObjectsGDgdjs_46Level3Code_46GDProgressBarObjects1ObjectsGDgdjs_46Level3Code_46GDProgressBarMarkerObjects1ObjectsGDgdjs_46Level3Code_46GDIconBackgroundObjects1ObjectsGDgdjs_46Level3Code_46GDIconObjects1ObjectsGDgdjs_46Level3Code_46GDFlagpoleObjects1ObjectsGDgdjs_46Level3Code_46GDFlagObjects1ObjectsGDgdjs_46Level3Code_46GDTransitionObjects1Objects = Hashtable.newFrom({"Parallax1": gdjs.Level3Code.GDParallax1Objects1, "Parallax2": gdjs.Level3Code.GDParallax2Objects1, "Parallax3": gdjs.Level3Code.GDParallax3Objects1, "Parallax4": gdjs.Level3Code.GDParallax4Objects1, "Adventurer": gdjs.Level3Code.GDAdventurerObjects1, "PlatformVertical": gdjs.Level3Code.GDPlatformVerticalObjects1, "PlatformHorizontal": gdjs.Level3Code.GDPlatformHorizontalObjects1, "PlatformCorner": gdjs.Level3Code.GDPlatformCornerObjects1, "ForegroundTop": gdjs.Level3Code.GDForegroundTopObjects1, "ForegroundRight": gdjs.Level3Code.GDForegroundRightObjects1, "ForegroundBottom": gdjs.Level3Code.GDForegroundBottomObjects1, "ForegroundLeft": gdjs.Level3Code.GDForegroundLeftObjects1, "ForegroundCorner": gdjs.Level3Code.GDForegroundCornerObjects1, "GroundTop": gdjs.Level3Code.GDGroundTopObjects1, "GroundRight": gdjs.Level3Code.GDGroundRightObjects1, "GroundBottom": gdjs.Level3Code.GDGroundBottomObjects1, "GroundLeft": gdjs.Level3Code.GDGroundLeftObjects1, "GroundFull": gdjs.Level3Code.GDGroundFullObjects1, "GroundCorner": gdjs.Level3Code.GDGroundCornerObjects1, "BackgroundTop": gdjs.Level3Code.GDBackgroundTopObjects1, "BackgroundRight": gdjs.Level3Code.GDBackgroundRightObjects1, "BackgroundBottom": gdjs.Level3Code.GDBackgroundBottomObjects1, "BackgroundLeft": gdjs.Level3Code.GDBackgroundLeftObjects1, "BackgroundHorizontal": gdjs.Level3Code.GDBackgroundHorizontalObjects1, "BackgroundVertical": gdjs.Level3Code.GDBackgroundVerticalObjects1, "BackgroundFull": gdjs.Level3Code.GDBackgroundFullObjects1, "BackgroundCorner": gdjs.Level3Code.GDBackgroundCornerObjects1, "ChangeDirection": gdjs.Level3Code.GDChangeDirectionObjects1, "SmallMovingPlatform": gdjs.Level3Code.GDSmallMovingPlatformObjects1, "LargeMovingPlatform": gdjs.Level3Code.GDLargeMovingPlatformObjects1, "Bat": gdjs.Level3Code.GDBatObjects1, "Snake": gdjs.Level3Code.GDSnakeObjects1, "Button": gdjs.Level3Code.GDButtonObjects1, "Coin": gdjs.Level3Code.GDCoinObjects1, "Heart": gdjs.Level3Code.GDHeartObjects1, "Skull": gdjs.Level3Code.GDSkullObjects1, "Saw": gdjs.Level3Code.GDSawObjects1, "Spikes": gdjs.Level3Code.GDSpikesObjects1, "Chain": gdjs.Level3Code.GDChainObjects1, "SpikedBall": gdjs.Level3Code.GDSpikedBallObjects1, "Score": gdjs.Level3Code.GDScoreObjects1, "ProgressBarBackground": gdjs.Level3Code.GDProgressBarBackgroundObjects1, "ProgressBar": gdjs.Level3Code.GDProgressBarObjects1, "ProgressBarMarker": gdjs.Level3Code.GDProgressBarMarkerObjects1, "IconBackground": gdjs.Level3Code.GDIconBackgroundObjects1, "Icon": gdjs.Level3Code.GDIconObjects1, "Flagpole": gdjs.Level3Code.GDFlagpoleObjects1, "Flag": gdjs.Level3Code.GDFlagObjects1, "Transition": gdjs.Level3Code.GDTransitionObjects1});gdjs.Level3Code.eventsList0xeffa2c = function(runtimeScene) {
 
 {
 
@@ -625,7 +625,7 @@ gdjs.Level3Code.GDSimulationSpeedObjects2.length = k;}if (gdjs.Level3Code.condit
 }
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xd996dc(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xeed96c(runtimeScene);} //End of subevents
 }
 
 }
@@ -1781,11 +1781,11 @@ gdjs.Level3Code.GDRenderedObjectsObjects1.createFrom(runtimeScene.getObjects("Re
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd99254
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDCoinObjects1Objects = Hashtable.newFrom({"Coin": gdjs.Level3Code.GDCoinObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBatObjects1ObjectsGDgdjs_46Level3Code_46GDSnakeObjects1Objects = Hashtable.newFrom({"Bat": gdjs.Level3Code.GDBatObjects1, "Snake": gdjs.Level3Code.GDSnakeObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDHeartObjects1Objects = Hashtable.newFrom({"Heart": gdjs.Level3Code.GDHeartObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDSkullObjects1Objects = Hashtable.newFrom({"Skull": gdjs.Level3Code.GDSkullObjects1});gdjs.Level3Code.eventsList0xd9ab34 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xeffa2c
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDCoinObjects1Objects = Hashtable.newFrom({"Coin": gdjs.Level3Code.GDCoinObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBatObjects1ObjectsGDgdjs_46Level3Code_46GDSnakeObjects1Objects = Hashtable.newFrom({"Bat": gdjs.Level3Code.GDBatObjects1, "Snake": gdjs.Level3Code.GDSnakeObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDHeartObjects1Objects = Hashtable.newFrom({"Heart": gdjs.Level3Code.GDHeartObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDSkullObjects1Objects = Hashtable.newFrom({"Skull": gdjs.Level3Code.GDSkullObjects1});gdjs.Level3Code.eventsList0xf18b0c = function(runtimeScene) {
 
-}; //End of gdjs.Level3Code.eventsList0xd9ab34
-gdjs.Level3Code.eventsList0xd9a234 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf18b0c
+gdjs.Level3Code.eventsList0xe5799c = function(runtimeScene) {
 
 {
 
@@ -2243,8 +2243,8 @@ if (true) {
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9a234
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDTransitionObjects1Objects = Hashtable.newFrom({"Transition": gdjs.Level3Code.GDTransitionObjects1});gdjs.Level3Code.eventsList0xd9c50c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xe5799c
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDTransitionObjects1Objects = Hashtable.newFrom({"Transition": gdjs.Level3Code.GDTransitionObjects1});gdjs.Level3Code.eventsList0xe2848c = function(runtimeScene) {
 
 {
 
@@ -2267,11 +2267,11 @@ gdjs.Level3Code.GDTransitionObjects1.length = k;}if (gdjs.Level3Code.condition0I
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9c50c
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.Level3Code.GDProgressBarObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDScoreObjects3Objects = Hashtable.newFrom({"Score": gdjs.Level3Code.GDScoreObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDProgressBarMarkerObjects6Objects = Hashtable.newFrom({"ProgressBarMarker": gdjs.Level3Code.GDProgressBarMarkerObjects6});gdjs.Level3Code.eventsList0xd9d734 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xe2848c
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDProgressBarObjects2Objects = Hashtable.newFrom({"ProgressBar": gdjs.Level3Code.GDProgressBarObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDScoreObjects3Objects = Hashtable.newFrom({"Score": gdjs.Level3Code.GDScoreObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDProgressBarMarkerObjects6Objects = Hashtable.newFrom({"ProgressBarMarker": gdjs.Level3Code.GDProgressBarMarkerObjects6});gdjs.Level3Code.eventsList0xef3ee4 = function(runtimeScene) {
 
-}; //End of gdjs.Level3Code.eventsList0xd9d734
-gdjs.Level3Code.eventsList0xd9d4b4 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xef3ee4
+gdjs.Level3Code.eventsList0xf041c4 = function(runtimeScene) {
 
 {
 
@@ -2303,8 +2303,8 @@ if (true)
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9d4b4
-gdjs.Level3Code.eventsList0xd9d084 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf041c4
+gdjs.Level3Code.eventsList0xf0654c = function(runtimeScene) {
 
 {
 
@@ -2324,15 +2324,15 @@ if (true)
 }
 }
 { //Subevents: 
-gdjs.Level3Code.eventsList0xd9d4b4(runtimeScene);} //Subevents end.
+gdjs.Level3Code.eventsList0xf041c4(runtimeScene);} //Subevents end.
 }
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9d084
-gdjs.Level3Code.eventsList0xd9cbbc = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf0654c
+gdjs.Level3Code.eventsList0xf00934 = function(runtimeScene) {
 
 {
 
@@ -2361,14 +2361,14 @@ gdjs.Level3Code.GDScoreObjects3.length = 0;
 }
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xd9d084(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xf0654c(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9cbbc
-gdjs.Level3Code.eventsList0xd9c9ac = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf00934
+gdjs.Level3Code.eventsList0xe3af64 = function(runtimeScene) {
 
 {
 
@@ -2393,15 +2393,15 @@ if (true) {
 }
 }
 { //Subevents: 
-gdjs.Level3Code.eventsList0xd9cbbc(runtimeScene);} //Subevents end.
+gdjs.Level3Code.eventsList0xf00934(runtimeScene);} //Subevents end.
 }
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9c9ac
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDProgressBarObjects1Objects = Hashtable.newFrom({"ProgressBar": gdjs.Level3Code.GDProgressBarObjects1});gdjs.Level3Code.eventsList0xd9dcdc = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xe3af64
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDProgressBarObjects1Objects = Hashtable.newFrom({"ProgressBar": gdjs.Level3Code.GDProgressBarObjects1});gdjs.Level3Code.eventsList0x6c33ac = function(runtimeScene) {
 
 {
 
@@ -2432,8 +2432,8 @@ if (gdjs.Level3Code.condition1IsTrue_0.val) {
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9dcdc
-gdjs.Level3Code.eventsList0xd9b174 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0x6c33ac
+gdjs.Level3Code.eventsList0xf0b23c = function(runtimeScene) {
 
 {
 
@@ -2455,8 +2455,8 @@ gdjs.Level3Code.GDIconBackgroundObjects1.length = k;}if (gdjs.Level3Code.conditi
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9b174
-gdjs.Level3Code.eventsList0xd9afc4 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf0b23c
+gdjs.Level3Code.eventsList0xf0b09c = function(runtimeScene) {
 
 {
 
@@ -2474,14 +2474,14 @@ for(var i = 0, k = 0, l = gdjs.Level3Code.GDIconBackgroundObjects1.length;i<l;++
 gdjs.Level3Code.GDIconBackgroundObjects1.length = k;}if (gdjs.Level3Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level3Code.eventsList0xd9b174(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xf0b23c(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9afc4
-gdjs.Level3Code.eventsList0x774814 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf0b09c
+gdjs.Level3Code.eventsList0x8e1254 = function(runtimeScene) {
 
 {
 
@@ -2509,8 +2509,8 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0x774814
-gdjs.Level3Code.eventsList0xf18074 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0x8e1254
+gdjs.Level3Code.eventsList0x70aa1c = function(runtimeScene) {
 
 {
 
@@ -2545,20 +2545,20 @@ if (gdjs.Level3Code.condition2IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "MusicCheck");
 }
 { //Subevents
-gdjs.Level3Code.eventsList0x774814(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0x8e1254(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xf18074
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBatObjects3ObjectsGDgdjs_46Level3Code_46GDSnakeObjects3ObjectsGDgdjs_46Level3Code_46GDSmallMovingPlatformObjects3ObjectsGDgdjs_46Level3Code_46GDLargeMovingPlatformObjects3ObjectsGDgdjs_46Level3Code_46GDSawObjects3Objects = Hashtable.newFrom({"Bat": gdjs.Level3Code.GDBatObjects3, "Snake": gdjs.Level3Code.GDSnakeObjects3, "SmallMovingPlatform": gdjs.Level3Code.GDSmallMovingPlatformObjects3, "LargeMovingPlatform": gdjs.Level3Code.GDLargeMovingPlatformObjects3, "Saw": gdjs.Level3Code.GDSawObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDChangeDirectionObjects3Objects = Hashtable.newFrom({"ChangeDirection": gdjs.Level3Code.GDChangeDirectionObjects3});gdjs.Level3Code.eventsList0xb0a34c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0x70aa1c
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBatObjects3ObjectsGDgdjs_46Level3Code_46GDSnakeObjects3ObjectsGDgdjs_46Level3Code_46GDSmallMovingPlatformObjects3ObjectsGDgdjs_46Level3Code_46GDLargeMovingPlatformObjects3ObjectsGDgdjs_46Level3Code_46GDSawObjects3Objects = Hashtable.newFrom({"Bat": gdjs.Level3Code.GDBatObjects3, "Snake": gdjs.Level3Code.GDSnakeObjects3, "SmallMovingPlatform": gdjs.Level3Code.GDSmallMovingPlatformObjects3, "LargeMovingPlatform": gdjs.Level3Code.GDLargeMovingPlatformObjects3, "Saw": gdjs.Level3Code.GDSawObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDChangeDirectionObjects3Objects = Hashtable.newFrom({"ChangeDirection": gdjs.Level3Code.GDChangeDirectionObjects3});gdjs.Level3Code.eventsList0xf106d4 = function(runtimeScene) {
 
-}; //End of gdjs.Level3Code.eventsList0xb0a34c
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDChainObjects3Objects = Hashtable.newFrom({"Chain": gdjs.Level3Code.GDChainObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDChangeDirectionObjects3Objects = Hashtable.newFrom({"ChangeDirection": gdjs.Level3Code.GDChangeDirectionObjects3});gdjs.Level3Code.eventsList0x69d09c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf106d4
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDChainObjects3Objects = Hashtable.newFrom({"Chain": gdjs.Level3Code.GDChainObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDChangeDirectionObjects3Objects = Hashtable.newFrom({"ChangeDirection": gdjs.Level3Code.GDChangeDirectionObjects3});gdjs.Level3Code.eventsList0xeed6b4 = function(runtimeScene) {
 
-}; //End of gdjs.Level3Code.eventsList0x69d09c
-gdjs.Level3Code.eventsList0xda1ad4 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xeed6b4
+gdjs.Level3Code.eventsList0xeef654 = function(runtimeScene) {
 
 {
 
@@ -2697,7 +2697,7 @@ gdjs.Level3Code.condition1IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if ( gdjs.Level3Code.condition1IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition2IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14252292);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7098324);
 }
 }}
 }
@@ -2860,8 +2860,8 @@ for(var i = 0, len = gdjs.Level3Code.GDSawObjects1.length ;i < len;++i) {
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xda1ad4
-gdjs.Level3Code.eventsList0xd9eadc = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xeef654
+gdjs.Level3Code.eventsList0xf05c6c = function(runtimeScene) {
 
 {
 
@@ -2895,8 +2895,8 @@ gdjs.Level3Code.GDAdventurerObjects2.createFrom(runtimeScene.getObjects("Adventu
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9eadc
-gdjs.Level3Code.eventsList0xd9e6d4 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf05c6c
+gdjs.Level3Code.eventsList0xf00b6c = function(runtimeScene) {
 
 {
 
@@ -2915,7 +2915,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtim
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14281652);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15752500);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
@@ -2923,7 +2923,7 @@ if (gdjs.Level3Code.condition1IsTrue_0.val) {
 }{runtimeScene.getVariables().getFromIndex(1).getChild("God").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1).getChild("Fly")));
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xd9eadc(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xf05c6c(runtimeScene);} //End of subevents
 }
 
 }
@@ -2939,7 +2939,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtim
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14283580);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14850316);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
@@ -2949,8 +2949,8 @@ if (gdjs.Level3Code.condition1IsTrue_0.val) {
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9e6d4
-gdjs.Level3Code.eventsList0xd9f734 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf00b6c
+gdjs.Level3Code.eventsList0xe30994 = function(runtimeScene) {
 
 {
 
@@ -3016,8 +3016,8 @@ gdjs.Level3Code.GDAdventurerObjects1.createFrom(runtimeScene.getObjects("Adventu
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9f734
-gdjs.Level3Code.eventsList0xd98134 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xe30994
+gdjs.Level3Code.eventsList0xe3b74c = function(runtimeScene) {
 
 {
 
@@ -3032,8 +3032,8 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd98134
-gdjs.Level3Code.eventsList0x919924 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xe3b74c
+gdjs.Level3Code.eventsList0xe3b5f4 = function(runtimeScene) {
 
 {
 
@@ -3041,7 +3041,7 @@ gdjs.Level3Code.eventsList0x919924 = function(runtimeScene) {
 gdjs.Level3Code.condition0IsTrue_0.val = false;
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition0IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14266060);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14923692);
 }
 }if (gdjs.Level3Code.condition0IsTrue_0.val) {
 gdjs.Level3Code.GDAdventurerObjects3.createFrom(gdjs.Level3Code.GDAdventurerObjects2);
@@ -3054,7 +3054,7 @@ gdjs.Level3Code.GDAdventurerObjects3.createFrom(gdjs.Level3Code.GDAdventurerObje
 }
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xd98134(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xe3b74c(runtimeScene);} //End of subevents
 }
 
 }
@@ -3073,8 +3073,8 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0x919924
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDTransitionObjects3Objects = Hashtable.newFrom({"Transition": gdjs.Level3Code.GDTransitionObjects3});gdjs.Level3Code.eventsList0xf0a50c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xe3b5f4
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDTransitionObjects3Objects = Hashtable.newFrom({"Transition": gdjs.Level3Code.GDTransitionObjects3});gdjs.Level3Code.eventsList0x6d828c = function(runtimeScene) {
 
 {
 
@@ -3090,8 +3090,8 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xf0a50c
-gdjs.Level3Code.eventsList0xc93314 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0x6d828c
+gdjs.Level3Code.eventsList0xdb8164 = function(runtimeScene) {
 
 {
 
@@ -3106,8 +3106,8 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xc93314
-gdjs.Level3Code.eventsList0xc57344 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xdb8164
+gdjs.Level3Code.eventsList0xee4c24 = function(runtimeScene) {
 
 {
 
@@ -3119,14 +3119,14 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 {gdjs.evtTools.sound.playSound(runtimeScene, "assets\\sounds\\respawn.wav", false, 25, 1);
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xc93314(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xdb8164(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xc57344
-gdjs.Level3Code.eventsList0xf13494 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xee4c24
+gdjs.Level3Code.eventsList0x6d7ffc = function(runtimeScene) {
 
 {
 
@@ -3139,7 +3139,7 @@ gdjs.Level3Code.GDTransitionObjects3.createFrom(runtimeScene.getObjects("Transit
 {gdjs.evtsExt__Core__TransitionToScene.func(runtimeScene, gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDTransitionObjects3Objects, "Transition", "LevelFinished", 2, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xf0a50c(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0x6d828c(runtimeScene);} //End of subevents
 }
 
 }
@@ -3167,14 +3167,14 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xc57344(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xee4c24(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xf13494
-gdjs.Level3Code.eventsList0x7636cc = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0x6d7ffc
+gdjs.Level3Code.eventsList0xe34684 = function(runtimeScene) {
 
 {
 
@@ -3194,8 +3194,8 @@ if (gdjs.Level3Code.condition1IsTrue_0.val) {
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0x7636cc
-gdjs.Level3Code.eventsList0xd77154 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xe34684
+gdjs.Level3Code.eventsList0xedeb44 = function(runtimeScene) {
 
 {
 
@@ -3227,8 +3227,8 @@ gdjs.Level3Code.GDAdventurerObjects2.length = k;}if (gdjs.Level3Code.condition0I
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd77154
-gdjs.Level3Code.eventsList0xb04c1c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xedeb44
+gdjs.Level3Code.eventsList0xede1ec = function(runtimeScene) {
 
 {
 
@@ -3255,8 +3255,8 @@ if (gdjs.Level3Code.condition1IsTrue_0.val) {
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xb04c1c
-gdjs.Level3Code.eventsList0xf0d634 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xede1ec
+gdjs.Level3Code.eventsList0xeddff4 = function(runtimeScene) {
 
 {
 
@@ -3279,7 +3279,7 @@ gdjs.Level3Code.GDAdventurerObjects3.length = k;}if (gdjs.Level3Code.condition0I
 }
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xb04c1c(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xede1ec(runtimeScene);} //End of subevents
 }
 
 }
@@ -3308,8 +3308,8 @@ gdjs.Level3Code.GDAdventurerObjects2.length = k;}if (gdjs.Level3Code.condition0I
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xf0d634
-gdjs.Level3Code.eventsList0xc1d2bc = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xeddff4
+gdjs.Level3Code.eventsList0xe2f7b4 = function(runtimeScene) {
 
 {
 
@@ -3344,8 +3344,8 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtim
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xc1d2bc
-gdjs.Level3Code.eventsList0xb5763c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xe2f7b4
+gdjs.Level3Code.eventsList0xe3452c = function(runtimeScene) {
 
 {
 
@@ -3365,7 +3365,7 @@ for(var i = 0, k = 0, l = gdjs.Level3Code.GDAdventurerObjects2.length;i<l;++i) {
 gdjs.Level3Code.GDAdventurerObjects2.length = k;}if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(6945156);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14895004);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
@@ -3375,7 +3375,7 @@ if (gdjs.Level3Code.condition1IsTrue_0.val) {
 }
 }
 { //Subevents
-gdjs.Level3Code.eventsList0x7636cc(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xe34684(runtimeScene);} //End of subevents
 }
 
 }
@@ -3402,7 +3402,7 @@ gdjs.Level3Code.GDAdventurerObjects2.length = k;}if (gdjs.Level3Code.condition0I
 }
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xd77154(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xedeb44(runtimeScene);} //End of subevents
 }
 
 }
@@ -3453,7 +3453,7 @@ gdjs.Level3Code.GDAdventurerObjects2.length = k;}if (gdjs.Level3Code.condition0I
 }
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xf0d634(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xeddff4(runtimeScene);} //End of subevents
 }
 
 }
@@ -3476,7 +3476,7 @@ for(var i = 0, k = 0, l = gdjs.Level3Code.GDAdventurerObjects2.length;i<l;++i) {
 gdjs.Level3Code.GDAdventurerObjects2.length = k;}if (gdjs.Level3Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level3Code.eventsList0xc1d2bc(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xe2f7b4(runtimeScene);} //End of subevents
 }
 
 }
@@ -3515,8 +3515,8 @@ if (gdjs.Level3Code.condition2IsTrue_0.val) {
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xb5763c
-gdjs.Level3Code.eventsList0xd9fff4 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xe3452c
+gdjs.Level3Code.eventsList0xef9a04 = function(runtimeScene) {
 
 {
 
@@ -3571,7 +3571,7 @@ for(var i = 0, k = 0, l = gdjs.Level3Code.GDAdventurerObjects2.length;i<l;++i) {
 gdjs.Level3Code.GDAdventurerObjects2.length = k;}if (gdjs.Level3Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level3Code.eventsList0x919924(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xe3b5f4(runtimeScene);} //End of subevents
 }
 
 }
@@ -3594,14 +3594,14 @@ for(var i = 0, k = 0, l = gdjs.Level3Code.GDAdventurerObjects2.length;i<l;++i) {
 gdjs.Level3Code.GDAdventurerObjects2.length = k;}if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12893164);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7176468);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(5).getChild("Current").getChild("Heart").sub(1);
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xf13494(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0x6d7ffc(runtimeScene);} //End of subevents
 }
 
 }
@@ -3630,14 +3630,14 @@ for(var i = 0, k = 0, l = gdjs.Level3Code.GDAdventurerObjects1.length;i<l;++i) {
 gdjs.Level3Code.GDAdventurerObjects1.length = k;}if (gdjs.Level3Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level3Code.eventsList0xb5763c(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xe3452c(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xd9fff4
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDFlagObjects4Objects = Hashtable.newFrom({"Flag": gdjs.Level3Code.GDFlagObjects4});gdjs.Level3Code.eventsList0xc9016c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xef9a04
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDFlagObjects4Objects = Hashtable.newFrom({"Flag": gdjs.Level3Code.GDFlagObjects4});gdjs.Level3Code.eventsList0x6b0c1c = function(runtimeScene) {
 
 {
 
@@ -3664,8 +3664,8 @@ gdjs.Level3Code.GDFlagObjects5.createFrom(gdjs.Level3Code.GDFlagObjects4);
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xc9016c
-gdjs.Level3Code.eventsList0x895504 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0x6b0c1c
+gdjs.Level3Code.eventsList0xf17aec = function(runtimeScene) {
 
 {
 
@@ -3690,15 +3690,15 @@ if (true) {
 }
 }
 { //Subevents: 
-gdjs.Level3Code.eventsList0xc9016c(runtimeScene);} //Subevents end.
+gdjs.Level3Code.eventsList0x6b0c1c(runtimeScene);} //Subevents end.
 }
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0x895504
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects3Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDFlagObjects3Objects = Hashtable.newFrom({"Flag": gdjs.Level3Code.GDFlagObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDFlagpoleObjects3Objects = Hashtable.newFrom({"Flagpole": gdjs.Level3Code.GDFlagpoleObjects3});gdjs.Level3Code.eventsList0x67cf6c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf17aec
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects3Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDFlagObjects3Objects = Hashtable.newFrom({"Flag": gdjs.Level3Code.GDFlagObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDFlagpoleObjects3Objects = Hashtable.newFrom({"Flagpole": gdjs.Level3Code.GDFlagpoleObjects3});gdjs.Level3Code.eventsList0xee15c4 = function(runtimeScene) {
 
 {
 
@@ -3713,8 +3713,8 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0x67cf6c
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDTransitionObjects4Objects = Hashtable.newFrom({"Transition": gdjs.Level3Code.GDTransitionObjects4});gdjs.Level3Code.eventsList0xf14d44 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xee15c4
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDTransitionObjects4Objects = Hashtable.newFrom({"Transition": gdjs.Level3Code.GDTransitionObjects4});gdjs.Level3Code.eventsList0xef5e94 = function(runtimeScene) {
 
 {
 
@@ -3730,8 +3730,8 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xf14d44
-gdjs.Level3Code.eventsList0xc9346c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xef5e94
+gdjs.Level3Code.eventsList0xf093f4 = function(runtimeScene) {
 
 {
 
@@ -3760,7 +3760,7 @@ gdjs.Level3Code.GDFlagObjects4.createFrom(gdjs.Level3Code.GDFlagObjects3);
 }
 }
 { //Subevents
-gdjs.Level3Code.eventsList0x67cf6c(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xee15c4(runtimeScene);} //End of subevents
 }
 
 }
@@ -3810,14 +3810,14 @@ gdjs.Level3Code.GDTransitionObjects4.createFrom(runtimeScene.getObjects("Transit
 }{gdjs.evtsExt__Core__TransitionToScene.func(runtimeScene, gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDTransitionObjects4Objects, "Transition", "LevelFinished", 2, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xf14d44(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xef5e94(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xc9346c
-gdjs.Level3Code.eventsList0xb3ce94 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf093f4
+gdjs.Level3Code.eventsList0xf091d4 = function(runtimeScene) {
 
 {
 
@@ -3843,15 +3843,15 @@ gdjs.Level3Code.condition1IsTrue_0.val = gdjs.evtTools.linkedObjects.pickObjects
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
 
 { //Subevents: 
-gdjs.Level3Code.eventsList0xc9346c(runtimeScene);} //Subevents end.
+gdjs.Level3Code.eventsList0xf093f4(runtimeScene);} //Subevents end.
 }
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xb3ce94
-gdjs.Level3Code.eventsList0xf01de4 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf091d4
+gdjs.Level3Code.eventsList0xf17a1c = function(runtimeScene) {
 
 {
 
@@ -3865,7 +3865,7 @@ gdjs.Level3Code.GDSpawnObjects3.createFrom(runtimeScene.getObjects("Spawn"));
 }{runtimeScene.getVariables().getFromIndex(0).getChild("X").setNumber((( gdjs.Level3Code.GDSpawnObjects3.length === 0 ) ? 0 :gdjs.Level3Code.GDSpawnObjects3[0].getPointX("")));
 }
 { //Subevents
-gdjs.Level3Code.eventsList0x895504(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xf17aec(runtimeScene);} //End of subevents
 }
 
 }
@@ -3892,14 +3892,14 @@ gdjs.Level3Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level3Code.eventsList0xb3ce94(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xf091d4(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xf01de4
-gdjs.Level3Code.eventsList0xc2410c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf17a1c
+gdjs.Level3Code.eventsList0xefafb4 = function(runtimeScene) {
 
 {
 
@@ -4013,11 +4013,11 @@ for(var i = 0, len = gdjs.Level3Code.GDLargeMovingPlatformObjects5.length ;i < l
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xc2410c
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects2ObjectsGDgdjs_46Level3Code_46GDSnakeObjects2Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects2, "Snake": gdjs.Level3Code.GDSnakeObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDButtonObjects2Objects = Hashtable.newFrom({"Button": gdjs.Level3Code.GDButtonObjects2});gdjs.Level3Code.eventsList0xb0a9ac = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xefafb4
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects2ObjectsGDgdjs_46Level3Code_46GDSnakeObjects2Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects2, "Snake": gdjs.Level3Code.GDSnakeObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDButtonObjects2Objects = Hashtable.newFrom({"Button": gdjs.Level3Code.GDButtonObjects2});gdjs.Level3Code.eventsList0xef284c = function(runtimeScene) {
 
-}; //End of gdjs.Level3Code.eventsList0xb0a9ac
-gdjs.Level3Code.eventsList0x6c0be4 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xef284c
+gdjs.Level3Code.eventsList0xef26ec = function(runtimeScene) {
 
 {
 
@@ -4081,8 +4081,8 @@ for(var i = 0, len = gdjs.Level3Code.GDLargeMovingPlatformObjects3.length ;i < l
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0x6c0be4
-gdjs.Level3Code.eventsList0x6b3c14 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xef26ec
+gdjs.Level3Code.eventsList0xef25c4 = function(runtimeScene) {
 
 {
 
@@ -4096,14 +4096,14 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if (gdjs.Level3Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level3Code.eventsList0x6c0be4(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xef26ec(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0x6b3c14
-gdjs.Level3Code.eventsList0x774384 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xef25c4
+gdjs.Level3Code.eventsList0xefadd4 = function(runtimeScene) {
 
 {
 
@@ -4156,7 +4156,7 @@ gdjs.Level3Code.GDSmallMovingPlatformObjects4.length = k;for(var i = 0, k = 0, l
 gdjs.Level3Code.GDLargeMovingPlatformObjects4.length = k;}if (gdjs.Level3Code.condition0IsTrue_0.val) {
 
 { //Subevents: 
-gdjs.Level3Code.eventsList0xc2410c(runtimeScene);} //Subevents end.
+gdjs.Level3Code.eventsList0xefafb4(runtimeScene);} //Subevents end.
 }
 }
 
@@ -4186,14 +4186,14 @@ for(var i = 0, k = 0, l = gdjs.Level3Code.GDButtonObjects2.length;i<l;++i) {
 gdjs.Level3Code.GDButtonObjects2.length = k;}if (gdjs.Level3Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level3Code.eventsList0x6b3c14(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xef25c4(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0x774384
-gdjs.Level3Code.eventsList0x91a4e4 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xefadd4
+gdjs.Level3Code.eventsList0xe2f454 = function(runtimeScene) {
 
 {
 
@@ -4295,20 +4295,20 @@ for(var i = 0, len = gdjs.Level3Code.GDLargeMovingPlatformObjects3.length ;i < l
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0x91a4e4
-gdjs.Level3Code.eventsList0xebac4c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xe2f454
+gdjs.Level3Code.eventsList0xf1796c = function(runtimeScene) {
 
 {
 
 
-gdjs.Level3Code.eventsList0xf01de4(runtimeScene);
+gdjs.Level3Code.eventsList0xf17a1c(runtimeScene);
 }
 
 
 {
 
 
-gdjs.Level3Code.eventsList0x774384(runtimeScene);
+gdjs.Level3Code.eventsList0xefadd4(runtimeScene);
 }
 
 
@@ -4340,15 +4340,15 @@ else if (gdjs.Level3Code.forEachIndex2 < gdjs.Level3Code.forEachCount0_2+gdjs.Le
 if (true) {
 
 { //Subevents: 
-gdjs.Level3Code.eventsList0x91a4e4(runtimeScene);} //Subevents end.
+gdjs.Level3Code.eventsList0xe2f454(runtimeScene);} //Subevents end.
 }
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xebac4c
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects3Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDCoinObjects3Objects = Hashtable.newFrom({"Coin": gdjs.Level3Code.GDCoinObjects3});gdjs.Level3Code.eventsList0xb3d2bc = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf1796c
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects3Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDCoinObjects3Objects = Hashtable.newFrom({"Coin": gdjs.Level3Code.GDCoinObjects3});gdjs.Level3Code.eventsList0x8e7fc4 = function(runtimeScene) {
 
 {
 
@@ -4363,8 +4363,8 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xb3d2bc
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects3Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDHeartObjects3Objects = Hashtable.newFrom({"Heart": gdjs.Level3Code.GDHeartObjects3});gdjs.Level3Code.eventsList0xc938dc = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0x8e7fc4
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects3Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects3});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDHeartObjects3Objects = Hashtable.newFrom({"Heart": gdjs.Level3Code.GDHeartObjects3});gdjs.Level3Code.eventsList0xef05ec = function(runtimeScene) {
 
 {
 
@@ -4379,8 +4379,8 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xc938dc
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects2Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDSkullObjects2Objects = Hashtable.newFrom({"Skull": gdjs.Level3Code.GDSkullObjects2});gdjs.Level3Code.eventsList0xb0250c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xef05ec
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects2Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects2});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDSkullObjects2Objects = Hashtable.newFrom({"Skull": gdjs.Level3Code.GDSkullObjects2});gdjs.Level3Code.eventsList0xe573ec = function(runtimeScene) {
 
 {
 
@@ -4395,8 +4395,8 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xb0250c
-gdjs.Level3Code.eventsList0xb02854 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xe573ec
+gdjs.Level3Code.eventsList0x8e7e74 = function(runtimeScene) {
 
 {
 
@@ -4430,7 +4430,7 @@ if (gdjs.Level3Code.condition1IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(5).getChild("Current").getChild("Coin").add(1);
 }
 { //Subevents: 
-gdjs.Level3Code.eventsList0xb3d2bc(runtimeScene);} //Subevents end.
+gdjs.Level3Code.eventsList0x8e7fc4(runtimeScene);} //Subevents end.
 }
 }
 
@@ -4469,7 +4469,7 @@ if (gdjs.Level3Code.condition1IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(5).getChild("Current").getChild("Heart").add(1);
 }
 { //Subevents: 
-gdjs.Level3Code.eventsList0xc938dc(runtimeScene);} //Subevents end.
+gdjs.Level3Code.eventsList0xef05ec(runtimeScene);} //Subevents end.
 }
 }
 
@@ -4515,15 +4515,15 @@ if (gdjs.Level3Code.condition1IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(5).getChild("Current").getChild("Skull").add(1);
 }
 { //Subevents: 
-gdjs.Level3Code.eventsList0xb0250c(runtimeScene);} //Subevents end.
+gdjs.Level3Code.eventsList0xe573ec(runtimeScene);} //Subevents end.
 }
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xb02854
-gdjs.Level3Code.eventsList0xc1d1ac = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0x8e7e74
+gdjs.Level3Code.eventsList0x8e7da4 = function(runtimeScene) {
 
 {
 
@@ -4534,14 +4534,14 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }if (gdjs.Level3Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level3Code.eventsList0xb02854(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0x8e7e74(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xc1d1ac
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects1Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBatObjects1ObjectsGDgdjs_46Level3Code_46GDSnakeObjects1Objects = Hashtable.newFrom({"Bat": gdjs.Level3Code.GDBatObjects1, "Snake": gdjs.Level3Code.GDSnakeObjects1});gdjs.Level3Code.eventsList0xa192d4 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0x8e7da4
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects1Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDBatObjects1ObjectsGDgdjs_46Level3Code_46GDSnakeObjects1Objects = Hashtable.newFrom({"Bat": gdjs.Level3Code.GDBatObjects1, "Snake": gdjs.Level3Code.GDSnakeObjects1});gdjs.Level3Code.eventsList0xf18294 = function(runtimeScene) {
 
 {
 
@@ -4556,8 +4556,8 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xa192d4
-gdjs.Level3Code.eventsList0xf024a4 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf18294
+gdjs.Level3Code.eventsList0xf30d3c = function(runtimeScene) {
 
 {
 
@@ -4630,7 +4630,7 @@ for(var i = 0, len = gdjs.Level3Code.GDSnakeObjects2.length ;i < len;++i) {
 }
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xa192d4(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xf18294(runtimeScene);} //End of subevents
 }
 
 }
@@ -4650,8 +4650,8 @@ gdjs.Level3Code.eventsList0xa192d4(runtimeScene);} //End of subevents
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xf024a4
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects1Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDSawObjects1ObjectsGDgdjs_46Level3Code_46GDSpikesObjects1ObjectsGDgdjs_46Level3Code_46GDSpikedBallObjects1Objects = Hashtable.newFrom({"Saw": gdjs.Level3Code.GDSawObjects1, "Spikes": gdjs.Level3Code.GDSpikesObjects1, "SpikedBall": gdjs.Level3Code.GDSpikedBallObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDSpikedBallObjects2Objects = Hashtable.newFrom({"SpikedBall": gdjs.Level3Code.GDSpikedBallObjects2});gdjs.Level3Code.eventsList0xf10c7c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0xf30d3c
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDAdventurerObjects1Objects = Hashtable.newFrom({"Adventurer": gdjs.Level3Code.GDAdventurerObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDSawObjects1ObjectsGDgdjs_46Level3Code_46GDSpikesObjects1ObjectsGDgdjs_46Level3Code_46GDSpikedBallObjects1Objects = Hashtable.newFrom({"Saw": gdjs.Level3Code.GDSawObjects1, "Spikes": gdjs.Level3Code.GDSpikesObjects1, "SpikedBall": gdjs.Level3Code.GDSpikedBallObjects1});gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDSpikedBallObjects2Objects = Hashtable.newFrom({"SpikedBall": gdjs.Level3Code.GDSpikedBallObjects2});gdjs.Level3Code.eventsList0x6d675c = function(runtimeScene) {
 
 {
 
@@ -4677,8 +4677,8 @@ gdjs.Level3Code.GDChainObjects3.length = k;}if (gdjs.Level3Code.condition0IsTrue
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xf10c7c
-gdjs.Level3Code.eventsList0xc91c64 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0x6d675c
+gdjs.Level3Code.eventsList0x6d663c = function(runtimeScene) {
 
 {
 
@@ -4703,18 +4703,18 @@ if (true) {
 }
 }
 { //Subevents: 
-gdjs.Level3Code.eventsList0xf10c7c(runtimeScene);} //Subevents end.
+gdjs.Level3Code.eventsList0x6d675c(runtimeScene);} //Subevents end.
 }
 }
 
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0xc91c64
-gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDSpikedBallObjects2Objects = Hashtable.newFrom({"SpikedBall": gdjs.Level3Code.GDSpikedBallObjects2});gdjs.Level3Code.eventsList0xc98a2c = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0x6d663c
+gdjs.Level3Code.mapOfGDgdjs_46Level3Code_46GDSpikedBallObjects2Objects = Hashtable.newFrom({"SpikedBall": gdjs.Level3Code.GDSpikedBallObjects2});gdjs.Level3Code.eventsList0x709c5c = function(runtimeScene) {
 
-}; //End of gdjs.Level3Code.eventsList0xc98a2c
-gdjs.Level3Code.eventsList0x5b71c8 = function(runtimeScene) {
+}; //End of gdjs.Level3Code.eventsList0x709c5c
+gdjs.Level3Code.eventsList0x5b7a18 = function(runtimeScene) {
 
 {
 
@@ -4740,7 +4740,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBeg
 {gdjs.evtTools.runtimeScene.createObjectsFromExternalLayout(runtimeScene, "Debug", 0, 0);
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xd9841c(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xdb9d84(runtimeScene);} //End of subevents
 }
 
 }
@@ -4756,14 +4756,14 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtim
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14256260);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15600964);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Visible").setNumber(1 - gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Visible")));
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xd987ac(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0x8e9fc4(runtimeScene);} //End of subevents
 }
 
 }
@@ -4840,7 +4840,7 @@ gdjs.Level3Code.GDTransitionObjects1.createFrom(runtimeScene.getObjects("Transit
 }
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xd99254(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xeffa2c(runtimeScene);} //End of subevents
 }
 
 }
@@ -4877,7 +4877,7 @@ gdjs.Level3Code.GDSnakeObjects1.createFrom(runtimeScene.getObjects("Snake"));
 }{runtimeScene.getVariables().get("CameraEnd").setNumber(0);
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xd9a234(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xe5799c(runtimeScene);} //End of subevents
 }
 
 }
@@ -4961,7 +4961,7 @@ gdjs.Level3Code.GDTransitionObjects1.length = k;}if (gdjs.Level3Code.condition0I
 }
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xd9c50c(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xe2848c(runtimeScene);} //End of subevents
 }
 
 }
@@ -4997,7 +4997,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBeg
 {runtimeScene.getVariables().getFromIndex(2).getChild("Total").setNumber(gdjs.evtsExt__Core__GetTotalScore.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xd9c9ac(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xe3af64(runtimeScene);} //End of subevents
 }
 
 }
@@ -5022,7 +5022,7 @@ gdjs.Level3Code.GDScoreObjects1.createFrom(runtimeScene.getObjects("Score"));
 }
 }
 { //Subevents
-gdjs.Level3Code.eventsList0xd9dcdc(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0x6c33ac(runtimeScene);} //End of subevents
 }
 
 }
@@ -5052,13 +5052,13 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.Level3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level3Code.conditionTrue_1 = gdjs.Level3Code.condition1IsTrue_0;
-gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14266548);
+gdjs.Level3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15774076);
 }
 }}
 if (gdjs.Level3Code.condition1IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level3Code.eventsList0xd9afc4(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xf0b09c(runtimeScene);} //End of subevents
 }
 
 }
@@ -5101,14 +5101,14 @@ gdjs.Level3Code.GDAdventurerObjects1.createFrom(runtimeScene.getObjects("Adventu
 {
 
 
-gdjs.Level3Code.eventsList0xf18074(runtimeScene);
+gdjs.Level3Code.eventsList0x70aa1c(runtimeScene);
 }
 
 
 {
 
 
-gdjs.Level3Code.eventsList0xda1ad4(runtimeScene);
+gdjs.Level3Code.eventsList0xeef654(runtimeScene);
 }
 
 
@@ -5145,7 +5145,7 @@ if( gdjs.Level3Code.condition1IsTrue_1.val ) {
 }if (gdjs.Level3Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level3Code.eventsList0xd9e6d4(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xf00b6c(runtimeScene);} //End of subevents
 }
 
 }
@@ -5176,7 +5176,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }if (gdjs.Level3Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level3Code.eventsList0xd9f734(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xe30994(runtimeScene);} //End of subevents
 }
 
 }
@@ -5192,21 +5192,21 @@ gdjs.Level3Code.eventsList0xd9f734(runtimeScene);} //End of subevents
 {
 
 
-gdjs.Level3Code.eventsList0xd9fff4(runtimeScene);
+gdjs.Level3Code.eventsList0xef9a04(runtimeScene);
 }
 
 
 {
 
 
-gdjs.Level3Code.eventsList0xebac4c(runtimeScene);
+gdjs.Level3Code.eventsList0xf1796c(runtimeScene);
 }
 
 
 {
 
 
-gdjs.Level3Code.eventsList0xc1d1ac(runtimeScene);
+gdjs.Level3Code.eventsList0x8e7da4(runtimeScene);
 }
 
 
@@ -5288,7 +5288,7 @@ gdjs.Level3Code.GDSnakeObjects1.length = k;}}
 if (gdjs.Level3Code.condition2IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level3Code.eventsList0xf024a4(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0xf30d3c(runtimeScene);} //End of subevents
 }
 
 }
@@ -5448,7 +5448,7 @@ gdjs.Level3Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBeg
 }if (gdjs.Level3Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level3Code.eventsList0xc91c64(runtimeScene);} //End of subevents
+gdjs.Level3Code.eventsList0x6d663c(runtimeScene);} //End of subevents
 }
 
 }
@@ -5485,7 +5485,7 @@ gdjs.Level3Code.GDChainObjects2.length = k;}if (gdjs.Level3Code.condition0IsTrue
 }
 
 
-}; //End of gdjs.Level3Code.eventsList0x5b71c8
+}; //End of gdjs.Level3Code.eventsList0x5b7a18
 
 
 gdjs.Level3Code.func = function(runtimeScene) {
@@ -5840,7 +5840,7 @@ gdjs.Level3Code.GDFlagObjects4.length = 0;
 gdjs.Level3Code.GDFlagObjects5.length = 0;
 gdjs.Level3Code.GDFlagObjects6.length = 0;
 
-gdjs.Level3Code.eventsList0x5b71c8(runtimeScene);
+gdjs.Level3Code.eventsList0x5b7a18(runtimeScene);
 return;
 
 }

@@ -32,7 +32,7 @@ gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.onDeActivateContext.
 gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.onDeActivateContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.onDeActivateContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.onDeActivateContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -50,7 +50,7 @@ gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.onDeActivateContext.
 }
 
 
-}; //End of gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.onDeActivateContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.onDeActivateContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.onDeActivate = function(parentEventsFunctionContext) {
@@ -62,12 +62,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -92,7 +94,7 @@ var eventsFunctionContext = {
 gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.onDeActivateContext.GDObjectObjects1.length = 0;
 gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.onDeActivateContext.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.onDeActivateContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.onDeActivateContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return;
 }
 gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.doStepPostEventsContext = {};
@@ -102,7 +104,7 @@ gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.doStepPostEventsCont
 gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.doStepPostEventsContext.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.doStepPostEventsContext.eventsList0x5b7438 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.doStepPostEventsContext.eventsList0x5b7c78 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
@@ -125,7 +127,7 @@ gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.doStepPostEventsCont
 }
 
 
-}; //End of gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.doStepPostEventsContext.eventsList0x5b7438
+}; //End of gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.doStepPostEventsContext.eventsList0x5b7c78
 
 
 gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.doStepPostEvents = function(parentEventsFunctionContext) {
@@ -137,12 +139,14 @@ var eventsFunctionContext = {
   _objectsMap: {
 "Object": Object
 },
+  _objectArraysMap: {
+"Object": thisObjectList
+},
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
   getObjects: function(objectName) {
-    if (objectName === "Object") { return thisObjectList; }    var objectsList = eventsFunctionContext._objectsMap[objectName];
-    return objectsList ? gdjs.objectsListsToArray(objectsList) : [];
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
   getObjectsLists: function(objectName) {
     return eventsFunctionContext._objectsMap[objectName] || null;
@@ -166,7 +170,7 @@ var eventsFunctionContext = {
 
 gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.doStepPostEventsContext.GDObjectObjects1.length = 0;
 
-gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.doStepPostEventsContext.eventsList0x5b7438(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Core__FloatingObject.FloatingObject.prototype.doStepPostEventsContext.eventsList0x5b7c78(runtimeScene, eventsFunctionContext);
 return;
 }
 
